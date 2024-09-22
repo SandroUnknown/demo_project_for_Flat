@@ -2,24 +2,45 @@ package tests;
 
 import org.junit.jupiter.api.Test;
 import page.RegistrationPage;
+import utils.RandomDataUtils;
+
+import java.util.Date;
+
+import static com.codeborne.selenide.Selenide.sleep;
 
 public class AutomationPracticeFormWithPageObjectsTests extends TestBase {
 
     private final RegistrationPage registrationPage = new RegistrationPage();
+    private final RandomDataUtils randomDataUtils = new RandomDataUtils();
 
     @Test
     void successfulRegistrationWithFullDataTest() {
-        String[] subjects = new String[] {"Maths", "Computer Science"};
+        String[] subjects2 = new String[] {"Maths", "Computer Science"};
         String[] hobbies = new String[] {"Reading", "Music"};
-        String  firstName = "Anna",
-                lastName = "Karenina",
-                userEmail = "anna@karenina.com",
-                gender = "Female",
-                phoneNumber = "9031112233",
-                dayOfBirth = "30", monthOfBirth = "July", yearOfBirth = "1991",
-                picName = "ava.png",
-                currentAddress = "Moscow, Russia",
+        String  firstName2 = "Anna",
+                lastName2 = "Karenina",
+                userEmail2 = "anna@karenina.com",
+                gender2 = "Female",
+                phoneNumber2 = "9031112233",
+                dayOfBirth2 = "30", monthOfBirth2 = "July", yearOfBirth2 = "1991",
+                picName2 = "ava.png",
+                currentAddress2 = "Moscow, Russia",
                 state = "Haryana", city = "Panipat";
+
+        String firstName        = randomDataUtils.getRandomFirstName();
+        String lastName         = randomDataUtils.getRandomLastName();
+        String userEmail        = randomDataUtils.getRandomUserEmail(firstName, lastName);
+        String gender           = randomDataUtils.getRandomGender();
+        String phoneNumber      = randomDataUtils.getRandomPhoneNumber(10);
+        String yearOfBirth      = randomDataUtils.getRandomYearOfBirth(1970, 2010);
+        String monthOfBirth     = randomDataUtils.getRandomMonthOfBirth();
+        String dayOfBirth       = randomDataUtils.getRandomDayOfBirth(monthOfBirth);
+        String[] subjects       = randomDataUtils.getRandomSubjects(2);
+        String picName          = "ava.png";
+        String currentAddress   = randomDataUtils.getRandomCurrentAddress();
+
+
+
 
         registrationPage.openPage()
                 .setFirstName(firstName)
@@ -47,6 +68,8 @@ public class AutomationPracticeFormWithPageObjectsTests extends TestBase {
                 .checkResult("Picture", picName)
                 .checkResult("Address", currentAddress)
                 .checkResult("State and City", state + " " + city);
+
+        sleep(4000);
     }
 
     @Test
