@@ -107,7 +107,7 @@ public class RegistrationPage {
         return this;
     }
 
-    public void negativeCheck() {
+        public void negativeCheck() {
         new TableResponsive().negativeCheck();
     }
 }

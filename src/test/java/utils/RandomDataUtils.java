@@ -1,9 +1,6 @@
 package utils;
 
 import com.github.javafaker.Faker;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Locale;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -80,19 +77,80 @@ public class RandomDataUtils {
         return dayOfBirth;
     }
 
-    public String[] getRandomSubjects(int countSubjects) {
-        String[] allSubjects = {"", ""};
-        String[] mySubjects = new String[]{};
+    public String[] getRandomSubjects(int count) {
+        String[] subjects = {"Accounting",
+                            "Arts",
+                            "Biology",
+                            "Chemistry",
+                            "Civics",
+                            "Commerce",
+                            "Computer Science",
+                            "Economics",
+                            "English",
+                            "Hindi",
+                            "History",
+                            "Maths",
+                            "Physics",
+                            "Social Studies"};
 
-        //mySubjects.add
+        if (count >= subjects.length) return subjects;
 
-        return mySubjects;
+        String[] result = new String[count];
+        for(int i = 0; i < count; i++) {
+            int index = ThreadLocalRandom.current().nextInt(0, subjects.length - 1 - i);
+            result[i] = subjects[index];
+            String lastElement = subjects[subjects.length - 1 - i];
+            subjects[subjects.length - 1 - i] = subjects[index];
+            subjects[index] = lastElement;
+        }
+        return result;
     }
 
-    public String getRandomCurrentAddress() {
+    public String[] getRandomHobbies(int count) {
+        String[] hobbies = {"Sports", "Reading", "Music"};
+
+        if (count >= hobbies.length) return hobbies;
+
+        String[] result = new String[count];
+        for(int i = 0; i < count; i++) {
+            int index = ThreadLocalRandom.current().nextInt(0, hobbies.length - 1 - i);
+            result[i] = hobbies[index];
+            String lastElement = hobbies[hobbies.length - 1 - i];
+            hobbies[hobbies.length - 1 - i] = hobbies[index];
+            hobbies[index] = lastElement;
+        }
+        return result;
+    }
+
+    public String getRandomImage() {
+        String[] images = {"angry.gif", "cool.jpg", "smile.png"};
+        int index = ThreadLocalRandom.current().nextInt(0, images.length - 1);
+        return images[index];
+    }
+
+    public String getRandomAddress() {
         return faker.address().fullAddress();
     }
 
+    public String[][] stateCity =  {{"NCR", "Delhi", "Gurgaon", "Noida"},
+                                    {"Uttar Pradesh", "Agra", "Lucknow", "Merrut"},
+                                    {"Haryana", "Karnal", "Panipat"},
+                                    {"Rajasthan", "Jaipur", "Jaiselmer"} };
 
+    public String getRandomState() {
+        int stateIndex = ThreadLocalRandom.current().nextInt(0, stateCity.length - 1);
+        return stateCity[stateIndex][0];
+    }
 
+    public String getRandomCity(String state) {
+        int stateIndex = 0;
+        for (int i = 0; i < stateCity.length; i++){
+            if (stateCity[i][0] == state) {
+                stateIndex = i;
+                break;
+            }
+        }
+        int cityIndex = ThreadLocalRandom.current().nextInt(1, stateCity[stateIndex].length - 1);
+        return stateCity[stateIndex][cityIndex];
+    }
 }
