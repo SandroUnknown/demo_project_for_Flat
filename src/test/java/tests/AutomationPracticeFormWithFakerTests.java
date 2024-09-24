@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import page.RegistrationPage;
 import utils.RandomDataUtils;
 
-public class AutomationPracticeFormWithPageObjectsTests extends TestBase {
+public class AutomationPracticeFormWithFakerTests extends TestBase {
 
     private final RegistrationPage registrationPage = new RegistrationPage();
     private final RandomDataUtils randomData = new RandomDataUtils();

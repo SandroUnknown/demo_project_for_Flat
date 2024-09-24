@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import page.TextBoxPage;
 import utils.RandomDataUtils;
 
-public class TextBoxWithPageObjectsTests extends TestBase {
+public class TextBoxWithFakerTests extends TestBase {
 
     private final TextBoxPage textBoxPage = new TextBoxPage();
     private final RandomDataUtils randomData = new RandomDataUtils();
