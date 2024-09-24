@@ -7,16 +7,14 @@ import utils.RandomDataUtils;
 public class TextBoxWithPageObjectsTests extends TestBase {
 
     private final TextBoxPage textBoxPage = new TextBoxPage();
-    private final RandomDataUtils randomDataUtils = new RandomDataUtils();
+    private final RandomDataUtils randomData = new RandomDataUtils();
 
     @Test
     void successfulTextBoxWithFullDataTest() {
-        String firstName        = randomDataUtils.getRandomFirstName();
-        String lastName         = randomDataUtils.getRandomLastName();
-        String userName         = firstName + " " + lastName;
-        String userEmail        = randomDataUtils.getRandomUserEmail(firstName, lastName);
-        String currentAddress   = randomDataUtils.getRandomAddress();
-        String permanentAddress = randomDataUtils.getRandomAddress();
+        String userName         = String.format("%s %s", randomData.getRandomFirstName(), randomData.getRandomLastName());
+        String userEmail        = randomData.getRandomUserEmail();
+        String currentAddress   = randomData.getRandomAddress();
+        String permanentAddress = randomData.getRandomAddress();
 
         textBoxPage.openPage()
                 .setFullName(userName)

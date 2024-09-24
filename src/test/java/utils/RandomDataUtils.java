@@ -1,10 +1,40 @@
 package utils;
 
 import com.github.javafaker.Faker;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Locale;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class RandomDataUtils {
+    private final String[] genders  = {"Male", "Female", "Other"};
+    private final String[] hobbies  = {"Sports", "Reading", "Music"};
+    private final String[] images   = {"angry.gif", "cool.jpg", "smile.png"};
+    private final String[] subjects = {
+            "Accounting",
+            "Arts",
+            "Biology",
+            "Chemistry",
+            "Civics",
+            "Commerce",
+            "Computer Science",
+            "Economics",
+            "English",
+            "Hindi",
+            "History",
+            "Maths",
+            "Physics",
+            "Social Studies"};
+    private final String[] states = {
+            "NCR",
+            "Uttar Pradesh",
+            "Haryana",
+            "Rajasthan"};
+    private final String[][] cities = {
+            {"Delhi", "Gurgaon", "Noida"},  //NCR
+            {"Agra", "Lucknow", "Merrut"},  //Uttar Pradesh
+            {"Karnal", "Panipat"},          //Haryana
+            {"Jaipur", "Jaiselmer"}};       //Rajasthan
 
     private final Faker faker = new Faker(new Locale("en"));
 
@@ -16,141 +46,83 @@ public class RandomDataUtils {
         return faker.name().lastName();
     }
 
-    public String getRandomUserEmail(String firstName, String lastName) {
-        String result = String.format("%s.%s@qa.guru", firstName, lastName);
-        return result.toLowerCase();
-    }
-
-    public String getRandomItemFromArray(String[] array) {
-        int index = ThreadLocalRandom.current().nextInt(0, array.length - 1);
-        return array[index];
+    public String getRandomUserEmail() {
+        return faker.internet().emailAddress();
     }
 
     public String getRandomGender() {
-        String[] genders = {"Male", "Female", "Other"};
-        return getRandomItemFromArray(genders);
+        return faker.options().option(genders);
     }
 
     public String getRandomPhoneNumber(int count) {
-        String result = "";
-        for (int i = 0; i < count; i++)
-        {
-            result += String.valueOf(ThreadLocalRandom.current().nextInt(0, 9));
-        }
-        return result;
+        return faker.number().digits(count);
     }
 
-    public String getRandomYearOfBirth(int startYear, int finishYear) {
-        return String.valueOf(ThreadLocalRandom.current().nextInt(startYear, finishYear));
+    private final Date dateOfBirth = faker.date().birthday();
+
+    public String getRandomYearOfBirth() {
+        SimpleDateFormat yearFormat = new SimpleDateFormat("yyyy");
+        return yearFormat.format(dateOfBirth);
     }
 
     public String getRandomMonthOfBirth() {
-        String[] months = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
-        int monthCount = ThreadLocalRandom.current().nextInt(0, 11);
-        return months[monthCount];
+        SimpleDateFormat monthFormat = new SimpleDateFormat("MMMM", Locale.ENGLISH);
+        return monthFormat.format(dateOfBirth);
     }
 
-    public String getRandomDayOfBirth(String month) {
-        String dayOfBirth = "";
-        switch (month) {
-            case "February":
-                dayOfBirth = String.valueOf(ThreadLocalRandom.current().nextInt(0, 28));
-                break;
-            case "April":
-            case "June":
-            case "September":
-            case "November":
-                dayOfBirth = String.valueOf(ThreadLocalRandom.current().nextInt(0, 30));
-                break;
-            case "January":
-            case "March":
-            case "May":
-            case "July":
-            case "August":
-            case "October":
-            case "December":
-                dayOfBirth = String.valueOf(ThreadLocalRandom.current().nextInt(0, 31));
-                break;
-        }
-        if (dayOfBirth.length() < 2) dayOfBirth = "0" + dayOfBirth;
-
-        return dayOfBirth;
+    public String getRandomDayOfBirth() {
+        SimpleDateFormat dayFormat = new SimpleDateFormat("dd");
+        return dayFormat.format(dateOfBirth);
     }
 
     public String[] getRandomSubjects(int count) {
-        String[] subjects = {"Accounting",
-                            "Arts",
-                            "Biology",
-                            "Chemistry",
-                            "Civics",
-                            "Commerce",
-                            "Computer Science",
-                            "Economics",
-                            "English",
-                            "Hindi",
-                            "History",
-                            "Maths",
-                            "Physics",
-                            "Social Studies"};
-
-        if (count >= subjects.length) return subjects;
-
-        String[] result = new String[count];
-        for(int i = 0; i < count; i++) {
-            int index = ThreadLocalRandom.current().nextInt(0, subjects.length - 1 - i);
-            result[i] = subjects[index];
-            String lastElement = subjects[subjects.length - 1 - i];
-            subjects[subjects.length - 1 - i] = subjects[index];
-            subjects[index] = lastElement;
-        }
-        return result;
+        return getRandomValuesFromArray(count, subjects);
     }
 
     public String[] getRandomHobbies(int count) {
-        String[] hobbies = {"Sports", "Reading", "Music"};
+        return getRandomValuesFromArray(count, hobbies);
+    }
 
-        if (count >= hobbies.length) return hobbies;
-
-        String[] result = new String[count];
-        for(int i = 0; i < count; i++) {
-            int index = ThreadLocalRandom.current().nextInt(0, hobbies.length - 1 - i);
-            result[i] = hobbies[index];
-            String lastElement = hobbies[hobbies.length - 1 - i];
-            hobbies[hobbies.length - 1 - i] = hobbies[index];
-            hobbies[index] = lastElement;
+    private String[] getRandomValuesFromArray(int count, String[] array) {
+        if (count >= array.length) return array;
+        String[] newArray = new String[count];
+        for (int i = 0; i < count; i++) {
+            newArray[i] = faker.options().option(array);
+            array = removeElement(newArray[i], array);
         }
-        return result;
+        return newArray;
+    }
+
+    private String[] removeElement(String element, String[] array) {
+        String[] newArray = new String[array.length - 1];
+        int j = 0;
+        for (String s : array) {
+            if (element.equals(s)) continue;
+            newArray[j++] = s;
+        }
+        return newArray;
     }
 
     public String getRandomImage() {
-        String[] images = {"angry.gif", "cool.jpg", "smile.png"};
-        int index = ThreadLocalRandom.current().nextInt(0, images.length - 1);
-        return images[index];
+        return faker.options().option(images);
     }
 
     public String getRandomAddress() {
         return faker.address().fullAddress();
     }
 
-    public String[][] stateCity =  {{"NCR", "Delhi", "Gurgaon", "Noida"},
-                                    {"Uttar Pradesh", "Agra", "Lucknow", "Merrut"},
-                                    {"Haryana", "Karnal", "Panipat"},
-                                    {"Rajasthan", "Jaipur", "Jaiselmer"} };
-
     public String getRandomState() {
-        int stateIndex = ThreadLocalRandom.current().nextInt(0, stateCity.length - 1);
-        return stateCity[stateIndex][0];
+        return faker.options().option(states);
     }
 
     public String getRandomCity(String state) {
         int stateIndex = 0;
-        for (int i = 0; i < stateCity.length; i++){
-            if (stateCity[i][0] == state) {
+        for (int i = 0; i < states.length; i++) {
+            if (states[i].equals(state)) {
                 stateIndex = i;
                 break;
             }
         }
-        int cityIndex = ThreadLocalRandom.current().nextInt(1, stateCity[stateIndex].length - 1);
-        return stateCity[stateIndex][cityIndex];
+        return faker.options().option(cities[stateIndex]);
     }
 }

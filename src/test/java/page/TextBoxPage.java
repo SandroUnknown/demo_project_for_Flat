@@ -9,11 +9,11 @@ import static com.codeborne.selenide.Selenide.open;
 public class TextBoxPage {
 
     private final SelenideElement
-            fullNameInput = $("#userName"),
-            userEmailInput = $("#userEmail"),
-            addressCurrentInput = $("#currentAddress"),
-            addressPermanentInput = $("#permanentAddress"),
-            submitInput = $("button#submit");
+            fullNameInput           = $("#userName"),
+            userEmailInput          = $("#userEmail"),
+            addressCurrentInput     = $("#currentAddress"),
+            addressPermanentInput   = $("#permanentAddress"),
+            submitInput             = $("button#submit");
 
     public TextBoxPage openPage() {
         open("/text-box");

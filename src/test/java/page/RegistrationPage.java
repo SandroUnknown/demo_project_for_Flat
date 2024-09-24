@@ -11,20 +11,20 @@ import static com.codeborne.selenide.Selenide.open;
 public class RegistrationPage {
 
     private final SelenideElement
-            firstNameInput = $("#firstName"),
-            lastNameInput = $("#lastName"),
-            userEmailInput = $("#userEmail"),
-            genderInput = $("#genterWrapper"),
-            userNumberInput = $("#userNumber"),
-            dateOfBirth = $("#dateOfBirthInput"),
-            subjectsInput = $("#subjectsInput"),
-            hobbiesInput = $("#hobbiesWrapper"),
-            pictureInput = $("#uploadPicture"),
+            firstNameInput      = $("#firstName"),
+            lastNameInput       = $("#lastName"),
+            userEmailInput      = $("#userEmail"),
+            genderInput         = $("#genterWrapper"),
+            userNumberInput     = $("#userNumber"),
+            dateOfBirth         = $("#dateOfBirthInput"),
+            subjectsInput       = $("#subjectsInput"),
+            hobbiesInput        = $("#hobbiesWrapper"),
+            pictureInput        = $("#uploadPicture"),
             addressCurrentInput = $("#currentAddress"),
-            stateInput = $("#state"),
-            cityInput = $("#city"),
-            stateCityWrapper = $("#stateCity-wrapper"),
-            submitInput = $("#submit");
+            stateInput          = $("#state"),
+            cityInput           = $("#city"),
+            stateCityWrapper    = $("#stateCity-wrapper"),
+            submitInput         = $("#submit");
 
     public RegistrationPage openPage() {
         open("/automation-practice-form");
@@ -107,7 +107,14 @@ public class RegistrationPage {
         return this;
     }
 
-        public void negativeCheck() {
+    public RegistrationPage checkResult(String key, String[] values) {
+        for (String value : values) {
+            new TableResponsive().checkResult(key, value);
+        }
+        return this;
+    }
+
+    public void negativeCheck() {
         new TableResponsive().negativeCheck();
     }
 }
