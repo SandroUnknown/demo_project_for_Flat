@@ -3,38 +3,42 @@ package utils;
 import com.github.javafaker.Faker;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
+import java.util.*;
 
 public class RandomDataUtils {
-    private final String[] genders  = {"Male", "Female", "Other"};
-    private final String[] hobbies  = {"Sports", "Reading", "Music"};
-    private final String[] images   = {"angry.gif", "cool.jpg", "smile.png"};
-    private final String[] subjects = {
-            "Accounting",
-            "Arts",
-            "Biology",
-            "Chemistry",
-            "Civics",
-            "Commerce",
-            "Computer Science",
-            "Economics",
-            "English",
-            "Hindi",
-            "History",
-            "Maths",
-            "Physics",
-            "Social Studies"};
-    private final String[] states = {
-            "NCR",
-            "Uttar Pradesh",
-            "Haryana",
-            "Rajasthan"};
-    private final String[][] cities = {
-            {"Delhi", "Gurgaon", "Noida"},  //NCR
-            {"Agra", "Lucknow", "Merrut"},  //Uttar Pradesh
-            {"Karnal", "Panipat"},          //Haryana
-            {"Jaipur", "Jaiselmer"}};       //Rajasthan
+    private final String[] genders  = {
+            "Male", "Female", "Other"
+    };
+    private final List<String> subjects  = new ArrayList<>(); {
+            subjects.add("Accounting");
+            subjects.add("Arts");
+            subjects.add("Biology");
+            subjects.add("Chemistry");
+            subjects.add("Civics");
+            subjects.add("Commerce");
+            subjects.add("Computer Science");
+            subjects.add("Economics");
+            subjects.add("English");
+            subjects.add("Hindi");
+            subjects.add("History");
+            subjects.add("Maths");
+            subjects.add("Physics");
+            subjects.add("Social Studies");
+    };
+    private final List<String> hobbies  = new ArrayList<>(); {
+            hobbies.add("Sports");
+            hobbies.add("Reading");
+            hobbies.add("Music");
+    }
+    private final String[] images   = {
+            "angry.gif", "cool.jpg", "smile.png"
+    };
+    private final Map<String, String[]> stateCity = new HashMap<>(); {
+            stateCity.put("NCR",            new String[] {"Delhi", "Gurgaon", "Noida"});
+            stateCity.put("Uttar Pradesh",  new String[]{"Agra", "Lucknow", "Merrut"});
+            stateCity.put("Haryana",        new String[]{"Karnal", "Panipat"});
+            stateCity.put("Rajasthan",      new String[]{"Jaipur", "Jaiselmer"});
+    }
 
     private final Faker faker = new Faker(new Locale("en"));
 
@@ -76,31 +80,22 @@ public class RandomDataUtils {
     }
 
     public String[] getRandomSubjects(int count) {
-        return getRandomValuesFromArray(count, subjects);
+        return getRandomValuesFromList(count, subjects).toArray(new String[0]);
     }
 
     public String[] getRandomHobbies(int count) {
-        return getRandomValuesFromArray(count, hobbies);
+        return getRandomValuesFromList(count, hobbies).toArray(new String[0]);
     }
 
-    private String[] getRandomValuesFromArray(int count, String[] array) {
-        if (count >= array.length) return array;
-        String[] newArray = new String[count];
+    private List<String> getRandomValuesFromList(int count, List<String> list) {
+        if (count >= list.size()) return list;;
+        List<String> newList = new ArrayList<>();
         for (int i = 0; i < count; i++) {
-            newArray[i] = faker.options().option(array);
-            array = removeElement(newArray[i], array);
+            int rnd = faker.number().numberBetween(0, list.size());
+            newList.add(list.get(rnd));
+            list.remove(rnd);
         }
-        return newArray;
-    }
-
-    private String[] removeElement(String element, String[] array) {
-        String[] newArray = new String[array.length - 1];
-        int j = 0;
-        for (String s : array) {
-            if (element.equals(s)) continue;
-            newArray[j++] = s;
-        }
-        return newArray;
+        return newList;
     }
 
     public String getRandomImage() {
@@ -112,17 +107,10 @@ public class RandomDataUtils {
     }
 
     public String getRandomState() {
-        return faker.options().option(states);
+        return faker.options().option(stateCity.keySet().toArray(new String[0]));
     }
 
     public String getRandomCity(String state) {
-        int stateIndex = 0;
-        for (int i = 0; i < states.length; i++) {
-            if (states[i].equals(state)) {
-                stateIndex = i;
-                break;
-            }
-        }
-        return faker.options().option(cities[stateIndex]);
+        return faker.options().option(stateCity.get(state));
     }
 }
