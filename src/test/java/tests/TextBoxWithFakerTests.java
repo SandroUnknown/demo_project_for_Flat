@@ -16,7 +16,7 @@ public class TextBoxWithFakerTests extends TestBase {
         String currentAddress   = randomData.getRandomAddress();
         String permanentAddress = randomData.getRandomAddress();
 
-        textBoxPage.openPage()
+        textBoxPage.openPage().removeBanners()
                 .setFullName(userName)
                 .setUserEmail(userEmail)
                 .setCurrentAddress(currentAddress)

@@ -9,36 +9,34 @@ public class RandomDataUtils {
     private final String[] genders  = {
             "Male", "Female", "Other"
     };
-    private final List<String> subjects  = new ArrayList<>(); {
-            subjects.add("Accounting");
-            subjects.add("Arts");
-            subjects.add("Biology");
-            subjects.add("Chemistry");
-            subjects.add("Civics");
-            subjects.add("Commerce");
-            subjects.add("Computer Science");
-            subjects.add("Economics");
-            subjects.add("English");
-            subjects.add("Hindi");
-            subjects.add("History");
-            subjects.add("Maths");
-            subjects.add("Physics");
-            subjects.add("Social Studies");
-    };
-    private final List<String> hobbies  = new ArrayList<>(); {
-            hobbies.add("Sports");
-            hobbies.add("Reading");
-            hobbies.add("Music");
-    }
+    private final List<String> subjects  = List.of(
+            "Accounting",
+            "Arts",
+            "Biology",
+            "Chemistry",
+            "Civics",
+            "Commerce",
+            "Computer Science",
+            "Economics",
+            "English",
+            "Hindi",
+            "History",
+            "Maths",
+            "Physics",
+            "Social Studies"
+    );
+    private final List<String> hobbies  = List.of(
+            "Sports", "Reading", "Music"
+    );
     private final String[] images   = {
             "angry.gif", "cool.jpg", "smile.png"
     };
-    private final Map<String, String[]> stateCity = new HashMap<>(); {
-            stateCity.put("NCR",            new String[] {"Delhi", "Gurgaon", "Noida"});
-            stateCity.put("Uttar Pradesh",  new String[]{"Agra", "Lucknow", "Merrut"});
-            stateCity.put("Haryana",        new String[]{"Karnal", "Panipat"});
-            stateCity.put("Rajasthan",      new String[]{"Jaipur", "Jaiselmer"});
-    }
+    private final Map<String, String[]> stateCity = Map.of(
+            "NCR",              new String[]{"Delhi", "Gurgaon", "Noida"},
+            "Uttar Pradesh",    new String[]{"Agra", "Lucknow", "Merrut"},
+            "Haryana",          new String[]{"Karnal", "Panipat"},
+            "Rajasthan",        new String[]{"Jaipur", "Jaiselmer"}
+    );
 
     private final Faker faker = new Faker(new Locale("en"));
 
@@ -62,21 +60,20 @@ public class RandomDataUtils {
         return faker.number().digits(count);
     }
 
-    private final Date dateOfBirth = faker.date().birthday();
-
-    public String getRandomYearOfBirth() {
-        SimpleDateFormat yearFormat = new SimpleDateFormat("yyyy");
-        return yearFormat.format(dateOfBirth);
+    public Date getRandomDateOfBirth() {  // ДОБАВИТЬ
+        return faker.date().birthday();
     }
 
-    public String getRandomMonthOfBirth() {
-        SimpleDateFormat monthFormat = new SimpleDateFormat("MMMM", Locale.ENGLISH);
-        return monthFormat.format(dateOfBirth);
+    public String getYearOfBirth(Date dateOfBirth) {
+        return new SimpleDateFormat("yyyy").format(dateOfBirth);
     }
 
-    public String getRandomDayOfBirth() {
-        SimpleDateFormat dayFormat = new SimpleDateFormat("dd");
-        return dayFormat.format(dateOfBirth);
+    public String getMonthOfBirth(Date dateOfBirth) {
+        return new SimpleDateFormat("MMMM", Locale.ENGLISH).format(dateOfBirth);
+    }
+
+    public String getDayOfBirth(Date dateOfBirth) {
+        return new SimpleDateFormat("dd").format(dateOfBirth);
     }
 
     public String[] getRandomSubjects(int count) {
@@ -88,12 +85,13 @@ public class RandomDataUtils {
     }
 
     private List<String> getRandomValuesFromList(int count, List<String> list) {
-        if (count >= list.size()) return list;;
+        if (count >= list.size()) return list;
         List<String> newList = new ArrayList<>();
+        List<String> listCopy = new ArrayList<>(list);
         for (int i = 0; i < count; i++) {
-            int rnd = faker.number().numberBetween(0, list.size());
-            newList.add(list.get(rnd));
-            list.remove(rnd);
+            int rnd = faker.number().numberBetween(0, listCopy.size());
+            newList.add(listCopy.get(rnd));
+            listCopy.remove(rnd);
         }
         return newList;
     }

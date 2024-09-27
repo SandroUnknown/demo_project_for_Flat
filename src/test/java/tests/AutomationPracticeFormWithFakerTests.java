@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import page.RegistrationPage;
 import utils.RandomDataUtils;
 
+import java.util.Date;
+
 public class AutomationPracticeFormWithFakerTests extends TestBase {
 
     private final RegistrationPage registrationPage = new RegistrationPage();
@@ -16,9 +18,10 @@ public class AutomationPracticeFormWithFakerTests extends TestBase {
         String userEmail        = randomData.getRandomUserEmail();
         String gender           = randomData.getRandomGender();
         String phoneNumber      = randomData.getRandomPhoneNumber(10);
-        String yearOfBirth      = randomData.getRandomYearOfBirth();
-        String monthOfBirth     = randomData.getRandomMonthOfBirth();
-        String dayOfBirth       = randomData.getRandomDayOfBirth();
+        Date dateOfBirth        = randomData.getRandomDateOfBirth();
+        String yearOfBirth      = randomData.getYearOfBirth(dateOfBirth);
+        String monthOfBirth     = randomData.getMonthOfBirth(dateOfBirth);
+        String dayOfBirth       = randomData.getDayOfBirth(dateOfBirth);
         String[] subjects       = randomData.getRandomSubjects(5);
         String[] hobbies        = randomData.getRandomHobbies(2);
         String picName          = randomData.getRandomImage();
@@ -26,7 +29,7 @@ public class AutomationPracticeFormWithFakerTests extends TestBase {
         String state            = randomData.getRandomState();
         String city             = randomData.getRandomCity(state);
 
-        registrationPage.openPage()
+        registrationPage.openPage().removeBanners()
                 .setFirstName(firstName)
                 .setLastName(lastName)
                 .setUserEmail(userEmail)
