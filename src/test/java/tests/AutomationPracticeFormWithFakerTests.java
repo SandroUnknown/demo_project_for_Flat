@@ -11,6 +11,7 @@ public class AutomationPracticeFormWithFakerTests extends TestBase {
     private final RegistrationPage registrationPage = new RegistrationPage();
     private final RandomDataUtils randomData = new RandomDataUtils();
 
+
     @Test
     void successfulRegistrationWithFullDataTest() {
         String firstName        = randomData.getRandomFirstName();
