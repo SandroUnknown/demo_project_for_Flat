@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class RandomDataUtils {
+
     private final String[] genders  = {
             "Male", "Female", "Other"
     };
@@ -76,12 +77,12 @@ public class RandomDataUtils {
         return new SimpleDateFormat("dd").format(dateOfBirth);
     }
 
-    public String[] getRandomSubjects(int count) {
-        return getRandomValuesFromList(count, subjects).toArray(new String[0]);
+    public List<String> getRandomSubjects(int count) {
+        return getRandomValuesFromList(count, subjects);
     }
 
-    public String[] getRandomHobbies(int count) {
-        return getRandomValuesFromList(count, hobbies).toArray(new String[0]);
+    public List<String> getRandomHobbies(int count) {
+        return getRandomValuesFromList(count, hobbies);
     }
 
     private List<String> getRandomValuesFromList(int count, List<String> list) {

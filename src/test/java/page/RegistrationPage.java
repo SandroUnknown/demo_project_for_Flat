@@ -4,6 +4,8 @@ import com.codeborne.selenide.SelenideElement;
 import page.components.CalendarComponent;
 import page.components.TableResponsive;
 
+import java.util.List;
+
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -67,14 +69,14 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage setSubjects(String[] values) {
+    public RegistrationPage setSubjects(List<String> values) {
         for (String value : values) {
             subjectsInput.setValue(value).pressEnter();
         }
         return this;
     }
 
-    public RegistrationPage setHobbies(String[] values) {
+    public RegistrationPage setHobbies(List<String> values) {
         for (String value : values) {
             hobbiesInput.$(byText(value)).click();
         }
@@ -112,14 +114,10 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage checkResult(String key, String[] values) {
+    public RegistrationPage checkResult(String key, List<String> values) {
         for (String value : values) {
             new TableResponsive().checkResult(key, value);
         }
         return this;
-    }
-
-    public void negativeCheck() {
-        new TableResponsive().negativeCheck();
     }
 }
