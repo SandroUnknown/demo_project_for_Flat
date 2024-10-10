@@ -6,6 +6,8 @@ import page.components.TableResponsive;
 
 import java.util.List;
 
+import static com.codeborne.selenide.Condition.exist;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -35,6 +37,11 @@ public class RegistrationPage {
     public RegistrationPage removeBanners() {
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
+
+        if ($("#close-fixedban").is(exist) && $("#close-fixedban").is(visible)) {
+            $("#close-fixedban").click();
+        }
+
         return this;
     }
 
