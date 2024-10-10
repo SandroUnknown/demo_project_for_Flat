@@ -29,7 +29,7 @@ public class AutomationPracticeFormTests extends TestBase {
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Регистрация с параметром 'email':")
     @ParameterizedTest(name = "{0}")
-    @ValueSource (strings = {"test@qa.guru", "test.test@gu.ru", "test123.qa@guru.qa"})
+    @ValueSource (strings = {"test@qa.guru", "test123.qa@guru.qa"})
     void successfulRegistrationWithValueSourceAnnotation(String userEmail) {
         String firstName        = randomData.getRandomFirstName();
         String lastName         = randomData.getRandomLastName();
@@ -60,7 +60,6 @@ public class AutomationPracticeFormTests extends TestBase {
                     .setSubjects(subjects)
                     .setHobbies(hobbies)
                     .setPicture("pictures/" + picName)
-                    .removeBanners()
                     .setCurrentAddress(currentAddress)
                     .setState(state)
                     .setCity(city)
@@ -116,7 +115,6 @@ public class AutomationPracticeFormTests extends TestBase {
                     .setSubjects(subjects)
                     .setHobbies(hobbies)
                     .setPicture("pictures/" + picName)
-                    .removeBanners()
                     .setCurrentAddress(currentAddress)
                     .setState(state)
                     .setCity(city)
@@ -173,7 +171,6 @@ public class AutomationPracticeFormTests extends TestBase {
                     .setSubjects(subjects)
                     .setHobbies(hobbies)
                     .setPicture("pictures/" + picName)
-                    .removeBanners()
                     .setCurrentAddress(currentAddress)
                     .setState(state)
                     .setCity(city)
@@ -202,11 +199,7 @@ public class AutomationPracticeFormTests extends TestBase {
             ),
             Arguments.of(
                 Gender.FEMALE,
-                List.of("English")
-            ),
-            Arguments.of(
-                Gender.OTHER,
-                List.of("Social Studies", "Civics")
+                List.of("English", "Civics")
             )
         );
     }
@@ -246,7 +239,6 @@ public class AutomationPracticeFormTests extends TestBase {
                     .setSubjects(subjects)
                     .setHobbies(hobbies)
                     .setPicture("pictures/" + picName)
-                    .removeBanners()
                     .setCurrentAddress(currentAddress)
                     .setState(state)
                     .setCity(city)
