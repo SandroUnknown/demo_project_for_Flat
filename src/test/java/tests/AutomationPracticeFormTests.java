@@ -1,5 +1,8 @@
 package tests;
 
+import io.qameta.allure.*;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
 import page.RegistrationPage;
@@ -10,13 +13,23 @@ import java.util.Date;
 import java.util.List;
 import java.util.stream.Stream;
 
+import static io.qameta.allure.Allure.step;
+
+@Tag("demoqa")
+@Feature("Проверка PracticeFormTest на demoqa.com")
+@DisplayName("Проверка PracticeFormTest")
+@Owner("Petyukov Alexander")
 public class AutomationPracticeFormTests extends TestBase {
 
     private final RegistrationPage registrationPage = new RegistrationPage();
     private final RandomDataUtils randomData = new RandomDataUtils();
 
+    @Story("Проверка с использованием аннотации @ValueSource")
+    @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
+    @Severity(SeverityLevel.BLOCKER)
+    @DisplayName("Регистрация с параметром 'email':")
+    @ParameterizedTest(name = "{0}")
     @ValueSource (strings = {"test@qa.guru", "test.test@gu.ru", "test123.qa@guru.qa"})
-    @ParameterizedTest(name = "Успешная регистрация с параметром: email = {0}")
     void successfulRegistrationWithValueSourceAnnotation(String userEmail) {
         String firstName        = randomData.getRandomFirstName();
         String lastName         = randomData.getRandomLastName();
@@ -33,36 +46,46 @@ public class AutomationPracticeFormTests extends TestBase {
         String state            = randomData.getRandomState();
         String city             = randomData.getRandomCity(state);
 
-        registrationPage.openPage().removeBanners()
-                .setFirstName(firstName)
-                .setLastName(lastName)
-                .setUserEmail(userEmail)
-                .setGender(gender)
-                .setUserNumber(phoneNumber)
-                .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
-                .setSubjects(subjects)
-                .setHobbies(hobbies)
-                .setPicture("pictures/" + picName)
-                .setCurrentAddress(currentAddress)
-                .setState(state)
-                .setCity(city)
-                .clickSubmit();
-
-        registrationPage
-                .checkResult("Student Name", firstName + " " + lastName)
-                .checkResult("Student Email", userEmail)
-                .checkResult("Gender", gender)
-                .checkResult("Mobile", phoneNumber)
-                .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
-                .checkResult("Subjects", subjects)
-                .checkResult("Hobbies", hobbies)
-                .checkResult("Picture", picName)
-                .checkResult("Address", currentAddress)
-                .checkResult("State and City", state + " " + city);
+        step("Open form", () -> {
+            registrationPage.openPage().removeBanners();
+        });
+        step("Fill form", ()-> {
+            registrationPage
+                    .setFirstName(firstName)
+                    .setLastName(lastName)
+                    .setUserEmail(userEmail)
+                    .setGender(gender)
+                    .setUserNumber(phoneNumber)
+                    .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
+                    .setSubjects(subjects)
+                    .setHobbies(hobbies)
+                    .setPicture("pictures/" + picName)
+                    .setCurrentAddress(currentAddress)
+                    .setState(state)
+                    .setCity(city)
+                    .clickSubmit();
+        });
+        step("Check results", () -> {
+            registrationPage
+                    .checkResult("Student Name", firstName + " " + lastName)
+                    .checkResult("Student Email", userEmail)
+                    .checkResult("Gender", gender)
+                    .checkResult("Mobile", phoneNumber)
+                    .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
+                    .checkResult("Subjects", subjects)
+                    .checkResult("Hobbies", hobbies)
+                    .checkResult("Picture", picName)
+                    .checkResult("Address", currentAddress)
+                    .checkResult("State and City", state + " " + city);
+        });
     }
 
+    @Story("Проверка с использованием аннотации @CsvFileSource")
+    @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
+    @Severity(SeverityLevel.NORMAL)
+    @DisplayName("Регистрация с параметрами 'firstName' и 'lastName':")
+    @ParameterizedTest(name = "{0} {1}")
     @CsvFileSource(resources = "/data/testData.csv")
-    @ParameterizedTest(name = "Успешная регистрация с параметрами: firstName = {0} и lastName = {1}")
     void successfulRegistrationWithCsvFileSourceAnnotation(String firstName, String lastName) {
         String userEmail        = randomData.getRandomUserEmail();
         String gender           = randomData.getRandomGender();
@@ -78,36 +101,46 @@ public class AutomationPracticeFormTests extends TestBase {
         String state            = randomData.getRandomState();
         String city             = randomData.getRandomCity(state);
 
-        registrationPage.openPage().removeBanners()
-                .setFirstName(firstName)
-                .setLastName(lastName)
-                .setUserEmail(userEmail)
-                .setGender(gender)
-                .setUserNumber(phoneNumber)
-                .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
-                .setSubjects(subjects)
-                .setHobbies(hobbies)
-                .setPicture("pictures/" + picName)
-                .setCurrentAddress(currentAddress)
-                .setState(state)
-                .setCity(city)
-                .clickSubmit();
-
-        registrationPage
-                .checkResult("Student Name", firstName + " " + lastName)
-                .checkResult("Student Email", userEmail)
-                .checkResult("Gender", gender)
-                .checkResult("Mobile", phoneNumber)
-                .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
-                .checkResult("Subjects", subjects)
-                .checkResult("Hobbies", hobbies)
-                .checkResult("Picture", picName)
-                .checkResult("Address", currentAddress)
-                .checkResult("State and City", state + " " + city);
+        step("Open form", () -> {
+            registrationPage.openPage().removeBanners();
+        });
+        step("Fill form", ()-> {
+            registrationPage
+                    .setFirstName(firstName)
+                    .setLastName(lastName)
+                    .setUserEmail(userEmail)
+                    .setGender(gender)
+                    .setUserNumber(phoneNumber)
+                    .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
+                    .setSubjects(subjects)
+                    .setHobbies(hobbies)
+                    .setPicture("pictures/" + picName)
+                    .setCurrentAddress(currentAddress)
+                    .setState(state)
+                    .setCity(city)
+                    .clickSubmit();
+        });
+        step("Check results", () -> {
+            registrationPage
+                    .checkResult("Student Name", firstName + " " + lastName)
+                    .checkResult("Student Email", userEmail)
+                    .checkResult("Gender", gender)
+                    .checkResult("Mobile", phoneNumber)
+                    .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
+                    .checkResult("Subjects", subjects)
+                    .checkResult("Hobbies", hobbies)
+                    .checkResult("Picture", picName)
+                    .checkResult("Address", currentAddress)
+                    .checkResult("State and City", state + " " + city);
+        });
     }
 
+    @Story("Проверка с использованием аннотации @EnumSource")
+    @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
+    @Severity(SeverityLevel.CRITICAL)
+    @DisplayName("Регистрация с параметром 'gender':")
+    @ParameterizedTest(name = "{0}")
     @EnumSource(Gender.class)
-    @ParameterizedTest(name = "Успешная регистрация с параметром: gender = {0}")
     void successfulRegistrationWithEnumSourceAnnotation(Gender gender) {
         String firstName        = randomData.getRandomFirstName();
         String lastName         = randomData.getRandomLastName();
@@ -124,32 +157,38 @@ public class AutomationPracticeFormTests extends TestBase {
         String state            = randomData.getRandomState();
         String city             = randomData.getRandomCity(state);
 
-        registrationPage.openPage().removeBanners()
-                .setFirstName(firstName)
-                .setLastName(lastName)
-                .setUserEmail(userEmail)
-                .setGender(gender.getTitle())
-                .setUserNumber(phoneNumber)
-                .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
-                .setSubjects(subjects)
-                .setHobbies(hobbies)
-                .setPicture("pictures/" + picName)
-                .setCurrentAddress(currentAddress)
-                .setState(state)
-                .setCity(city)
-                .clickSubmit();
-
-        registrationPage
-                .checkResult("Student Name", firstName + " " + lastName)
-                .checkResult("Student Email", userEmail)
-                .checkResult("Gender", gender.getTitle())
-                .checkResult("Mobile", phoneNumber)
-                .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
-                .checkResult("Subjects", subjects)
-                .checkResult("Hobbies", hobbies)
-                .checkResult("Picture", picName)
-                .checkResult("Address", currentAddress)
-                .checkResult("State and City", state + " " + city);
+        step("Open form", () -> {
+            registrationPage.openPage().removeBanners();
+        });
+        step("Fill form", ()-> {
+            registrationPage
+                    .setFirstName(firstName)
+                    .setLastName(lastName)
+                    .setUserEmail(userEmail)
+                    .setGender(gender.getTitle())
+                    .setUserNumber(phoneNumber)
+                    .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
+                    .setSubjects(subjects)
+                    .setHobbies(hobbies)
+                    .setPicture("pictures/" + picName)
+                    .setCurrentAddress(currentAddress)
+                    .setState(state)
+                    .setCity(city)
+                    .clickSubmit();
+        });
+        step("Check results", () -> {
+            registrationPage
+                    .checkResult("Student Name", firstName + " " + lastName)
+                    .checkResult("Student Email", userEmail)
+                    .checkResult("Gender", gender.getTitle())
+                    .checkResult("Mobile", phoneNumber)
+                    .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
+                    .checkResult("Subjects", subjects)
+                    .checkResult("Hobbies", hobbies)
+                    .checkResult("Picture", picName)
+                    .checkResult("Address", currentAddress)
+                    .checkResult("State and City", state + " " + city);
+        });
     }
 
     static Stream<Arguments> successfulRegistrationWithMethodSourceAnnotation() {
@@ -169,8 +208,12 @@ public class AutomationPracticeFormTests extends TestBase {
         );
     }
 
+    @Story("Проверка с использованием аннотации @MethodSource")
+    @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
+    @Severity(SeverityLevel.MINOR)
+    @DisplayName("Регистрация с параметрами 'gender' и 'subjects':")
+    @ParameterizedTest(name = "{0} и {1}")
     @MethodSource
-    @ParameterizedTest(name = "Успешная регистрация с параметрами: gender = {0} и subjects = {1}")
     void successfulRegistrationWithMethodSourceAnnotation(Gender gender, List<String> subjects) {
         String firstName        = randomData.getRandomFirstName();
         String lastName         = randomData.getRandomLastName();
@@ -186,31 +229,37 @@ public class AutomationPracticeFormTests extends TestBase {
         String state            = randomData.getRandomState();
         String city             = randomData.getRandomCity(state);
 
-        registrationPage.openPage().removeBanners()
-                .setFirstName(firstName)
-                .setLastName(lastName)
-                .setUserEmail(userEmail)
-                .setGender(gender.getTitle())
-                .setUserNumber(phoneNumber)
-                .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
-                .setSubjects(subjects)
-                .setHobbies(hobbies)
-                .setPicture("pictures/" + picName)
-                .setCurrentAddress(currentAddress)
-                .setState(state)
-                .setCity(city)
-                .clickSubmit();
-
-        registrationPage
-                .checkResult("Student Name", firstName + " " + lastName)
-                .checkResult("Student Email", userEmail)
-                .checkResult("Gender", gender.getTitle())
-                .checkResult("Mobile", phoneNumber)
-                .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
-                .checkResult("Subjects", subjects)
-                .checkResult("Hobbies", hobbies)
-                .checkResult("Picture", picName)
-                .checkResult("Address", currentAddress)
-                .checkResult("State and City", state + " " + city);
+        step("Open form", () -> {
+            registrationPage.openPage().removeBanners();
+        });
+        step("Fill form", ()-> {
+            registrationPage
+                    .setFirstName(firstName)
+                    .setLastName(lastName)
+                    .setUserEmail(userEmail)
+                    .setGender(gender.getTitle())
+                    .setUserNumber(phoneNumber)
+                    .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
+                    .setSubjects(subjects)
+                    .setHobbies(hobbies)
+                    .setPicture("pictures/" + picName)
+                    .setCurrentAddress(currentAddress)
+                    .setState(state)
+                    .setCity(city)
+                    .clickSubmit();
+        });
+        step("Check results", () -> {
+            registrationPage
+                    .checkResult("Student Name", firstName + " " + lastName)
+                    .checkResult("Student Email", userEmail)
+                    .checkResult("Gender", gender.getTitle())
+                    .checkResult("Mobile", phoneNumber)
+                    .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
+                    .checkResult("Subjects", subjects)
+                    .checkResult("Hobbies", hobbies)
+                    .checkResult("Picture", picName)
+                    .checkResult("Address", currentAddress)
+                    .checkResult("State and City", state + " " + city);
+        });
     }
 }
