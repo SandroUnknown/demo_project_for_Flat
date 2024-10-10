@@ -39,44 +39,37 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setFirstName(String value) {
-        removeBanners();
         firstNameInput.setValue(value);
         return this;
     }
 
     public RegistrationPage setLastName(String value) {
-        removeBanners();
         lastNameInput.setValue(value);
         return this;
     }
 
     public RegistrationPage setUserEmail(String value) {
-        removeBanners();
         userEmailInput.setValue(value);
         return this;
     }
 
     public RegistrationPage setGender(String value) {
-        removeBanners();
         genderInput.$(byText(value)).click();
         return this;
     }
 
     public RegistrationPage setUserNumber(String value) {
-        removeBanners();
         userNumberInput.setValue(value);
         return this;
     }
 
     public RegistrationPage setDateOfBirth(String day, String month, String year) {
-        removeBanners();
         dateOfBirth.click();
         new CalendarComponent().setDate(day, month, year);
         return this;
     }
 
     public RegistrationPage setSubjects(List<String> values) {
-        removeBanners();
         for (String value : values) {
             subjectsInput.setValue(value).pressEnter();
         }
@@ -84,7 +77,6 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setHobbies(List<String> values) {
-        removeBanners();
         for (String value : values) {
             hobbiesInput.$(byText(value)).click();
         }
@@ -92,33 +84,28 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setPicture(String value) {
-        removeBanners();
         pictureInput.uploadFromClasspath(value);
         return this;
     }
 
     public RegistrationPage setCurrentAddress(String value) {
-        removeBanners();
         addressCurrentInput.setValue(value);
         return this;
     }
 
     public RegistrationPage setState(String value) {
-        removeBanners();
         stateInput.click();
         stateCityWrapper.$(byText(value)).click();
         return this;
     }
 
     public RegistrationPage setCity(String value) {
-        removeBanners();
         cityInput.click();
         stateCityWrapper.$(byText(value)).click();
         return this;
     }
 
     public void clickSubmit() {
-        removeBanners();
         submitInput.click();
     }
 
