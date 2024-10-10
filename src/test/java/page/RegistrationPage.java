@@ -96,23 +96,27 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setCurrentAddress(String value) {
+        removeBanners();
         addressCurrentInput.setValue(value);
         return this;
     }
 
     public RegistrationPage setState(String value) {
+        removeBanners();
         stateInput.click();
         stateCityWrapper.$(byText(value)).click();
         return this;
     }
 
     public RegistrationPage setCity(String value) {
+        removeBanners();
         cityInput.click();
         stateCityWrapper.$(byText(value)).click();
         return this;
     }
 
     public void clickSubmit() {
+        removeBanners();
         submitInput.click();
     }
 
