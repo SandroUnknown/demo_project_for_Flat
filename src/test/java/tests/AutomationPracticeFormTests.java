@@ -39,7 +39,7 @@ public class AutomationPracticeFormTests extends TestBase {
         String yearOfBirth      = randomData.getYearOfBirth(dateOfBirth);
         String monthOfBirth     = randomData.getMonthOfBirth(dateOfBirth);
         String dayOfBirth       = randomData.getDayOfBirth(dateOfBirth);
-        List<String> subjects   = randomData.getRandomSubjects(5);
+        List<String> subjects   = randomData.getRandomSubjects(3);
         List<String> hobbies    = randomData.getRandomHobbies(2);
         String picName          = randomData.getRandomImage();
         String currentAddress   = randomData.getRandomAddress();
@@ -94,7 +94,7 @@ public class AutomationPracticeFormTests extends TestBase {
         String yearOfBirth      = randomData.getYearOfBirth(dateOfBirth);
         String monthOfBirth     = randomData.getMonthOfBirth(dateOfBirth);
         String dayOfBirth       = randomData.getDayOfBirth(dateOfBirth);
-        List<String> subjects   = randomData.getRandomSubjects(5);
+        List<String> subjects   = randomData.getRandomSubjects(3);
         List<String> hobbies    = randomData.getRandomHobbies(2);
         String picName          = randomData.getRandomImage();
         String currentAddress   = randomData.getRandomAddress();
@@ -150,7 +150,7 @@ public class AutomationPracticeFormTests extends TestBase {
         String yearOfBirth      = randomData.getYearOfBirth(dateOfBirth);
         String monthOfBirth     = randomData.getMonthOfBirth(dateOfBirth);
         String dayOfBirth       = randomData.getDayOfBirth(dateOfBirth);
-        List<String> subjects   = randomData.getRandomSubjects(5);
+        List<String> subjects   = randomData.getRandomSubjects(3);
         List<String> hobbies    = randomData.getRandomHobbies(2);
         String picName          = randomData.getRandomImage();
         String currentAddress   = randomData.getRandomAddress();
@@ -195,7 +195,7 @@ public class AutomationPracticeFormTests extends TestBase {
         return Stream.of(
             Arguments.of(
                 Gender.MALE,
-                List.of("Arts", "Computer Science", "Hindi", "Physics")
+                List.of("Arts", "Hindi", "Physics")
             ),
             Arguments.of(
                 Gender.FEMALE,
