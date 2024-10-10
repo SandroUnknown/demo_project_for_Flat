@@ -55,4 +55,3 @@ task demoqa_test(type: Test) {
         includeTags("demoqa")
     }
 }
-
