@@ -81,7 +81,6 @@ public class AutomationPracticeFormTests extends TestBase {
         });
     }
 
-    /*
     @Story("Проверка с использованием аннотации @CsvFileSource")
     @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.NORMAL)
@@ -267,5 +266,4 @@ public class AutomationPracticeFormTests extends TestBase {
                     .checkResult("State and City", state + " " + city);
         });
     }
-    */
 }
