@@ -38,7 +38,7 @@ public class RegistrationPage {
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
 
-        if ($("#close-fixedban").is(exist) && $("#close-fixedban").is(visible)) {
+        if ($("#close-fixedban").exists()) {
             $("#close-fixedban").click();
         }
 
