@@ -28,8 +28,6 @@ public class TestBase {
 
         String browser = System.getProperty("browser");
         int spaceIndex = browser.indexOf(" ");
-        //String version = browser.substring(spaceIndex + 1);
-        //browser = browser.substring(0, spaceIndex);
         Configuration.browser = browser.substring(0, spaceIndex);
         Configuration.browserVersion = browser.substring(spaceIndex + 1);
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
