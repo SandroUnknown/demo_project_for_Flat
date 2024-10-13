@@ -17,35 +17,25 @@ public class TestBase {
 
     @BeforeAll
     static void setup() {
-        DesiredCapabilities capabilities = new DesiredCapabilities();
+        /*DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
                 "enableVideo", true
-        ));
+        ));*/
 
         Configuration.baseUrl = "https://demoqa.com";
-
-        //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.remote = format("https://%s@%s/wd/hub", System.getProperty("login"), System.getProperty("rwhost"));
 
-        //System.out.println("===========" + System.getProperty("browser", "chrome"));
         String browser = System.getProperty("browser");
         int spaceIndex = browser.indexOf(" ");
-        String version = browser.substring(spaceIndex + 1);
-        //String version = System.getProperty("browser");
-        browser = browser.substring(0, spaceIndex); // "chrome"
-
-        Configuration.browser = browser;
-        Configuration.browserVersion = version;
-
-
-
-
-        //Configuration.browserSize = "1920x1080";
+        //String version = browser.substring(spaceIndex + 1);
+        //browser = browser.substring(0, spaceIndex);
+        Configuration.browser = browser.substring(0, spaceIndex);
+        Configuration.browserVersion = browser.substring(spaceIndex + 1);
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
 
         Configuration.pageLoadStrategy = "eager";
-        Configuration.browserCapabilities = capabilities;
+        //Configuration.browserCapabilities = capabilities;
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
@@ -55,7 +45,7 @@ public class TestBase {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        Attach.addVideo();
+        //Attach.addVideo();
         closeWebDriver();
     }
 }
