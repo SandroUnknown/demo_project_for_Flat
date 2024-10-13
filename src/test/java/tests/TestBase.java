@@ -17,11 +17,11 @@ public class TestBase {
 
     @BeforeAll
     static void setup() {
-        /*DesiredCapabilities capabilities = new DesiredCapabilities();
+        DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
                 "enableVideo", true
-        ));*/
+        ));
 
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.remote = format("https://%s@%s/wd/hub", System.getProperty("login"), System.getProperty("rwhost"));
@@ -35,7 +35,7 @@ public class TestBase {
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
 
         Configuration.pageLoadStrategy = "eager";
-        //Configuration.browserCapabilities = capabilities;
+        Configuration.browserCapabilities = capabilities;
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
@@ -45,7 +45,7 @@ public class TestBase {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        //Attach.addVideo();
+        Attach.addVideo();
         closeWebDriver();
     }
 }

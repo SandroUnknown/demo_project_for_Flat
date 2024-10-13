@@ -86,7 +86,8 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setPicture(String value) {
-        pictureInput.scrollTo().uploadFromClasspath(value);
+        //pictureInput.scrollTo().uploadFromClasspath(value);
+        pictureInput.uploadFromClasspath(value);
         return this;
     }
 
