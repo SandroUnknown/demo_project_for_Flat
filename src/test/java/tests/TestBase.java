@@ -30,7 +30,7 @@ public class TestBase {
 
         System.out.println("===========" + System.getProperty("browser", "chrome"));
         Configuration.browser = System.getProperty("browser", "chrome");
-        //Configuration.browserVersion = "106.0";
+        Configuration.browserVersion = System.getProperty("version");
 
         //Configuration.browserSize = "1920x1080";
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
