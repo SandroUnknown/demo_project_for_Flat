@@ -33,7 +33,7 @@ public class TestBase {
         Configuration.browser = browser.substring(0, spaceIndex);
         Configuration.browserVersion = browser.substring(spaceIndex + 1);
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");*/
-        Configuration.browser = "opera";
+        Configuration.browser = "mozilla";
 
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserCapabilities = capabilities;
