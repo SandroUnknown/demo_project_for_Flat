@@ -28,11 +28,12 @@ public class TestBase {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.remote = format("https://%s@%s/wd/hub", System.getProperty("login"), System.getProperty("rwhost"));
 
-        String browser = System.getProperty("browser");
+        /*String browser = System.getProperty("browser");
         int spaceIndex = browser.indexOf(" ");
         Configuration.browser = browser.substring(0, spaceIndex);
         Configuration.browserVersion = browser.substring(spaceIndex + 1);
-        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");*/
+        Configuration.browser = "opera";
 
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserCapabilities = capabilities;
