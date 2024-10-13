@@ -46,8 +46,8 @@ public class TestBase {
         Attach.screenshotAs("Last screenshot");
         if (!Configuration.browser.equals("firefox")) {
             Attach.pageSource();
+            Attach.browserConsoleLogs();
         }
-        Attach.browserConsoleLogs();
         Attach.addVideo();
         closeWebDriver();
     }
