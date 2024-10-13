@@ -24,6 +24,7 @@ public class AutomationPracticeFormTests extends TestBase {
     private final RegistrationPage registrationPage = new RegistrationPage();
     private final RandomDataUtils randomData = new RandomDataUtils();
 
+    @Tag("First")
     @Story("Проверка с использованием аннотации @ValueSource")
     @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.BLOCKER)
@@ -80,6 +81,7 @@ public class AutomationPracticeFormTests extends TestBase {
         });
     }
 
+    @Tag("Second")
     @Story("Проверка с использованием аннотации @CsvFileSource")
     @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.NORMAL)
@@ -135,6 +137,7 @@ public class AutomationPracticeFormTests extends TestBase {
         });
     }
 
+    @Tag("Third")
     @Story("Проверка с использованием аннотации @EnumSource")
     @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.CRITICAL)
@@ -204,6 +207,7 @@ public class AutomationPracticeFormTests extends TestBase {
         );
     }
 
+    @Tag("Fourth")
     @Story("Проверка с использованием аннотации @MethodSource")
     @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.MINOR)

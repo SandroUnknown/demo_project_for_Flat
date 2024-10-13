@@ -41,6 +41,7 @@ allure {
 
 tasks.withType(Test) {
     useJUnitPlatform()
+    systemProperties(System.getProperties())
 
     testLogging {
         lifecycle {
@@ -53,5 +54,41 @@ tasks.withType(Test) {
 task demoqa_test(type: Test) {
     useJUnitPlatform {
         includeTags("demoqa")
+    }
+}
+
+task first_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("First")
+    }
+}
+
+task second_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("Second")
+    }
+}
+
+task third_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("Third")
+    }
+}
+
+task fourth_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("Fourth")
+    }
+}
+
+task first_and_second_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("First", "Second")
+    }
+}
+
+task third_and_fourth_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("Third", "Fourth")
     }
 }
