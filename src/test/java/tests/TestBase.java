@@ -28,9 +28,18 @@ public class TestBase {
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.remote = format("https://%s@%s/wd/hub", System.getProperty("login"), System.getProperty("rwhost"));
 
-        System.out.println("===========" + System.getProperty("browser", "chrome"));
-        Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("version");
+        //System.out.println("===========" + System.getProperty("browser", "chrome"));
+        String browser = System.getProperty("browser");
+        int spaceIndex = browser.indexOf(" ");
+        String version = browser.substring(spaceIndex + 1);
+        //String version = System.getProperty("browser");
+        browser = browser.substring(0, spaceIndex); // "chrome"
+
+        Configuration.browser = browser;
+        Configuration.browserVersion = version;
+
+
+
 
         //Configuration.browserSize = "1920x1080";
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
