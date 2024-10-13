@@ -23,7 +23,7 @@ public class TestBase {
                 "enableVideo", true
         ));
 
-        Configuration.timeout = 10000;
+        Configuration.timeout = 30000;
 
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.remote = format("https://%s@%s/wd/hub", System.getProperty("login"), System.getProperty("rwhost"));
