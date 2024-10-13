@@ -28,6 +28,7 @@ public class TestBase {
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.remote = format("https://%s@%s/wd/hub", System.getProperty("login"), System.getProperty("rwhost"));
 
+        System.out.println("===========" + System.getProperty("browser", "chrome"));
         Configuration.browser = System.getProperty("browser", "chrome");
 
         //Configuration.browserSize = "1920x1080";
