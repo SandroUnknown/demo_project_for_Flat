@@ -28,6 +28,7 @@ public class TestBase {
 
         //Configuration.remote = format("https://%s@%s/wd/hub", System.getProperty("login"), System.getProperty("rwhost"));
         String s = format("https://user1:1234@%s/wd/hub", System.getProperty("rwhost"));
+        System.out.println(s);
         //Configuration.remote = format("https://user1:1234@%s/wd/hub", System.getProperty("rwhost"));
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
