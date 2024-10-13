@@ -63,7 +63,7 @@ task first_test(type: Test) {
     }
 }
 
-task second_test(type: Test) {
+    task second_test(type: Test) {
     useJUnitPlatform {
         includeTags("Second")
     }

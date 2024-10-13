@@ -11,6 +11,7 @@ import java.nio.charset.StandardCharsets;
 
 import static com.codeborne.selenide.Selenide.sessionId;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+import static java.lang.String.format;
 import static org.openqa.selenium.logging.LogType.BROWSER;
 
 public class Attach {
@@ -45,9 +46,8 @@ public class Attach {
     }
 
     public static URL getVideoUrl() {
-        String videoUrl = "https://selenoid.autotests.cloud/video/" + sessionId() + ".mp4";
-        //System.getProperty("RHOST");
-        //String videoUrl = System.getProperty("RHOST") + sessionId() + ".mp4";
+        //String videoUrl = "https://selenoid.autotests.cloud/video/" + sessionId() + ".mp4";
+        String videoUrl = format("https://%s/video/%s.mp4", System.getProperty("rwhost"), sessionId());
         try {
             return new URL(videoUrl);
         } catch (MalformedURLException e) {
