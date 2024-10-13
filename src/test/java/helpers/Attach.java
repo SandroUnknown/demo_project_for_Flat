@@ -48,7 +48,7 @@ public class Attach {
     public static URL getVideoUrl() {
         //String videoUrl = "https://selenoid.autotests.cloud/video/" + sessionId() + ".mp4";
         String videoUrl = format("https://%s/video/%s.mp4", System.getProperty("rwhost"), sessionId());
-        System.out.println("VIDEO" + videoUrl);
+        System.out.println("VIDEO " + videoUrl);
         try {
             return new URL(videoUrl);
         } catch (MalformedURLException e) {
