@@ -60,7 +60,7 @@ public class AutomationPracticeFormTests extends TestBase {
                     .setDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth)
                     .setSubjects(subjects)
                     .setHobbies(hobbies)
-                    //.setPicture("pictures/" + picName)
+                    .setPicture("pictures/" + picName)
                     .setCurrentAddress(currentAddress)
                     .setState(state)
                     .setCity(city)
@@ -75,7 +75,7 @@ public class AutomationPracticeFormTests extends TestBase {
                     .checkResult("Date of Birth",dayOfBirth + " " + monthOfBirth + "," + yearOfBirth)
                     .checkResult("Subjects", subjects)
                     .checkResult("Hobbies", hobbies)
-                    //.checkResult("Picture", picName)
+                    .checkResult("Picture", picName)
                     .checkResult("Address", currentAddress)
                     .checkResult("State and City", state + " " + city);
         });

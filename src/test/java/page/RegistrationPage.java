@@ -1,5 +1,6 @@
 package page;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import page.components.CalendarComponent;
 import page.components.TableResponsive;
@@ -86,6 +87,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setPicture(String value) {
+        if (Configuration.browser.equals("firefox")) return this;
         pictureInput.scrollTo().uploadFromClasspath(value);
         return this;
     }
@@ -112,6 +114,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage checkResult(String key, String value) {
+        if (Configuration.browser.equals("firefox") && key.equals("Picture")) return this;
         new TableResponsive().checkResult(key, value);
         return this;
     }

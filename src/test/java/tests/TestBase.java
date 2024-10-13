@@ -23,8 +23,6 @@ public class TestBase {
                 "enableVideo", true
         ));
 
-        Configuration.timeout = 30000;
-
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.remote = format("https://%s@%s/wd/hub", System.getProperty("login"), System.getProperty("rwhost"));
 
@@ -33,7 +31,6 @@ public class TestBase {
         Configuration.browser = browser.substring(0, spaceIndex);
         Configuration.browserVersion = browser.substring(spaceIndex + 1);
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-        //Configuration.browser = "firefox";
 
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserCapabilities = capabilities;
