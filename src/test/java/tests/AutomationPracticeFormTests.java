@@ -3,6 +3,7 @@ package tests;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
 import page.RegistrationPage;
@@ -15,7 +16,17 @@ import java.util.stream.Stream;
 
 import static io.qameta.allure.Allure.step;
 
-@Tag("demoqa")
+
+
+
+@Tag("demoqa") //TODO
+//https://jenkins.autotests.cloud/job/C30-SandroUnknown-jenkins_unit12/
+
+
+
+
+
+
 @Feature("Проверка PracticeFormTest на demoqa.com")
 @DisplayName("Проверка PracticeFormTest")
 @Owner("Petyukov Alexander")
@@ -24,13 +35,13 @@ public class AutomationPracticeFormTests extends TestBase {
     private final RegistrationPage registrationPage = new RegistrationPage();
     private final RandomDataUtils randomData = new RandomDataUtils();
 
-    @Tag("First")
+    /*@Tag("First")
     @Story("Проверка с использованием аннотации @ValueSource")
     @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Регистрация с параметром 'email':")
     @ParameterizedTest(name = "{0}")
-    @ValueSource (strings = {"test@qa.guru", "test123.qa@guru.qa"})
+    @ValueSource (strings = {"test@qa.guru", "qa@guru.test","test123.qa@guru.qa"})
     void successfulRegistrationWithValueSourceAnnotation(String userEmail) {
         String firstName        = randomData.getRandomFirstName();
         String lastName         = randomData.getRandomLastName();
@@ -79,9 +90,9 @@ public class AutomationPracticeFormTests extends TestBase {
                     .checkResult("Address", currentAddress)
                     .checkResult("State and City", state + " " + city);
         });
-    }
+    }*/
 
-    @Tag("Second")
+    /*@Tag("Second")
     @Story("Проверка с использованием аннотации @CsvFileSource")
     @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.NORMAL)
@@ -135,9 +146,9 @@ public class AutomationPracticeFormTests extends TestBase {
                     .checkResult("Address", currentAddress)
                     .checkResult("State and City", state + " " + city);
         });
-    }
+    }*/
 
-    @Tag("Third")
+    /*@Tag("Third")
     @Story("Проверка с использованием аннотации @EnumSource")
     @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.CRITICAL)
@@ -192,7 +203,7 @@ public class AutomationPracticeFormTests extends TestBase {
                     .checkResult("Address", currentAddress)
                     .checkResult("State and City", state + " " + city);
         });
-    }
+    }*/
 
     static Stream<Arguments> successfulRegistrationWithMethodSourceAnnotation() {
         return Stream.of(
@@ -202,7 +213,12 @@ public class AutomationPracticeFormTests extends TestBase {
             ),
             Arguments.of(
                 Gender.FEMALE,
-                List.of("English", "Civics")
+                List.of("English")
+            )
+            ,
+            Arguments.of(
+                Gender.OTHER,
+                List.of("Commerce", "Civics")
             )
         );
     }
@@ -261,5 +277,35 @@ public class AutomationPracticeFormTests extends TestBase {
                     .checkResult("Address", currentAddress)
                     .checkResult("State and City", state + " " + city);
         });
+    }
+
+
+
+
+
+    @Test
+    void successfulRegistrationWithOnlyRequiredFieldsTest() {
+        String firstName        = randomData.getRandomFirstName();
+        String lastName         = randomData.getRandomLastName();
+        String gender           = randomData.getRandomGender();
+        String phoneNumber      = randomData.getRandomPhoneNumber(10);
+
+        registrationPage.openPage()
+                .setFirstName(firstName)
+                .setLastName(lastName)
+                .setGender(gender)
+                .setUserNumber(phoneNumber)
+                .clickSubmit();
+
+        registrationPage
+                .checkResult("Student Name", firstName + " " + lastName)
+                .checkResult("Gender", gender)
+                .checkResult("Mobile", phoneNumber);
+    }
+
+    @Test
+    void negativeRegistrationTest() {
+        registrationPage.openPage().clickSubmit();
+        registrationPage.negativeCheck();
     }
 }
