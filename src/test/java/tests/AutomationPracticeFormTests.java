@@ -16,17 +16,6 @@ import java.util.stream.Stream;
 
 import static io.qameta.allure.Allure.step;
 
-
-
-
-@Tag("demoqa") //TODO
-//https://jenkins.autotests.cloud/job/C30-SandroUnknown-jenkins_unit12/
-
-
-
-
-
-
 @Feature("Проверка PracticeFormTest на demoqa.com")
 @DisplayName("Проверка PracticeFormTest")
 @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
