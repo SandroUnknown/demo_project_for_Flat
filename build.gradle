@@ -21,8 +21,7 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "com.codeborne:selenide:$selenideVersion",
             "com.github.javafaker:javafaker:$fakerVersion",
-            "io.qameta.allure:allure-selenide:$allureVersion",
-            'com.opera:operadriver:1.5'
+            "io.qameta.allure:allure-selenide:$allureVersion"
     )
 }
 
@@ -52,44 +51,26 @@ tasks.withType(Test) {
     }
 }
 
-task demoqa_test(type: Test) {
+task end_to_end_test(type: Test) {
     useJUnitPlatform {
-        includeTags("demoqa")
+        includeTags("End-to-end")
     }
 }
 
-task first_test(type: Test) {
+task smoke_test(type: Test) {
     useJUnitPlatform {
-        includeTags("First")
+        includeTags("Smoke")
     }
 }
 
-    task second_test(type: Test) {
+task negative_test(type: Test) {
     useJUnitPlatform {
-        includeTags("Second")
+        includeTags("Negative")
     }
 }
 
-task third_test(type: Test) {
+task smoke_and_negative_test(type: Test) {
     useJUnitPlatform {
-        includeTags("Third")
-    }
-}
-
-task fourth_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("Fourth")
-    }
-}
-
-task first_and_second_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("First", "Second")
-    }
-}
-
-task third_and_fourth_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("Third", "Fourth")
+        includeTags("Smoke", "Negative")
     }
 }
