@@ -29,6 +29,7 @@ import static io.qameta.allure.Allure.step;
 
 @Feature("Проверка PracticeFormTest на demoqa.com")
 @DisplayName("Проверка PracticeFormTest")
+@Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
 @Owner("Petyukov Alexander")
 public class AutomationPracticeFormTests extends TestBase {
 
@@ -55,7 +56,6 @@ public class AutomationPracticeFormTests extends TestBase {
 
     @Tag("End-to-end")
     @Story("Проверка с полным заполнением формы (с использованием аннотации @MethodSource)")
-    @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Регистрация с параметрами 'gender' и 'subjects':")
     @ParameterizedTest(name = "{0} и {1}")
@@ -111,7 +111,6 @@ public class AutomationPracticeFormTests extends TestBase {
 
     @Tag("Smoke")
     @Story("Проверка формы с заполнением только обязательных полей")
-    @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка формы с заполнением только обязательных полей")
     @Test
@@ -136,7 +135,6 @@ public class AutomationPracticeFormTests extends TestBase {
 
     @Tag("Negative")
     @Story("'Негативная' проверка формы (без заполнения полей)")
-    @Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
     @Severity(SeverityLevel.TRIVIAL)
     @DisplayName("'Негативная' проверка формы (без заполнения полей)")
     @Test
