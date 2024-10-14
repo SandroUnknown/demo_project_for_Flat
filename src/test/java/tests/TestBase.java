@@ -25,6 +25,12 @@ public class TestBase {
 
         Configuration.baseUrl = "https://demoqa.com";
 
+
+        //TODO:
+        //https://jenkins.autotests.cloud/job/C30-SandroUnknown-jenkins_unit12/
+
+
+
         String login = System.getProperty("login");
         String rwhost = System.getProperty("rwhost");
         if (login != null && rwhost != null) Configuration.remote = format("https://%s@%s/wd/hub", login, rwhost);
