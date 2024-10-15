@@ -109,17 +109,24 @@ public class AutomationPracticeFormTests extends TestBase {
         String gender           = randomData.getRandomGender();
         String phoneNumber      = randomData.getRandomPhoneNumber(10);
 
-        registrationPage.openPage()
-                .setFirstName(firstName)
-                .setLastName(lastName)
-                .setGender(gender)
-                .setUserNumber(phoneNumber)
-                .clickSubmit();
-
-        registrationPage
-                .checkResult("Student Name", firstName + " " + lastName)
-                .checkResult("Gender", gender)
-                .checkResult("Mobile", phoneNumber);
+        step("Open form", () -> {
+            registrationPage.openPage().removeBanners();
+        });
+        step("Fill form", ()-> {
+            registrationPage
+                    .openPage()
+                    .setFirstName(firstName)
+                    .setLastName(lastName)
+                    .setGender(gender)
+                    .setUserNumber(phoneNumber)
+                    .clickSubmit();
+        });
+        step("Check results", () -> {
+            registrationPage
+                    .checkResult("Student Name", firstName + " " + lastName)
+                    .checkResult("Gender", gender)
+                    .checkResult("Mobile", phoneNumber);
+        });
     }
 
     @Tag("Negative")
@@ -128,7 +135,14 @@ public class AutomationPracticeFormTests extends TestBase {
     @DisplayName("'Негативная' проверка формы (без заполнения полей)")
     @Test
     void negativeRegistrationTest() {
-        registrationPage.openPage().clickSubmit();
-        registrationPage.negativeCheck();
+        step("Open form", () -> {
+            registrationPage.openPage().removeBanners();
+        });
+        step("Click submit", () -> {
+            registrationPage.clickSubmit();
+        });
+        step("Check results", () -> {
+            registrationPage.negativeCheck();
+        });
     }
 }
