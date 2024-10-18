@@ -50,27 +50,3 @@ tasks.withType(Test) {
         }
     }
 }
-
-task end_to_end_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("End-to-end")
-    }
-}
-
-task smoke_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("Smoke")
-    }
-}
-
-task negative_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("Negative")
-    }
-}
-
-task smoke_and_negative_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("Smoke", "Negative")
-    }
-}

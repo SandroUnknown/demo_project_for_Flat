@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
+import page.MainPage;
 import page.RegistrationPage;
 import utils.Gender;
 import utils.RandomDataUtils;
@@ -16,11 +17,47 @@ import java.util.stream.Stream;
 
 import static io.qameta.allure.Allure.step;
 
-@Feature("Проверка PracticeFormTest на demoqa.com")
-@DisplayName("Проверка PracticeFormTest")
-@Link(value = "Test page", url = "https://demoqa.com/automation-practice-form")
+@Feature("Проверка сайта https://flat-soft.ru/")
+@DisplayName("Проверка сайта https://flat-soft.ru/")
+@Link(value = "Test page", url = "https://flat-soft.ru/")
 @Owner("Petyukov Alexander")
 public class AutomationPracticeFormTests extends TestBase {
+
+    private final MainPage mainPage = new MainPage();
+
+    @DisplayName("Проверка главной страницы.")
+    @Test
+    void openPage() {
+
+        step("Открыть страницу.", () -> {
+            mainPage
+                    .openPage()
+                    .removeBanners();
+        });
+
+        step("Проверить содержимое страницы.", () -> {
+            mainPage
+                    .checkTopBar()
+                    .checkTopMenu()
+                    .checkBody();
+
+
+            //sleep(2000);
+        });
+
+
+
+    }
+
+
+// $(byTagAndText("button", "Solutions")).hover();
+// $$("ul.filterable-active a").findBy(text("SoftAssertions")).click();
+// $(".table-responsive").$(byTagAndText("td", key)).sibling(0).shouldHave(text(value));
+
+
+    //TODO
+    //=============================================================================
+
 
     private final RegistrationPage registrationPage = new RegistrationPage();
     private final RandomDataUtils randomData = new RandomDataUtils();
@@ -43,7 +80,7 @@ public class AutomationPracticeFormTests extends TestBase {
         );
     }
 
-    @Tag("End-to-end")
+    //@Tag("End-to-end")
     @Story("Проверка с полным заполнением формы (с использованием аннотации @MethodSource)")
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Регистрация с параметрами 'gender' и 'subjects':")
@@ -98,7 +135,7 @@ public class AutomationPracticeFormTests extends TestBase {
         });
     }
 
-    @Tag("Smoke")
+    //@Tag("Smoke")
     @Story("Проверка формы с заполнением только обязательных полей")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Проверка формы с заполнением только обязательных полей")
@@ -129,7 +166,7 @@ public class AutomationPracticeFormTests extends TestBase {
         });
     }
 
-    @Tag("Negative")
+    //@Tag("Negative")
     @Story("'Негативная' проверка формы (без заполнения полей)")
     @Severity(SeverityLevel.TRIVIAL)
     @DisplayName("'Негативная' проверка формы (без заполнения полей)")
