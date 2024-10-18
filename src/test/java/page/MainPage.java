@@ -67,6 +67,12 @@ public class MainPage {
 
     @Step("Проверить тело страницы.")
     public MainPage checkBody() {
+        // TODO
+        // просто для теста, убрать эти строки
+        var a = $("div.page-content").findAll("section");
+        var b = $$("div.page-content section");
+
+
         step("Проверить слоган.", () -> {
             $("div.page-content").findAll("section").findBy(text(slogan)).should(exist);;
         });
@@ -81,8 +87,12 @@ public class MainPage {
             );
 
             for (String service : services.keySet()) {
-                $("div.page-content").findAll("section").findBy(text(service)).should(exist);
+                $("div.page-content").findAll("section").findBy(text(service)).should(exist); // избыточная строка
+
+
+                // любая из строк ниже проверит и текст, и ссылку одновременно
                 $("div.page-content").findAll("section").findBy(text(service)).$("a").shouldHave(href(services.get(service)));;
+                $$("div.page-content section").findBy(text(service)).$("a").shouldHave(href(services.get(service)));;
             }
         });
 
