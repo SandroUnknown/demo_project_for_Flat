@@ -25,7 +25,7 @@ public class TestBase {
         ));
 
         //Configuration.baseUrl = "https://demoqa.com";
-        Configuration.baseUrl = "https://flat-soft.ru/";
+        Configuration.baseUrl = "https://flat-soft.ru";
 
 //        String login = System.getProperty("login");
 //        String rwhost = System.getProperty("rwhost");

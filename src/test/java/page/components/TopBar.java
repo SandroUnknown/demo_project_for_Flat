@@ -12,6 +12,8 @@ public class TopBar {
             phoneNumberSelector = $("#sp-top-bar li.sp-contact-mobile"),
             emailSelector       = $("#sp-top-bar li.sp-contact-email");
 
+    //TODO
+    // Вынести в файл эти данные?
     private final String
             phoneNumber = "+7(499) 551-77-78",
             email       = "info@flat-soft.ru";
@@ -27,5 +29,4 @@ public class TopBar {
         $(emailSelector).shouldHave(text(email));
         return this;
     }
-
 }

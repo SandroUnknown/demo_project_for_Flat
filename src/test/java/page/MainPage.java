@@ -1,55 +1,50 @@
 package page;
 
-import com.codeborne.selenide.SelenideElement;
-import io.qameta.allure.Step;
+import com.codeborne.selenide.ElementsCollection;
 import org.junit.jupiter.api.DisplayName;
-import page.components.TableResponsive;
 import page.components.TopBar;
 import page.components.TopMenu;
 
-import java.util.List;
+import java.io.IOException;
 import java.util.Map;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.executeJavaScript;
-import static io.qameta.allure.Allure.step;
 
 public class MainPage {
+
+    private final ElementsCollection
+            contentSelector = $("div.page-content").findAll("section");
+
+    // TODO
+    // Убрать данные в файл а-ля MainPage.json?
 
     private final String
             slogan = "Надежность и устойчивая функциональность коммуникационной инфраструктуры и интегрированных сервисов вашего бизнеса";
 
-    private final SelenideElement
-            sloganSelector      = $("div.page-content"),
-            lastNameInput       = $("#lastName"),
-            userEmailInput      = $("#userEmail"),
-            genderInput         = $("#genterWrapper"),
-            userNumberInput     = $("#userNumber"),
-            dateOfBirth         = $("#dateOfBirthInput"),
-            subjectsInput       = $("#subjectsInput"),
-            hobbiesInput        = $("#hobbiesWrapper"),
-            pictureInput        = $("#uploadPicture"),
-            addressCurrentInput = $("#currentAddress"),
-            stateInput          = $("#state"),
-            cityInput           = $("#city"),
-            stateCityWrapper    = $("#stateCity-wrapper"),
-            submitInput         = $("#submit");
+    private final Map<String, String> services = Map.of(
+            "ФЛАТ SoftSwitch",          "https://flat-soft.ru/produkty/flat-softswitch",
+            "ФЛАТ Device Manager",      "https://flat-soft.ru/produkty/flat-device-manager",
+            "Партнёрство и развитие",   "https://flat-soft.ru/images/files/pdf/partnerskaya_i_marketingovaya_programma_flat_2024.pdf"
+    );
 
-    @Step("Открыть страницу.")
-    public MainPage openPage() {
-        open("/");
+    // ==========================================
+
+    @DisplayName("Открыть страницу [TEST].")
+    public MainPage openPage(String url) {
+        open(url);
         return this;
     }
 
-    @Step("Удалить баннеры.")
+    @DisplayName("Удалить баннеры [TEST].")
     public MainPage removeBanners() {
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
         return this;
     }
 
-    @Step("Проверить top-bar.")
+    @DisplayName("Проверить top-bar [TEST].")
     public MainPage checkTopBar() {
         new TopBar()
                 .checkPhoneNumber()
@@ -57,46 +52,23 @@ public class MainPage {
         return this;
     }
 
-    @Step("Проверить top-menu.")
-    public MainPage checkTopMenu() {
-        new TopMenu()
-                .checkMenuItems()
-                .checkSubItems();
+    @DisplayName("роверить top-menu [TEST].")
+    public MainPage checkTopMenu() throws IOException {
+        new TopMenu().checkMenuItems();
         return this;
     }
 
-    @Step("Проверить тело страницы.")
-    public MainPage checkBody() {
-        // TODO
-        // просто для теста, убрать эти строки
-        var a = $("div.page-content").findAll("section");
-        var b = $$("div.page-content section");
-
-
-        step("Проверить слоган.", () -> {
-            $("div.page-content").findAll("section").findBy(text(slogan)).should(exist);;
-        });
-
-        // TODO
-        // что делать с мапой тут?
-        step("Проверить наличие услуг (и соответствие им ссылок).", () -> {
-            Map<String,String> services = Map.of(
-                    "ФЛАТ SoftSwitch",          "https://flat-soft.ru/produkty/flat-softswitch",
-                    "ФЛАТ Device Manager",      "https://flat-soft.ru/produkty/flat-device-manager",
-                    "Партнёрство и развитие",   "https://flat-soft.ru/images/files/pdf/partnerskaya_i_marketingovaya_programma_flat_2024.pdf"
-            );
-
-            for (String service : services.keySet()) {
-                $("div.page-content").findAll("section").findBy(text(service)).should(exist); // избыточная строка
-
-
-                // любая из строк ниже проверит и текст, и ссылку одновременно
-                $("div.page-content").findAll("section").findBy(text(service)).$("a").shouldHave(href(services.get(service)));;
-                $$("div.page-content section").findBy(text(service)).$("a").shouldHave(href(services.get(service)));;
-            }
-        });
-
+    @DisplayName("Проверить слоган [TEST].")
+    public MainPage checkSlogan() {
+        contentSelector.findBy(text(slogan)).should(exist);
         return this;
     }
 
+    @DisplayName("Проверить услуги [TEST].")
+    public MainPage checkServices() {
+        for (String service : services.keySet()) {
+            contentSelector.findBy(text(service)).$("a").shouldHave(href(services.get(service)));
+        }
+        return this;
+    }
 }

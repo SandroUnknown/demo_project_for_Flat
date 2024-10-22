@@ -1,0 +1,137 @@
+{
+  "item": [
+    {
+      "name": "Продукты",
+      "url": "",
+      "subItem": [
+        {
+          "name": "ФЛАТ SoftSwitch",
+          "url": "https://flat-soft.ru/produkty/flat-softswitch"
+        },
+        {
+          "name": "ФЛАТ Device Manager",
+          "url": "https://flat-soft.ru/produkty/flat-device-manager"
+        },
+        {
+          "name": "ФЛАТ Партнер",
+          "url": "https://flat-soft.ru/produkty/flat-partner"
+        },
+        {
+          "name": "ФЛАТ Тарификация",
+          "url": "https://flat-soft.ru/produkty/flat-tarifikatsiya"
+        },
+        {
+          "name": "ФЛАТ Контакт",
+          "url": "https://flat-soft.ru/produkty/flat-kontakt"
+        },
+        {
+          "name": "ФЛАТ Запись",
+          "url": "https://flat-soft.ru/produkty/flat-zapis"
+        },
+        {
+          "name": "ФЛАТ Оповещение",
+          "url": "https://flat-soft.ru/produkty/flat-opoveshchenie"
+        },
+        {
+          "name": "ФЛАТ Конференция",
+          "url": "https://flat-soft.ru/produkty/flat-konferentsiya"
+        },
+        {
+          "name": "ФЛАТ Факс",
+          "url": "https://flat-soft.ru/produkty/flat-faks"
+        },
+        {
+          "name": "Флат SBC",
+          "url": "https://flat-soft.ru/produkty/flat-sbc"
+        }
+      ]
+    },
+    {
+      "name": "Решения",
+      "url": "",
+      "subItem": [
+        {
+          "name": "Топливно-энергетический комплекс",
+          "url": "https://flat-soft.ru/resheniya/toplivno-energeticheskij-kompleks"
+        },
+        {
+          "name": "Государственный сектор",
+          "url": "https://flat-soft.ru/resheniya/gosudarstvennyj-sektor"
+        },
+        {
+          "name": "Финансовый сектор",
+          "url": "https://flat-soft.ru/resheniya/finansovyj-sektor"
+        },
+        {
+          "name": "Ритейл и сфера услуг",
+          "url": "https://flat-soft.ru/resheniya/ritejl-i-sfera-uslug"
+        },
+        {
+          "name": "Здравоохранение",
+          "url": "https://flat-soft.ru/resheniya/zdravookhranenie"
+        }
+      ]
+    },
+    {
+      "name": "Миграция",
+      "url": "https://flat-soft.ru/migratsiya",
+      "subItem": []
+    },
+    {
+      "name": "Партнеры",
+      "url": "",
+      "subItem": [
+        {
+          "name": "Партнеры",
+          "url": "https://flat-soft.ru/partner/partnery"
+        },
+        {
+          "name": "Дистрибуторы",
+          "url": "https://flat-soft.ru/partner/distributory"
+        }
+      ]
+    },
+    {
+      "name": "Учебный центр",
+      "url": "",
+      "subItem": [
+        {
+          "name": "Интерактивный календарь",
+          "url": "https://flat-soft.ru/uchebnyj-tsent/raspisanie-kursov"
+        },
+        {
+          "name": "Базовый курс",
+          "url": "https://flat-soft.ru/uchebnyj-tsent/bazovyj-kurs"
+        },
+        {
+          "name": "Продвинутый курс",
+          "url": "https://flat-soft.ru/uchebnyj-tsent/prodvinutyj-kurs"
+        },
+        {
+          "name": "Онлайн обучение",
+          "url": "https://flat-soft.ru/uchebnyj-tsent/onlajn-obuchenie"
+        }
+      ]
+    },
+    {
+      "name": "Поддержка",
+      "url": "https://flat-soft.ru/support",
+      "subItem": []
+    },
+    {
+      "name": "Стать партнером",
+      "url": "https://flat-soft.ru/stat-partnerom",
+      "subItem": []
+    },
+    {
+      "name": "ФЛАТ-ПРО",
+      "url": "https://flat-pro.ru/",
+      "subItem": []
+    },
+    {
+      "name": "Вход",
+      "url": "https://partnerportal.flat-soft.ru/",
+      "subItem": []
+    }
+  ]
+}

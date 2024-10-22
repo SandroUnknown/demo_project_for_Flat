@@ -21,7 +21,8 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "com.codeborne:selenide:$selenideVersion",
             "com.github.javafaker:javafaker:$fakerVersion",
-            "io.qameta.allure:allure-selenide:$allureVersion"
+            "io.qameta.allure:allure-selenide:$allureVersion",
+            "com.fasterxml.jackson.core:jackson-databind:2.13.0"
     )
 }
 
