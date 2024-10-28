@@ -50,6 +50,8 @@
 ## Что делают тесты?
 Просто текст:  
 - Текст 1
+  * вложенный текст 1
+  * вложенный текст 2
 - Текст 2
 - Текст 3
 </br>
@@ -57,7 +59,7 @@
 
 
 <a name="jenkins"></a>
-## Сборка в Jenkins ................ <img alt="Jenkins" height="32" width="32" src="img/icons/Jenkins.svg"/>
+## Сборка в Jenkins
 Тесты запускаются только через [Jenkins](https://jenkins.autotests.cloud/job/qa_homework_14_jenkins_crowdtesting_project/)  
 <img src="images/Jenkins.png" width="900">
 В качестве параметров можно выбрать:  
