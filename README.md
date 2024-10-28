@@ -57,7 +57,7 @@
 
 
 <a name="jenkins"></a>
-<img alt="Jenkins" height="16" width="16" src="img/icons/Jenkins.svg"/> ## Сборка в Jenkins 
+## Сборка в Jenkins ................ <img alt="Jenkins" height="32" width="32" src="img/icons/Jenkins.svg"/>
 Тесты запускаются только через [Jenkins](https://jenkins.autotests.cloud/job/qa_homework_14_jenkins_crowdtesting_project/)  
 <img src="images/Jenkins.png" width="900">
 В качестве параметров можно выбрать:  
