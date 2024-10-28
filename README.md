@@ -11,6 +11,8 @@
 </br>
 
 
+
+
 <a name="table-of-contents"></a>
 ## Содержание:
 * [Технологии и инструменты](#tools)
@@ -24,6 +26,8 @@
 * [Примеры видео выполнения тестов на Selenoid](#video)
 </br>
 </br>
+
+
 
 
 <a name="tools"></a>
@@ -46,11 +50,15 @@
 </br>
 
 
+
+
 <a name="tests"></a>
 ## Что делают тесты?
-Тесты проверяют разные страницы сайта.
+Тесты проверяют разные страницы сайта на работоспособность и корректность данных.
+Посмотреть все тесты можно развернув список ниже.
+
 <details>
-<summary>Список тестов</summary> 
+<summary>Краткое описание тестов</summary> 
 
 * Общие тесты для всех страниц (тесты реализованы для каждой страницы сайта)
   - [x] Проверка наличия и корректности `телефона` и `email` в верхней части страницы;
@@ -78,23 +86,6 @@
   
 </br>
 </br>
-
-
-<details>
-
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
-
-</details>
 
 
 
