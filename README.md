@@ -15,13 +15,14 @@
 </br>
 </br>
 
+
 <a name="table-of-contents"></a>
 ## Содержание:
 * [Технологии и инструменты](#tools)
 * [Что делают тесты?](#tests)
 * [Сборка в Jenkins](#jenkins)
 * [Запуск из терминала](#console)
-* [Allure отчет](#allure)
+* [Allure-отчет](#allure)
 * [Интеграция с Allure TestOps](#allure-testops)
 * [Интеграция с Jira](#jira)
 * [Уведомление в Telegram при помощи бота](#telegram)
@@ -82,23 +83,53 @@
 </br>
 
 
-<a id="allure"></a>
-## <a name="Отчет в Allure">**Отчет в Allure**</a>
-
+<a name="allure"></a>
+## Allure-отчет
 После выполнения тестов можно посмотреть отчет в [Allure](https://jenkins.autotests.cloud/job/qa_homework_14_jenkins_crowdtesting_project/allure/)
 ### На скриншоте один из результатов выполнения тестов:
-
 <img src="images/AllureReport.png" width="900">
+</br>
+</br>
 
----
 
-<a id="telegramBot"></a>
-## <a name="Бот в Telegram">**Бот в Telegram**</a>
+<a name="llure-testops"></a>
+## Allure TestOps
+Просто текст:  
+- Текст 1
+- Текст 2
+- Текст 3
+</br>
+</br>
 
+
+<a name="jira"></a>
+## Интеграция с Jira
+Просто текст:  
+- Текст 1
+- Текст 2
+- Текст 3
+</br>
+</br>
+
+
+<a name="telegram"></a>
+## Уведомление в Telegram при помощи бота
 После выполнения отчета результат так же предоставит бот в Telegram:
 <p align="center">
     <img src="images/TelegramBot.png">
 </p>
+</br>
+</br>
+
+
+<a name="video"></a>
+## Примеры видео выполнения тестов на Selenoid
+Просто текст:  
+- Текст 1
+- Текст 2
+- Текст 3
+</br>
+</br>
 
 
 
