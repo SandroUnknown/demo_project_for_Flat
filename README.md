@@ -14,7 +14,7 @@
 * [Интеграция с Jira](#jira)
 * [Уведомление в Telegram при помощи бота](#telegram)
 * [Примеры видео выполнения тестов на Selenoid](#video)
-
+</br>
 * <a href="#tests">Что делают тесты?</a>
 * <a href="#jenkins">Сборка в Jenkins</a>
 * <a href="#console">Запуск из терминала</a>
