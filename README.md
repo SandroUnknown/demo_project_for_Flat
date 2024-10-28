@@ -27,7 +27,7 @@
 <a href="https://selenide.org/"><img src="img/icons/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>  
 <a href="https://allurereport.org/"><img src="img/icons/Allure.svg" width="50" height="50"  alt="Allure"/></a>  
 <a href="https://www.jenkins.io/"><img src="img/icons/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
-<a href="https://aerokube.com/selenoid/"><img src="img/iconso/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>  
+<a href="https://aerokube.com/selenoid/"><img src="img/icons/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>  
 </p>
 
 ---
