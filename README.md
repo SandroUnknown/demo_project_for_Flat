@@ -16,6 +16,7 @@
 * <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
 </br>
 
+[A link to that custom anchor](#my-custom-anchor-point)
 
 <a id="tools"></a>
 ## Технологии:
@@ -44,6 +45,7 @@
 
 
 
+ <a name="my-custom-anchor-point"></a>
  
 ---
 <a id="jenkins"></a>
