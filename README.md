@@ -53,9 +53,9 @@
   - вложенный текст 1
   - вложенный текст 2
 * Текст 2
-  - [x] #739
-  - [ ] https://github.com/octo-org/octo-repo/issues/740
-  - [ ] Add delight to the experience when all tasks are complete :tada:
+  - [x] вложенный текст 1
+  - [ ] вложенный текст 2
+  - [ ] вложенный текст 3
 * Текст 3
 </br>
 </br>
