@@ -1,38 +1,5 @@
 # Проект по автоматизации тестирования для компании [ФЛАТ](https://flat-soft.ru/)
-> **ФЛАТ** – российский разработчик</br>
-> программных решений в области телекоммуникаций и ИТ
-
----
-
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
-
-1. First list item
-   - First nested list item
-     - Second nested list item
-
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-- [ ] \(Optional) Open a followup issue
-
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-
+> _**ФЛАТ** – российский разработчик программных решений в области телекоммуникаций и ИТ_
 
 ---
 ##
@@ -107,3 +74,47 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 <p align="center">
     <img src="images/TelegramBot.png">
 </p>
+
+
+
+
+---
+---
+---
+
+
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+- [ ] \(Optional) Open a followup issue
+
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+
+
+
+
+
+
