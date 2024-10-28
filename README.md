@@ -39,6 +39,7 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 * <a href="#jenkins">Jenkins</a>
 * <a href="#allure">Отчет в Allure</a>
 * <a href="#telegramBot">Бот в Telegram</a>
+##
 </br>
 
 ## Содержание:
