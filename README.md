@@ -3,6 +3,7 @@
 </br>
 
 
+<a id="table-of-contents"></a>
 ## Содержание:
 * <a href="#tools">Технологии и инструменты</a>
 * <a href="#tests">Что делают тесты?</a>
@@ -32,6 +33,7 @@
 <a href="https://telegram.org/"><img src="img/icons/Telegram.svg" width="64" height="64"                alt="Telegram"/></a>
 <a href="https://aerokube.com/selenoid"><img src="img/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
 </p>
+<a href="#table-of-contents">Оглавление</a>
 </br>
  
 ---
