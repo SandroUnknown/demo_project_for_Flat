@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования для компании [ФЛАТ](https://flat-soft.ru/)
 > _**ФЛАТ** – российский разработчик программных решений в области телекоммуникаций и ИТ_
-
 </br>
+
 
 ## Содержание:
 * <a href="#tools">Технологии и инструменты</a>
@@ -16,17 +16,6 @@
 </br>
 
 
-## Содержание
-* <a href="#tests">Что делают тесты?</a>
-* <a href="#tools">Технологии</a>
-* <a href="#jenkins">Jenkins</a>
-* <a href="#allure">Отчет в Allure</a>
-* <a href="#telegramBot">Бот в Telegram</a>
-##
-</br>
-
-
-
 <a id="tools"></a>
 ## Технологии:
 <p align="left">  
@@ -38,7 +27,7 @@
 <a href="https://github.com"><img src="img/icons/Github.svg" width="64" height="64"                     alt="Github"/></a>   
 <a href="https://www.jenkins.io"><img src="img/icons/Jenkins.svg" width="64" height="64"                alt="Jenkins"/></a>  
 <a href="https://allurereport.org"><img src="img/icons/Allure.svg" width="64" height="64"               alt="Allure"/></a>  
-<a href="https://qameta.io"><img src="img/icons/AllureTestOps.svg" width="50" height="50"               alt="Allure TestOps"/></a>
+<a href="https://qameta.io"><img src="img/icons/AllureTestOps.svg" width="64" height="64"               alt="Allure TestOps"/></a>
 <a href="https://www.atlassian.com/software/jira"><img src="img/icons/Jira.svg" width="64" height="64"  alt="Jira"/></a>
 <a href="https://telegram.org/"><img src="img/icons/Telegram.svg" width="64" height="64"                alt="Telegram"/></a>
 <a href="https://aerokube.com/selenoid"><img src="img/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
