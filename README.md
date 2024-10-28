@@ -58,7 +58,7 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 <a id="tools"></a>
 ## Технологии:
 
-<p align="center">  
+<p align="left">  
 <a href="https://www.jetbrains.com/idea"><img src="img/icons/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>  
 <a href="https://www.java.com"><img src="img/icons/Java.svg" width="50" height="50"  alt="Java"/></a>  
 <a href="https://github.com"><img src="img/icons/Github.svg" width="50" height="50"  alt="Github"/></a>  
@@ -69,7 +69,8 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 <a href="https://www.jenkins.io"><img src="img/icons/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
 <a href="https://aerokube.com/selenoid"><img src="img/icons/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>  
 </p>
-
+ 
+ 
 ---
 <a id="jenkins"></a>
 ## <a name="Jenkins">**Jenkins**</a>
