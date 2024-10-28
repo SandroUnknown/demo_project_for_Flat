@@ -42,9 +42,7 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 * <a href="#telegramBot">Бот в Telegram</a>
 
 
-## **Содержание:**
-____
-
+## Содержание:
 * <a href="#tools">Технологии и инструменты</a>
 * <a href="#cases">Примеры автоматизированных тест-кейсов</a>
 * <a href="#jenkins">Сборка в Jenkins</a>
