@@ -20,7 +20,7 @@
 
 
 <a name="tools"></a>
-## Технологии: <p align="right"> <a href="#table-of-contents">Оглавление</a> </p>
+## Технологии:
 <p align="left">  
 <a href="https://www.jetbrains.com/idea"><img src="img/icons/Intelij_IDEA.svg" width="64" height="64"   alt="Intellij IDEA"/></a>  
 <a href="https://www.java.com"><img src="img/icons/Java.svg" width="64" height="64"                     alt="Java"/></a>  
