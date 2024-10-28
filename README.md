@@ -5,7 +5,16 @@
 
 <a name="table-of-contents"></a>
 ## Содержание:
-* [Технологии и инструменты](#tools)
+* [Технологии и инструменты]                    (#tools)
+* [Что делают тесты?]                           (#tests)
+* [Сборка в Jenkins]                            (#jenkins)
+* [Запуск из терминала]                         (#console)
+* [Allure отчет]                                (#allure)
+* [Интеграция с Allure TestOps]                 (#allure-testops)
+* [Интеграция с Jira]                           (#jira)
+* [Уведомление в Telegram при помощи бота]      (#telegram)
+* [Примеры видео выполнения тестов на Selenoid] (#video)
+
 * <a href="#tests">Что делают тесты?</a>
 * <a href="#jenkins">Сборка в Jenkins</a>
 * <a href="#console">Запуск из терминала</a>
