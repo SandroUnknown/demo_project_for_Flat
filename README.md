@@ -55,14 +55,8 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 
 ---
-<a id="tests"></a>
-## <a name="Что делают тесты?">**Что делают тесты?**</a>
-
-Шесть тестов, тестирующие разные страницы данного сайта.
-
----
 <a id="tools"></a>
-## <a name="Технологии:">**Технологии:**</a>
+## Технологии:
 
 <p align="center">  
 <a href="https://www.jetbrains.com/idea"><img src="img/icons/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>  
