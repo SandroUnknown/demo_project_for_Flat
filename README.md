@@ -3,6 +3,10 @@
 
 </br>
 </br>
+
+##
+
+</br>
 </br>
 
 <a name="table-of-contents"></a>
@@ -16,6 +20,7 @@
 * [Интеграция с Jira](#jira)
 * [Уведомление в Telegram при помощи бота](#telegram)
 * [Примеры видео выполнения тестов на Selenoid](#video)
+</br>
 </br>
 
 
@@ -36,6 +41,7 @@
 <a href="https://aerokube.com/selenoid"><img src="img/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
 </p>
 </br>
+</br>
 
 
 <a name="tests"></a>
@@ -44,6 +50,7 @@
 - Текст 1
 - Текст 2
 - Текст 3
+</br>
 </br>
 
 
@@ -56,6 +63,7 @@
 - Разрешение экрана
 - Версию браузера
 </br>
+</br>
 
 
 <a name="console"></a>
@@ -64,6 +72,7 @@
 - Текст 1
 - Текст 2
 - Текст 3
+</br>
 </br>
 
 
