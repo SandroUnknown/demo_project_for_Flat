@@ -3,6 +3,19 @@
 
 </br>
 
+## Содержание:
+* <a href="#tools">Технологии и инструменты</a>
+* <a href="#tests">Что делают тесты?</a>
+* <a href="#jenkins">Сборка в Jenkins</a>
+* <a href="#console">Запуск из терминала</a>
+* <a href="#allure">Allure отчет</a>
+* <a href="#allure-testops">Интеграция с Allure TestOps</a>
+* <a href="#jira">Интеграция с Jira</a>
+* <a href="#telegram">Уведомление в Telegram при помощи бота</a>
+* <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
+</br>
+
+
 ## Содержание
 * <a href="#tests">Что делают тесты?</a>
 * <a href="#tools">Технологии</a>
@@ -12,17 +25,7 @@
 ##
 </br>
 
-## Содержание:
-* <a href="#tools">Технологии и инструменты</a>
-* <a href="#cases">Примеры автоматизированных тест-кейсов</a>
-* <a href="#jenkins">Сборка в Jenkins</a>
-* <a href="#console">Запуск из терминала</a>
-* <a href="#allure">Allure отчет</a>
-* <a href="#allure-testops">Интеграция с Allure TestOps</a>
-* <a href="#jira">Интеграция с Jira</a>
-* <a href="#telegram">Уведомление в Telegram при помощи бота</a>
-* <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
-</br>
+
 
 
 <a id="tools"></a>
