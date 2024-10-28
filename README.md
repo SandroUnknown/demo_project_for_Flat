@@ -41,6 +41,21 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 * <a href="#allure">Отчет в Allure</a>
 * <a href="#telegramBot">Бот в Telegram</a>
 
+
+## **Содержание:**
+____
+
+* <a href="#tools">Технологии и инструменты</a>
+* <a href="#cases">Примеры автоматизированных тест-кейсов</a>
+* <a href="#jenkins">Сборка в Jenkins</a>
+* <a href="#console">Запуск из терминала</a>
+* <a href="#allure">Allure отчет</a>
+* <a href="#allure-testops">Интеграция с Allure TestOps</a>
+* <a href="#jira">Интеграция с Jira</a>
+* <a href="#telegram">Уведомление в Telegram при помощи бота</a>
+* <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
+
+
 ---
 <a id="tests"></a>
 ## <a name="Что делают тесты?">**Что делают тесты?**</a>
