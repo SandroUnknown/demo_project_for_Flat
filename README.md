@@ -32,14 +32,17 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 
 ---
-<pre>
-## Содержание
 
+## Содержание
+<pre>
+<br />
+</br>
 * <a href="#tests">Что делают тесты?</a>
 * <a href="#tools">Технологии</a>
 * <a href="#jenkins">Jenkins</a>
 * <a href="#allure">Отчет в Allure</a>
 * <a href="#telegramBot">Бот в Telegram</a>
+&nbsp
 </pre>
 
 ## Содержание:
