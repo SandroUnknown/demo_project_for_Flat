@@ -20,7 +20,7 @@
 
 
 <a name="tools"></a>
-## Технологии:
+## Технологии и инструменты
 <p align="left">  
 <a href="https://www.jetbrains.com/idea"><img src="img/icons/Intelij_IDEA.svg" width="64" height="64"   alt="Intellij IDEA"/></a>  
 <a href="https://www.java.com"><img src="img/icons/Java.svg" width="64" height="64"                     alt="Java"/></a>  
@@ -38,26 +38,32 @@
 </br>
 
 
+<a name="tests"></a>
+## Что делают тесты?
+......
+......
+......
+</br>
 
 
-
-
- 
- 
----
-<a id="jenkins"></a>
-## <a name="Jenkins">**Jenkins**</a>
-
+<a name="jenkins"></a>
+## Сборка в Jenkins
 Тесты запускаются только через [Jenkins](https://jenkins.autotests.cloud/job/qa_homework_14_jenkins_crowdtesting_project/)  
-
 <img src="images/Jenkins.png" width="900">
-
 В качестве параметров можно выбрать:  
 - Браузер
 - Разрешение экрана
 - Версию браузера
+</br>
 
----
+
+<a name="console"></a>
+## Запуск из терминала
+......
+......
+......
+</br>
+
 
 <a id="allure"></a>
 ## <a name="Отчет в Allure">**Отчет в Allure**</a>
