@@ -35,6 +35,15 @@
 </p>
 <a href="#table-of-contents">Оглавление</a>
 </br>
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+
+
  
 ---
 <a id="jenkins"></a>
