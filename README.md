@@ -40,7 +40,8 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 * <a href="#jenkins">Jenkins</a>
 * <a href="#allure">Отчет в Allure</a>
 * <a href="#telegramBot">Бот в Telegram</a>
-
+<br />
+<br />
 
 ## Содержание:
 * <a href="#tools">Технологии и инструменты</a>
@@ -52,7 +53,6 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 * <a href="#jira">Интеграция с Jira</a>
 * <a href="#telegram">Уведомление в Telegram при помощи бота</a>
 * <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
-
 
 ---
 <a id="tools"></a>
