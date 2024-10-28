@@ -3,9 +3,11 @@
 </br>
 
 
+<a name="table-of-contents"></a>
 <a id="table-of-contents"></a>
 ## Содержание:
 * <a href="#tools">Технологии и инструменты</a>
+* [Технологии и инструменты](#tools)
 * <a href="#tests">Что делают тесты?</a>
 * <a href="#jenkins">Сборка в Jenkins</a>
 * <a href="#console">Запуск из терминала</a>
@@ -16,8 +18,9 @@
 * <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
 </br>
 
-[A link to that custom anchor](#my-custom-anchor-point)
 
+
+<a name="tools"></a>
 <a id="tools"></a>
 ## Технологии:
 <p align="left">  
@@ -45,7 +48,7 @@
 
 
 
- <a name="my-custom-anchor-point"></a>
+ 
  
 ---
 <a id="jenkins"></a>
