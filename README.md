@@ -4,9 +4,7 @@
 
 
 <a name="table-of-contents"></a>
-<a id="table-of-contents"></a>
 ## Содержание:
-* <a href="#tools">Технологии и инструменты</a>
 * [Технологии и инструменты](#tools)
 * <a href="#tests">Что делают тесты?</a>
 * <a href="#jenkins">Сборка в Jenkins</a>
@@ -19,9 +17,7 @@
 </br>
 
 
-
 <a name="tools"></a>
-<a id="tools"></a>
 ## Технологии:
 <p align="left">  
 <a href="https://www.jetbrains.com/idea"><img src="img/icons/Intelij_IDEA.svg" width="64" height="64"   alt="Intellij IDEA"/></a>  
