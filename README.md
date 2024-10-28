@@ -51,8 +51,9 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 * <a href="#jira">Интеграция с Jira</a>
 * <a href="#telegram">Уведомление в Telegram при помощи бота</a>
 * <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
-
+</br>
 ---
+
 <a id="tools"></a>
 ## Технологии:
 
