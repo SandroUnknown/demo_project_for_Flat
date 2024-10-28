@@ -25,12 +25,8 @@
 ##
 </br>
 
-
-
-
 <a id="tools"></a>
 ## Технологии:
-
 <p align="left">  
 <a href="https://www.jetbrains.com/idea"><img src="img/icons/Intelij_IDEA.svg" width="50" height="50"   alt="Intellij IDEA"/></a>  
 <a href="https://www.java.com"><img src="img/icons/Java.svg" width="50" height="50"                     alt="Java"/></a>  
@@ -45,7 +41,26 @@
 <a href="https://telegram.org/"><img src="img/icons/Telegram.svg" width="50" height="50"                alt="Telegram"/></a>
 <a href="https://aerokube.com/selenoid"><img src="img/icons/Selenoid.svg" width="50" height="50"        alt="Selenoid"/></a>  
 </p>
- 
+</br>
+
+
+<a id="tools"></a>
+## Технологии:
+<p align="left">  
+<a href="https://www.jetbrains.com/idea"><img src="img/icons/Intelij_IDEA.svg" width="64" height="64"   alt="Intellij IDEA"/></a>  
+<a href="https://www.java.com"><img src="img/icons/Java.svg" width="64" height="64"                     alt="Java"/></a>  
+<a href="https://junit.org/junit5"><img src="img/icons/JUnit5.svg" width="64" height="64"               alt="JUnit 5"/></a>  
+<a href="https://gradle.org"><img src="img/icons/Gradle.svg" width="64" height="64"                     alt="Gradle"/></a>  
+<a href="https://selenide.org"><img src="img/icons/Selenide.svg" width="64" height="64"                 alt="Selenide"/></a>
+<a href="https://github.com"><img src="img/icons/Github.svg" width="64" height="64"                     alt="Github"/></a>   
+<a href="https://www.jenkins.io"><img src="img/icons/Jenkins.svg" width="64" height="64"                alt="Jenkins"/></a>  
+<a href="https://allurereport.org"><img src="img/icons/Allure.svg" width="64" height="64"               alt="Allure"/></a>  
+<a href="https://qameta.io"><img src="img/icons/AllureTestOps.svg" width="64" height="64"               alt="Allure TestOps"/></a>
+<a href="https://www.atlassian.com/software/jira"><img src="img/icons/Jira.svg" width="64" height="64"   alt="Jira"/></a>
+<a href="https://telegram.org/"><img src="img/icons/Telegram.svg" width="64" height="64"                alt="Telegram"/></a>
+<a href="https://aerokube.com/selenoid"><img src="img/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
+</p>
+</br>
  
 ---
 <a id="jenkins"></a>
