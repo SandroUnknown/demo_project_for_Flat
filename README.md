@@ -3,12 +3,7 @@
 
 </br>
 </br>
-
----
-
 </br>
-</br>
-
 
 <a name="table-of-contents"></a>
 ## Содержание:
