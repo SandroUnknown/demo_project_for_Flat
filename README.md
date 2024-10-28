@@ -35,14 +35,10 @@
 <a href="https://telegram.org/"><img src="img/icons/Telegram.svg" width="64" height="64"                alt="Telegram"/></a>
 <a href="https://aerokube.com/selenoid"><img src="img/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
 </p>
-<a href="#table-of-contents">Оглавление</a>
 </br>
 
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+
 
 
 
@@ -119,6 +115,11 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 > Advises about risks or negative outcomes of certain actions.
 
 
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 
 
