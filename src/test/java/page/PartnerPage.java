@@ -2,7 +2,6 @@ package page;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Link;
 import io.qameta.allure.Owner;
@@ -14,8 +13,6 @@ import page.components.TopBar;
 import page.components.TopMenu;
 
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.text.Format;
 import java.util.List;
 
 import static com.codeborne.selenide.Condition.*;
@@ -24,11 +21,6 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.fail;
 
-@Tag("PartnerPage")
-@Feature("Проверка страницы партнеров https://flat-soft.ru/partner/partnery/")
-@DisplayName("Проверка страницы партнеров.")
-@Link(value = "Test page", url = "https://flat-soft.ru/partner/partnery/")
-@Owner("Petyukov Alexander")
 public class PartnerPage {
 
     private final SelenideElement
@@ -97,7 +89,6 @@ public class PartnerPage {
             int arraySize = Math.max(pageCount - 4, 0);
 
             for (models.Partners.Partner partner : partners) {
-
                 boolean[] checkedPages = new boolean[arraySize];
 
                 do {
@@ -110,7 +101,6 @@ public class PartnerPage {
                         break;
                     }
                     catch (com.codeborne.selenide.ex.ElementNotFound e) {
-
                         checkedPages[currentPage] = true;
                         currentPage = getNonCheckedPage(checkedPages, currentPage);
 

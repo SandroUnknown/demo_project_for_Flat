@@ -1,5 +1,8 @@
 package tests;
 
+import io.qameta.allure.Feature;
+import io.qameta.allure.Link;
+import io.qameta.allure.Owner;
 import io.qameta.allure.internal.shadowed.jackson.databind.ObjectMapper;
 import models.Partners;
 import org.junit.jupiter.api.DisplayName;
@@ -18,6 +21,11 @@ import java.util.stream.Stream;
 
 import static io.qameta.allure.Allure.step;
 
+@Tag("PartnerPage")
+@Feature("Проверка страницы партнеров https://flat-soft.ru/partner/partnery/")
+@DisplayName("Проверка страницы партнеров.")
+@Link(value = "Test page", url = "https://flat-soft.ru/partner/partnery/")
+@Owner("Petyukov Alexander")
 public class PartnerPageTest extends TestBase {
 
     private final PartnerPage partnerPage = new PartnerPage();
