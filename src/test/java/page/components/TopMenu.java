@@ -19,9 +19,9 @@ public class TopMenu {
     public void checkMenuItems() throws IOException {
         Menu menu = new ObjectMapper().readValue(new File("src/test/resources/data/menu.json"), Menu.class);
 
-        for (models.Menu.Item item : menu.getItem()) {
+        for (models.Menu.Item item : menu.getItems()) {
             if (item.getURL().isEmpty()) {
-                for (Menu.SubItem subItem : item.getSubItem()) {
+                for (Menu.SubItem subItem : item.getSubItems()) {
                     menuSelector.
                             findBy(text(item.getName())).hover().
                             $$("ul li").findBy(text(subItem.getName())).

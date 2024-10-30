@@ -1,16 +1,15 @@
 package models;
 
-
 import java.util.List;
 
 public class Menu {
     private List<Item> Item;
 
-    public List<Item> getItem() {
+    public List<Item> getItems() {
         return Item;
     }
 
-    public void setItem(List<Item> item) {
+    public void setItems(List<Item> item) {
         this.Item = item;
     }
 
@@ -35,11 +34,11 @@ public class Menu {
             this.URL = url;
         }
 
-        public List<SubItem> getSubItem() {
+        public List<SubItem> getSubItems() {
             return SubItem;
         }
 
-        public void setSubItem(List<SubItem> subItem) {
+        public void setSubItems(List<SubItem> subItem) {
             this.SubItem = subItem;
         }
     }

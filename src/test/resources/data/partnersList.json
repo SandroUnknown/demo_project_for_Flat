@@ -1,0 +1,188 @@
+{
+  "cities": [
+    {
+      "name": "Москва",
+      "partners": [
+        {
+          "name": "ХАЙТЭК ИНТЕГРАЦИЯ",
+          "url": "/khajtek-integratsiya",
+          "phone": "+7(495)137-59-95",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Дельта Телеком",
+          "url": "/delta-telekom",
+          "phone": "+7(495)984-27-60",
+          "level": "Золотой"
+        },
+        {
+          "name": "Open Vision",
+          "url": "/open-vision",
+          "phone": "+7(495)846-02-14",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ЛайтНэт",
+          "url": "/lajtnet",
+          "phone": "+7(495)232-48-48",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Радиотелекоммуникации",
+          "url": "/rtk-radiotelekommunikatsii",
+          "phone": "+7(351)799-07-07",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ИМБА ИТ",
+          "url": "/inzhiniring-grupp",
+          "phone": "+7(495)969-39-77",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "DC  Engineering",
+          "url": "/disi-inzhiniring",
+          "phone": "+7(495)108-61-56",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "I CORE",
+          "url": "/i-core",
+          "phone": "+7(495)665-06-04",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Ле-Интеграция",
+          "url": "/le-integratsiya",
+          "phone": "+7(499)340-24-33",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ЮНИТЕХ",
+          "url": "/yunitekh",
+          "phone": "+7(926)992-77-91",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Теллур Сетевые технологии",
+          "url": "/tellur-setevye-tekhnologii",
+          "phone": "+7(495)926-00-00",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Rubytech",
+          "url": "/rubytech",
+          "phone": "+7(495)788-99-99",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "АМТ-ГРУП",
+          "url": "/index.php/amt-grup-moskva",
+          "phone": "+7(495)725-76-60",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Атос АйТи Солюшенс энд Сервисез",
+          "url": "/auxo-atos-ajti-solyushens-end-servisez",
+          "phone": "+7(495)737-26-10",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Платформикс",
+          "url": "/ibs-platformix",
+          "phone": "+7(495)967-80-50",
+          "level": "Серебряный"
+        },
+        {
+          "name": "CompuWay",
+          "url": "/compuway",
+          "phone": "+7(495)925-55-19",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "КорИнфоТех",
+          "url": "/korinfotekh",
+          "phone": "+7(499)262-54-55",
+          "level": "Авторизованный"
+        },
+
+        {
+          "name": "СПЕЙСТЕЛ",
+          "url": "/spejstel-gorbunova",
+          "phone": "8(495)789-00-00",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Softline",
+          "url": "/softline-proekty",
+          "phone": "+7(800)232-00-23",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Амитек-Сервис",
+          "url": "/amitek-servis",
+          "phone": "+7(495)925-30-76",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "КРОК",
+          "url": "/krok",
+          "phone": "+7(495)974-22-74",
+          "level": "Золотой"
+        },
+        {
+          "name": "Crabbit",
+          "url": "/crabbit",
+          "phone": "+7(495)106-00-49",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ООО \"ИТХАТ\"",
+          "url": "/ooo-itkhat",
+          "phone": "+7 (495) 409 5432",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Санкт -Петербург",
+      "partners": [
+        {
+          "name": "SIS/СИС СЕВЕРО-ЗАПАД/SIS инкорпорейтед Санкт-Петербург ",
+          "url": "/index.php/sis-sis-severo-zapad-sis-inkorporejted-sankt-peterburg",
+          "phone": "+7(495)775-25-75",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ТРИНИТИ",
+          "url": "/index.php/triniti-moskva",
+          "phone": "+7(800)200-59-60",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Пятый Элемент",
+          "url": "/pyatyj-element",
+          "phone": "+7(812)318-58-10",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "БЕЛТЕЛ Санкт-Петербург",
+          "url": "/index.php/beltel-moskva",
+          "phone": "+7(812)303-91-20",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Ростов-на-Дону",
+      "partners": [
+        {
+          "name": "ГК ЮСК Ростов-На-Дону",
+          "url": "/index.php/gruppa-kompanij-yusk-yuzhnaya-softvernaya-kompaniya-moskva",
+          "phone": "+7(495)023-49-50",
+          "level": "Авторизованный"
+        }
+      ]
+    }
+  ]
+}

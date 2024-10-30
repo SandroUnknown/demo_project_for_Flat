@@ -1,9 +1,9 @@
 {
-  "item": [
+  "items": [
     {
       "name": "Продукты",
       "url": "",
-      "subItem": [
+      "subItems": [
         {
           "name": "ФЛАТ SoftSwitch",
           "url": "https://flat-soft.ru/produkty/flat-softswitch"
@@ -49,7 +49,7 @@
     {
       "name": "Решения",
       "url": "",
-      "subItem": [
+      "subItems": [
         {
           "name": "Топливно-энергетический комплекс",
           "url": "https://flat-soft.ru/resheniya/toplivno-energeticheskij-kompleks"
@@ -75,12 +75,12 @@
     {
       "name": "Миграция",
       "url": "https://flat-soft.ru/migratsiya",
-      "subItem": []
+      "subItems": []
     },
     {
       "name": "Партнеры",
       "url": "",
-      "subItem": [
+      "subItems": [
         {
           "name": "Партнеры",
           "url": "https://flat-soft.ru/partner/partnery"
@@ -94,7 +94,7 @@
     {
       "name": "Учебный центр",
       "url": "",
-      "subItem": [
+      "subItems": [
         {
           "name": "Интерактивный календарь",
           "url": "https://flat-soft.ru/uchebnyj-tsent/raspisanie-kursov"
@@ -116,22 +116,22 @@
     {
       "name": "Поддержка",
       "url": "https://flat-soft.ru/support",
-      "subItem": []
+      "subItems": []
     },
     {
       "name": "Стать партнером",
       "url": "https://flat-soft.ru/stat-partnerom",
-      "subItem": []
+      "subItems": []
     },
     {
       "name": "ФЛАТ-ПРО",
       "url": "https://flat-pro.ru/",
-      "subItem": []
+      "subItems": []
     },
     {
       "name": "Вход",
       "url": "https://partnerportal.flat-soft.ru/",
-      "subItem": []
+      "subItems": []
     }
   ]
 }

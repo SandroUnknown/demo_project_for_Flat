@@ -24,7 +24,8 @@ public class TestBase {
                 "enableVideo", true
         ));
 
-        //Configuration.baseUrl = "https://demoqa.com";
+        Configuration.timeout = 2000;
+
         Configuration.baseUrl = "https://flat-soft.ru";
 
 //        String login = System.getProperty("login");
