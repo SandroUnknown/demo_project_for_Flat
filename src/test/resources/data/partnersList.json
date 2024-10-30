@@ -137,6 +137,120 @@
           "level": "Авторизованный"
         },
         {
+          "name": "ЛАНИТ-Интеграция",
+          "url": "/lanit-integratsiya",
+          "phone": "+7(495)967 66 57",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "АЛАС",
+          "url": "/alas",
+          "phone": "+7(495)416-60-01",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ГК Нейтроникс",
+          "url": "/gk-nejtroniks",
+          "phone": "+7(495)132-64-28",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "CTI Москва",
+          "url": "/index.php/cti-moskva",
+          "phone": "+7(495)784-73-13",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Инфосистемы Джет",
+          "url": "/index.php/infosistemy-dzhet-moskva",
+          "phone": "+7(492)266-69-49",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ООО «ЦТС»",
+          "url": "/index.php/ooo-tsts",
+          "phone": "+7(495)335-08-05",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "БЕЛТЕЛ Москва",
+          "url": "/index.php/beltel-moskva",
+          "phone": "+7(812)303-91-20",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Борлас",
+          "url": "/borlas",
+          "phone": "+7(495)478-77-00",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "INLINE Technologies",
+          "url": "/inline-technologies",
+          "phone": "+7(495)721-35-05",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "АМАРА ЛАБ",
+          "url": "/amara-lab",
+          "phone": "+7(499)959-61-71",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "К2 Интеграция",
+          "url": "/k2-integratsiya",
+          "phone": "+7(495)974-10-64",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Т1 Интеграция",
+          "url": "/t1-integratsiya",
+          "phone": "+7(495)727-09-85",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "STEP LOGIC",
+          "url": "/step-logic",
+          "phone": "+7(495)775-31-20",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ООО «АЙТИ ФМ»",
+          "url": "/index.php/ooo-ajti-fm",
+          "phone": "+7(495)215-12-90",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ООО «УНИКОМ»",
+          "url": "/index.php/ooo-unikom",
+          "phone": "+7(915)000-05-34",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ООО «Эр Лайн»",
+          "url": "/index.php/ooo-er-lajn",
+          "phone": "+7(495)123-35-45",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Интеллектика",
+          "url": "/intellektika",
+          "phone": "+7(495)215-11-80",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "ООО «Альянс групп»",
+          "url": "/ooo-alyans-grupp",
+          "phone": "+7 (499) 7-500-300",
+          "level": "Авторизованный"
+        },
+        {
+          "name": "Инфосэл",
+          "url": "/infosel",
+          "phone": "+7(495)651-82-85",
+          "level": "Авторизованный"
+        },
+        {
           "name": "ООО \"ИТХАТ\"",
           "url": "/ooo-itkhat",
           "phone": "+7 (495) 409 5432",
@@ -180,6 +294,160 @@
           "name": "ГК ЮСК Ростов-На-Дону",
           "url": "/index.php/gruppa-kompanij-yusk-yuzhnaya-softvernaya-kompaniya-moskva",
           "phone": "+7(495)023-49-50",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Саров",
+      "partners": [
+        {
+          "name": "Cute it",
+          "url": "/cute-it",
+          "phone": " ",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Иркутск",
+      "partners": [
+        {
+          "name": "ИСИБ",
+          "url": "/index.php/sibirskij-tsentr-informatsionnykh-tekhnologij-krasnoyarsk",
+          "phone": "+7(391)216-82-02",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Казань",
+      "partners": [
+        {
+          "name": "ФД-Телеком",
+          "url": "/fd-telekom",
+          "phone": "+7(843)202-41-41",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Омск",
+      "partners": [
+        {
+          "name": "ЮВА",
+          "url": "/yuva",
+          "phone": "+7(3812)79-00-07",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Саранск",
+      "partners": [
+        {
+          "name": "ООО \"Новые Решения\"",
+          "url": "/ooo-novye-resheniya",
+          "phone": "+7(499)579-88-34, +7(8342)34-04-03",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Нижний Новгород",
+      "partners": [
+        {
+          "name": "ЛИС",
+          "url": "/lis",
+          "phone": "+7(831)435-12-21",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Хабаровск",
+      "partners": [
+        {
+          "name": "ХАБЭКО-ПАРТНЕР (ГК R.Partner)",
+          "url": "/khabeko-partner-gk-r-partner",
+          "phone": "+7 (4212) 57-07-07",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Владивосток",
+      "partners": [
+        {
+          "name": "ЭМИТЭЛ",
+          "url": "/emitel",
+          "phone": "+74232054988 +74232684977",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Республика Беларусь (Минск)",
+      "partners": [
+        {
+          "name": "КРАФТСНАБ",
+          "url": "/kraftsnab",
+          "phone": "375(29)774-02-69",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Казахстан (Алматы)",
+      "partners": [
+        {
+          "name": "XJ COMPANY",
+          "url": "/xj-company",
+          "phone": "+7(727)392-26-61",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Казахстан (Астана)",
+      "partners": [
+        {
+          "name": "NJForce",
+          "url": "/njforce",
+          "phone": " ",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Екатеринбург",
+      "partners": [
+        {
+          "name": "ООО\"МС-Технологии\"",
+          "url": "/ooo-ms-tekhnologii",
+          "phone": "+ 7 (343) 328-69-96",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Новосибирск",
+      "partners": [
+        {
+          "name": "ТРИТ",
+          "url": "/trit",
+          "phone": "+7(383)319-04-04",
+          "level": "Авторизованный"
+        }
+      ]
+    },
+    {
+      "name": "Барнаул",
+      "partners": [
+        {
+          "name": "GALEX",
+          "url": "/galex",
+          "phone": "+7(3852)501 664",
           "level": "Авторизованный"
         }
       ]

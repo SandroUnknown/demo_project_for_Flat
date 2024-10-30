@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.MethodSource;
 import page.PartnerPage;
 
@@ -82,6 +83,18 @@ public class PartnerPageTest extends TestBase {
         });
         step("Проверить всех партнеров в городе " + cityName, () -> {
             partnerPage.checkPartners(cityName, partners);
+        });
+    }
+
+    @DisplayName("Найти партнера (через поиск) и проверить его.")
+    @CsvFileSource(resources = "/data/partnersForSearch.scv")
+    @ParameterizedTest(name = "Партнер: {0}")
+    void searchPartner(String partnerName, String partnerUrl, String partnerPhone, String partnerLevel) {
+        step("Открыть страницу.", () -> {
+            partnerPage.openPage(url);
+        });
+        step("Найти партнера (через поиск) и проверить его.", () -> {
+            partnerPage.searchPartner(partnerName, partnerUrl, partnerPhone, partnerLevel);
         });
     }
 }

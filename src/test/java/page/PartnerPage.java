@@ -32,8 +32,9 @@ import static org.junit.jupiter.api.Assertions.fail;
 public class PartnerPage {
 
     private final SelenideElement
-            cityListSelector     = $(".jlmf-list-2"),
-            filterButtonSelector = $(".jlmf-button");
+            cityListSelector      = $(".jlmf-list-2"),
+            filterButtonSelector  = $(".jlmf-button"),
+            partnerSearchSelector = $("input#naimenovanie-kompanii-164");
 
     private final ElementsCollection
             partnerCardsSelector = $$("div.col-lg-6");
@@ -139,5 +140,20 @@ public class PartnerPage {
         }
 
         return -1;
+    }
+
+    @DisplayName("Найти партнера (через поиск) и проверить его.")
+    public PartnerPage searchPartner(String name, String url, String phone, String level) {
+        step("Ввести в поле поиска '" + name + "' и нажать [enter].", () -> {
+            partnerSearchSelector.setValue(name).pressEnter();
+        });
+        step("Проверить результат поиска.", () -> {
+            partnerCardsSelector
+                .findBy(text(name))
+                .shouldHave(text(phone))
+                .shouldHave(text(level))
+                .$("a").shouldHave(href(url));
+        });
+        return this;
     }
 }
