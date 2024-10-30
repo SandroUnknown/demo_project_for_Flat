@@ -6,10 +6,10 @@
 >_<p align="justify">Программное обеспечение ФЛАТ решает задачи по организации коммуникаций, приведения разрозненной инфраструктуры к единому централизованному стандарту, предоставляет сервисы оперативного и функционального контроля, учета и управления коммуникационными ресурсами, предлагая на российском рынке решения по записи переговоров, тарификации вызовов, централизованного управления парком телефонных аппаратов, а также продукты для развертывания современного контактного центра.</p>_
 > 
 >_<p align="justify">Программные решения компании включены в Реестр российских программ для электронных вычислительных машин и баз данных Минкомсвязи РФ.</p>_
-</br>
-</br>
-</br>
 
+</br>
+</br>
+</br>
 
 
 
@@ -33,18 +33,18 @@
 <a name="tools"></a>
 ## Технологии и инструменты
 <p align="left">  
-<a href="https://www.jetbrains.com/idea"><img src="img/icons/Intelij_IDEA.svg" width="64" height="64"   alt="Intellij IDEA"/></a>  
-<a href="https://www.java.com"><img src="img/icons/Java.svg" width="64" height="64"                     alt="Java"/></a>  
-<a href="https://junit.org/junit5"><img src="img/icons/JUnit5.svg" width="64" height="64"               alt="JUnit 5"/></a>  
-<a href="https://gradle.org"><img src="img/icons/Gradle.svg" width="64" height="64"                     alt="Gradle"/></a>  
-<a href="https://selenide.org"><img src="img/icons/Selenide.svg" width="64" height="64"                 alt="Selenide"/></a>
-<a href="https://github.com"><img src="img/icons/Github.svg" width="64" height="64"                     alt="Github"/></a>   
-<a href="https://www.jenkins.io"><img src="img/icons/Jenkins.svg" width="64" height="64"                alt="Jenkins"/></a>  
-<a href="https://allurereport.org"><img src="img/icons/Allure.svg" width="64" height="64"               alt="Allure"/></a>  
-<a href="https://qameta.io"><img src="img/icons/AllureTestOps.svg" width="64" height="64"               alt="Allure TestOps"/></a>
-<a href="https://www.atlassian.com/software/jira"><img src="img/icons/Jira.svg" width="64" height="64"  alt="Jira"/></a>
-<a href="https://telegram.org/"><img src="img/icons/Telegram.svg" width="64" height="64"                alt="Telegram"/></a>
-<a href="https://aerokube.com/selenoid"><img src="img/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
+<a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="64" height="64"   alt="Intellij IDEA"/></a>  
+<a href="https://www.java.com"><img src="media/icons/Java.svg" width="64" height="64"                     alt="Java"/></a>  
+<a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="64" height="64"               alt="JUnit 5"/></a>  
+<a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="64" height="64"                     alt="Gradle"/></a>  
+<a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="64" height="64"                 alt="Selenide"/></a>
+<a href="https://github.com"><img src="media/icons/Github.svg" width="64" height="64"                     alt="Github"/></a>   
+<a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="64" height="64"                alt="Jenkins"/></a>  
+<a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="64" height="64"               alt="Allure"/></a>  
+<a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="64" height="64"               alt="Allure TestOps"/></a>
+<a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="64" height="64"  alt="Jira"/></a>
+<a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="64" height="64"                alt="Telegram"/></a>
+<a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
 </p>
 </br>
 </br>
