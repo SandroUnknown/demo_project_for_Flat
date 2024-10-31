@@ -19,7 +19,7 @@
 * [Технологии и инструменты](#tools)
 * [Что делают тесты?](#tests)
 * [Сборка в Jenkins](#jenkins)
-* [Запуск из терминала](#console)
+* [Запуск тестов из терминала](#console)
 * [Allure-отчет](#allure)
 * [Интеграция с Allure TestOps](#allure-testops)
 * [Интеграция с Jira](#jira)
@@ -100,26 +100,43 @@
 - Браузер
 - Разрешение экрана
 - Версию браузера
+
 </br>
 </br>
+
 
 
 <a name="console"></a>
-## Запуск из терминала
-### Локальный запуск
-```bash
-bla lba
+## Запуск тестов из терминала
+
+Тесты можно запускать как с передачей параметров, так и без них (в этом случае тесты будут запущены с параметрами по умолчанию).
+<details>
+<summary>Краткое описание параметров</summary>
+описание
+</details>
+
+### Локальный запуск (без параметров)
+```
+gradle clean test
 ```
 
-### Удаленный запуск
+### Удаленный запуск (с параметрами)
 ```bash  
-Просто текст:  
-- Текст 1
-- Текст 2
-- Текст 3
+clean
+-Dtask="${TASK}"
+-DremoteUrl="${REMOTE_URL}"
+-DbaseUrl="${BASE_URL}"
+-Dbrowser="${BROWSER}"
+-DbrowserSize="${BROWSER_SIZE}"
+-DbrowserVersion="${BROWSER_VERSION}"
 ```
+
 </br>
 </br>
+
+
+
+
 
 
 <a name="allure"></a>
@@ -215,6 +232,13 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 | git diff     | git diff       | git diff      |
 
 
+
+<details>
+<summary>Tips for collapsed sections</summary>
+  бла
+  бла 
+  бла
+<details>
 
 
 
