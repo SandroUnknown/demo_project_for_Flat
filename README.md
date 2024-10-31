@@ -131,17 +131,18 @@
 >gradle clean test
 >```
 >bla bal
+</br>
 
 **Удаленный запуск (с параметрами)**
-```
-clean
--Dtask="${TASK}"
--DremoteUrl="${REMOTE_URL}"
--DbaseUrl="${BASE_URL}"
--Dbrowser="${BROWSER}"
--DbrowserVersion="${BROWSER_VERSION}"
--DbrowserSize="${BROWSER_SIZE}"
-```
+>```
+>clean
+>-Dtask="${TASK}"
+>-DremoteUrl="${REMOTE_URL}"
+>-DbaseUrl="${BASE_URL}"
+>-Dbrowser="${BROWSER}"
+>-DbrowserVersion="${BROWSER_VERSION}"
+>-DbrowserSize="${BROWSER_SIZE}"
+>```
 
 </br>
 </br>
