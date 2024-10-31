@@ -64,10 +64,10 @@
 <a href="https://www.jetbrains.com/idea"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="64" height="64"   title="Intellij IDEA"/></a> 
 <a href="https://www.jetbrains.com/idea"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="64" height="64"           title="Intellij IDEA"/></a> 
 <a href="https://junit.org/junit5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" width="64" height="64"               title="JUnit 5"/></a>  
-<a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="64" height="64"                     alt="Gradle"/></a>  
+<a href="https://gradle.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" width="64" height="64"                   title="Gradle"/></a>  
 <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="64" height="64"                 alt="Selenide"/></a>
-<a href="https://github.com"><img src="media/icons/Github.svg" width="64" height="64"                     alt="Github"/></a>   
-<a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="64" height="64"                alt="Jenkins"/></a>  
+<a href="https://github.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="64" height="64"                   title="Github"/></a>   
+<a href="https://www.jenkins.io"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="64" height="64"             title="Jenkins"/></a>  
 <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="64" height="64"               alt="Allure"/></a>  
 <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="64" height="64"               alt="Allure TestOps"/></a>
 <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="64" height="64"  alt="Jira"/></a>
