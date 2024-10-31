@@ -64,6 +64,7 @@ public class MainPageTest extends TestBase {
         });
     }
 
+    @Tag("MainPageContent")
     @DisplayName("Проверить содержимое страницы.")
     @Test
     void pageContentTest() {

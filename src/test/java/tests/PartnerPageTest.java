@@ -82,6 +82,7 @@ public class PartnerPageTest extends TestBase {
                 .map(data -> Arguments.of(data.getName(), data.getPartners()));
     }
 
+    @Tag("PartnerPageContent")
     @DisplayName("Проверить партнеров.")
     @MethodSource
     @ParameterizedTest(name = "Город: {0}")
@@ -94,6 +95,7 @@ public class PartnerPageTest extends TestBase {
         });
     }
 
+    @Tag("PartnerPageContent")
     @DisplayName("Найти партнера (через поиск) и проверить его.")
     @CsvFileSource(resources = "/data/partnersForSearch.scv")
     @ParameterizedTest(name = "Партнер: {0}")
