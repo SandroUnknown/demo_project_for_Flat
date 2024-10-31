@@ -22,8 +22,8 @@ import java.util.stream.Stream;
 import static io.qameta.allure.Allure.step;
 
 @Tag("PartnerPage")
-@Feature("Проверка страницы партнеров https://flat-soft.ru/partner/partnery/")
-@DisplayName("Проверка страницы партнеров.")
+@Feature("Проверить страницу партнеров: https://flat-soft.ru/partner/partnery/")
+@DisplayName("Проверить страницу партнеров.")
 @Link(value = "Test page", url = "https://flat-soft.ru/partner/partnery/")
 @Owner("Petyukov Alexander")
 public class PartnerPageTest extends TestBase {
