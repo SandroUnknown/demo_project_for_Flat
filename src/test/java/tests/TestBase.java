@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
+import static java.lang.String.format;
 
 public class TestBase {
 
@@ -23,24 +24,17 @@ public class TestBase {
                 "enableVideo", true
         ));
 
-
         Configuration.timeout = 2000;
-
         Configuration.baseUrl = "https://flat-soft.ru";
-
-//        String login = System.getProperty("login");
-//        String rwhost = System.getProperty("rwhost");
-//        if (login != null && rwhost != null) Configuration.remote = format("https://%s@%s/wd/hub", login, rwhost);
-//
-//        String browser = System.getProperty("browser", "chrome 125.0");
-//        int spaceIndex = browser.indexOf(" ");
-//        Configuration.browser = browser.substring(0, spaceIndex);
-//        Configuration.browserVersion = browser.substring(spaceIndex + 1);
-        //Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-        Configuration.browserSize =  "2560x1440";
-
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserCapabilities = capabilities;
+
+        String login = System.getProperty("login");
+        String rwhost = System.getProperty("rwhost");
+        if (login != null && rwhost != null) Configuration.remote = format("https://%s@%s/wd/hub", login, rwhost);
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "125.0");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
     }
 
     @BeforeEach
