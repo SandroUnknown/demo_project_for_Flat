@@ -8,7 +8,6 @@ version = '1.0-SNAPSHOT'
 
 def junitVersion = "5.11.1",
     selenideVersion = "7.5.1",
-    fakerVersion = "1.0.2",
     allureVersion = "2.29.0"
 
 
@@ -20,7 +19,6 @@ dependencies {
     testImplementation(
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "com.codeborne:selenide:$selenideVersion",
-            "com.github.javafaker:javafaker:$fakerVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "com.fasterxml.jackson.core:jackson-databind:2.13.0"
     )
