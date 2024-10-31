@@ -34,7 +34,7 @@
 ## О проекте  
 >_<p align="justify">Основная цель проекта — отработка навыков автоматизации тестирования, улучшение понимания процесса разработки тестов и повышение эффективности обеспечения качества программного обеспечения.</p>_
 >
->_<p align="justify">Тестирование проводилось исключительно на уровне пользовательского интерфейса (UI), что позволяет сосредоточиться на взаимодействии пользователей с приложением.</p>_
+>_<p align="justify">Тестирование проводилось исключительно на уровне пользовательского интерфейса (UI), что позволяет сосредоточиться на взаимодействии пользователей с сайтом.</p>_
 >
 >_<p align="justify">Проект является демонстрационным и включает в себя ряд тестов, охватывающих различные аспекты функциональности, обеспечивая надежность и стабильность работы веб-приложения.</p>_
 </br>
@@ -60,23 +60,6 @@
 </p>
 </br>
 </br>
-
-<a href="https://www.jetbrains.com/idea"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="64" height="64" title="Intellij IDEA"/></a> 
-<a href="https://www.jetbrains.com/idea"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="64" height="64" title="Intellij IDEA"/></a> 
-<a href="https://junit.org/junit5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" width="64" height="64" title="JUnit 5"/></a>  
-<a href="https://gradle.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" width="64" height="64" title="Gradle"/></a>  
-<a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="64" height="64"                 alt="Selenide"/></a>&nbsp;
-<a href="https://github.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="64" height="64"                   title="Github"/></a>   
-<a href="https://www.jenkins.io"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="64" height="64"             title="Jenkins"/></a>  
-<a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="64" height="64"               alt="Allure"/></a>&nbsp; 
-<a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="64" height="64"               alt="Allure TestOps"/></a>&nbsp;
-<a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="64" height="64"  alt="Jira"/></a>&nbsp;
-<a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="64" height="64"                alt="Telegram"/></a>&nbsp;
-<a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>&nbsp;       
-             
-          
-            &nbsp;
-          
 
 
 
@@ -113,6 +96,42 @@
   - [x] Проверка всех пунктов (и подпунктов) главного меню на предмет корректности ссылок и наименований;
 </details>
   
+</br>
+</br>
+
+
+
+## Что делают тесты?
+Тесты проверяют разные страницы сайта на работоспособность и корректность данных.</br>
+
+<details>
+<summary>Общие тесты для всех страниц</summary> 
+  
+  - [x] Проверка наличия и корректности `телефона` и `email` в верхней части страницы;
+  - [x] Проверка наличия и корректности `контактных данных` в нижней части страницы;
+  - [x] Проверка всех пунктов (и подпунктов) главного `меню` на предмет корректности ссылок и наименований;
+</details>
+</br>
+        
+<details>
+<summary> Тесты для главной (!!!!!!!!!!!) страницы</summary> 
+  
+  - [x] Проверка наличия и корректности `телефона` и `email` в верхней части страницы (в top-bar);
+  - [x] Проверка наличия и корректности `контактных данных` в нижней части страницы (в futor);
+  - [x] Проверка всех пунктов (и подпунктов) главного `меню` на предмет корректности ссылок и наименований;
+</details>
+</br>
+  
+<details>
+<summary> Тесты для страницы "контакты" (!!!!!!!!!!!)</summary> 
+  
+  - [x] Проверка наличия и корректности телефона и email в верхней части страницы `(в top-bar)`;
+  - [x] Проверка наличия и корректности контактных данных в нижней части страницы `(в futor)`;
+  - [x] Проверка всех пунктов (и подпунктов) главного меню на предмет корректности ссылок и наименований;
+</details>
+</br>
+  
+
 </br>
 </br>
 
