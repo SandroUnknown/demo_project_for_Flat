@@ -143,8 +143,7 @@
 >```
 >gradle clean test
 >```
->bla bal
-</br>
+>_бла бла бла бла_
 </br>
 
 >**Удаленный запуск (с параметрами)**
@@ -157,6 +156,7 @@
 >-DbrowserVersion="${BROWSER_VERSION}"
 >-DbrowserSize="${BROWSER_SIZE}"
 >```
+>_бла бла бла бла_
 
 </br>
 </br>
