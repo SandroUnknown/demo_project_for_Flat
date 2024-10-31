@@ -21,7 +21,7 @@
 * [Сборка в Jenkins](#jenkins)
 * [Запуск тестов из терминала](#console)
   * [Параметры запуска](#console_params)
-  * [Список возможных задач (`TASK`)](#console_tasks)
+  * [Список возможных задач (TASK)](#console_tasks)
   * [Примеры запуска тестов](#console_example)
 * [Allure-отчет](#allure)
 * [Интеграция с Allure TestOps](#allure-testops)
@@ -145,13 +145,12 @@
 <a name="console_example"></a>
 ### Примеры запуска тестов
 
->**Локальный запуск (без параметров)**
 >```
 >gradle clean test
 >```
+>**Локальный запуск (без параметров)**
 </br>
 
->**Удаленный запуск (с параметрами)**
 >```
 >clean
 >-Dtask="${TASK}"
@@ -161,6 +160,7 @@
 >-DbrowserVersion="${BROWSER_VERSION}"
 >-DbrowserSize="${BROWSER_SIZE}"
 >```
+>**Удаленный запуск (с параметрами)**
 
 </br>
 </br>
