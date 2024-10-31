@@ -61,7 +61,8 @@
 </br>
 </br>
 
-<a href="https://www.jetbrains.com/idea"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" title="IDEA" width="64" height="64"/></a>  
+<a href="https://www.jetbrains.com/idea"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="64" height="64" title="Intellij IDEA"/></a> 
+<a href="https://www.jetbrains.com/idea"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="64" height="64" title="Intellij IDEA"/></a> 
             
             &nbsp;
           
