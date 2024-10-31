@@ -145,12 +145,13 @@
 <a name="console_example"></a>
 ### Примеры запуска тестов
 
+>**Локальный запуск (без параметров)**
 >```
 >gradle clean test
 >```
->**Локальный запуск (без параметров)**
 </br>
 
+>**Удаленный запуск (с параметрами)**
 >```
 >clean
 >-Dtask="${TASK}"
@@ -160,7 +161,6 @@
 >-DbrowserVersion="${BROWSER_VERSION}"
 >-DbrowserSize="${BROWSER_SIZE}"
 >```
->**Удаленный запуск (с параметрами)**
 
 </br>
 </br>
@@ -225,19 +225,6 @@
 ---
 ---
 
-
-
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
-
-1. First list item
-   - First nested list item
-     - Second nested list item
-
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-- [ ] \(Optional) Open a followup issue
 
 
 > [!NOTE]
