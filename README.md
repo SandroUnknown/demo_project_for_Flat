@@ -29,12 +29,10 @@
 </br>
 
 
-
-<p align="center">
   
 <a name="about"></a>
-## О проекте
-  
+<p align="center">
+## О проекте  
 </p>
 текст
 ещё текст
