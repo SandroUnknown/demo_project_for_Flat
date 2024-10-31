@@ -112,17 +112,17 @@
 ### Параметры запуска.
 Тесты можно запускать как с передачей параметров, так и без них (в этом случае тесты будут запущены с параметрами по умолчанию).
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| TASK   | git status     | git status    |
-| REMOTE_URL     | git diff       | git diff      |
-| BASE_URL   | git status     | git status    |
-| BROWSER     | git diff       | git diff      |
-| BROWSER_SIZE   | git status     | git status    |
-| BROWSER_VERSION     | git diff       | git diff      |
+| Параметр     | Описание |
+| :---         |     :---:      |
+| TASK         | git status     |
+| REMOTE_URL   | git diff       |
+| BASE_URL     | git status     |
+| BROWSER      | git diff       |
+| BROWSER_SIZE | git status     |
+| BROWSER_VERSION  | git diff   |
 
 
-
+</br>
 
 ### Примеры запуска тестов.
 
