@@ -112,14 +112,14 @@
 ### Параметры запуска.
 Тесты можно запускать как с передачей параметров, так и без них (в этом случае тесты будут запущены с параметрами по умолчанию).
 
-| Параметр     | Описание |
-| :---         |     :---:      |
-| TASK         | git status     |
-| REMOTE_URL   | git diff       |
-| BASE_URL     | git status     |
-| BROWSER      | git diff       |
-| BROWSER_SIZE | git status     |
-| BROWSER_VERSION  | git diff   |
+| Параметр          | Описание   |
+| :---              | :---       |
+| `TASK`            | git status |
+| `REMOTE_URL`      | git diff   |
+| `BASE_URL`        | git status |
+| `BROWSER`         | git diff   |
+| `BROWSER_SIZE`    | git status |
+| `BROWSER_VERSION` | git diff   |
 
 
 </br>
