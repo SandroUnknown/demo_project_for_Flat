@@ -30,7 +30,7 @@
 
 
 
-<p align="left">
+<p align="center">
   
 <a name="about"></a>
 ## О проекте
