@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 
 @Tag("MainPage")
 @Feature("Проверить главную страницу: https://flat-soft.ru/")
-@DisplayName("роверить главную страницу.")
+@DisplayName("Проверить главную страницу.")
 @Link(value = "Test page", url = "https://flat-soft.ru/")
 @Owner("Petyukov Alexander")
 public class MainPageTest extends TestBase {
