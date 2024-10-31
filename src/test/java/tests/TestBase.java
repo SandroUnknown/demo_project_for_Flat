@@ -24,7 +24,6 @@ public class TestBase {
                 "enableVideo", true
         ));
 
-        Configuration.timeout = 2000;
         Configuration.baseUrl = "https://flat-soft.ru";
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserCapabilities = capabilities;

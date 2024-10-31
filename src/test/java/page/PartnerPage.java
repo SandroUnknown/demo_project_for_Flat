@@ -84,52 +84,15 @@ public class PartnerPage {
             filterButtonSelector.click();
         });
         step("Проверить партнеров.", () -> {
-            int pageCount = $$(".pagination li").size();
-            int currentPage = 0;
-            int arraySize = Math.max(pageCount - 4, 0);
-
             for (models.Partners.Partner partner : partners) {
-                boolean[] checkedPages = new boolean[arraySize];
-
-                do {
-                    try{
-                        partnerCardsSelector
-                                .findBy(text(partner.getName())).scrollIntoView(true)
-                                .shouldHave(text(partner.getPhone()))
-                                .shouldHave(text(partner.getLevel()))
-                                .$("a").shouldHave(href(partner.getURL()));
-                        break;
-                    }
-                    catch (com.codeborne.selenide.ex.ElementNotFound e) {
-                        checkedPages[currentPage] = true;
-                        currentPage = getNonCheckedPage(checkedPages, currentPage);
-
-                        if (currentPage == -1) {
-                            fail(String.format("Элемент '%s' не найден ни на одной из страниц.", partner.getName()));
-                        }
-
-                        $(".pagination").scrollIntoView(true);
-                        sleep(2000);
-                        $$(".pagination li").get(currentPage + 2).click();
-                    }
-                } while (currentPage >= 0);
+                partnerCardsSelector
+                         .findBy(text(partner.getName())).scrollIntoView(true)
+                         .shouldHave(text(partner.getPhone()))
+                         .shouldHave(text(partner.getLevel()))
+                         .$("a").shouldHave(href(partner.getURL()));
             }
         });
         return this;
-    }
-
-    private int getNonCheckedPage(boolean[] checkedPages, int currentPage){
-        int arraySize = checkedPages.length;
-
-        for (int i = currentPage + 1; i < arraySize; i++) {
-            if (checkedPages[i] == false) return i;
-        }
-
-        for (int i = 0; i < currentPage; i++) {
-            if (checkedPages[i] == false) return i;
-        }
-
-        return -1;
     }
 
     @DisplayName("Найти партнера (через поиск) и проверить его.")
