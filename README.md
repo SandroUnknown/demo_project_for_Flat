@@ -147,7 +147,7 @@
 <a name="console_tasks"></a>
 <details>
  
-<summary>### Список возможных задач (`TASK`)</summary>
+<summary> ### Список возможных задач (`TASK`) </summary>
 
 | Задача                      | Описание                                                                                                                                            |
 | :---                        | :---                                                                                                                                                |
