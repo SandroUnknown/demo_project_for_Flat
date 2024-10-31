@@ -112,14 +112,14 @@
 ### Параметры запуска.
 Тесты можно запускать как с передачей параметров, так и без них (в этом случае тесты будут запущены с параметрами по умолчанию).
 
-| Параметр          | Описание   |
-| :---              | :---       |
-| `TASK`            | git status |
-| `REMOTE_URL`      | git diff   |
-| `BASE_URL`        | git status |
-| `BROWSER`         | git diff   |
-| `BROWSER_SIZE`    | git status |
-| `BROWSER_VERSION` | git diff   |
+| Параметр          | Описание                                                | Значение по умолчанию |
+| :---              | :---                                                    | :---                  |
+| `TASK`            | Имя задачи в Gradle (указывает какие тесты выполнить)   | test                  |
+| `REMOTE_URL`      | Адрес удалённого сервера, где будут запускаться тесты   | (локально)            |
+| `BASE_URL`        | Адрес сайта, где будут запускаться тесты                | https://flat-soft.ru  |
+| `BROWSER`         | Браузер, в котором будут выполняться тесты              | chrome                |
+| `BROWSER_VERSION` | Версия браузера, в которой будут выполняться тесты      | 125.0                 |
+| `BROWSER_SIZE`    | Размер окна браузера, в котором будут выполняться тесты | 1920x1080             |
 
 
 </br>
@@ -138,8 +138,8 @@ clean
 -DremoteUrl="${REMOTE_URL}"
 -DbaseUrl="${BASE_URL}"
 -Dbrowser="${BROWSER}"
--DbrowserSize="${BROWSER_SIZE}"
 -DbrowserVersion="${BROWSER_VERSION}"
+-DbrowserSize="${BROWSER_SIZE}"
 ```
 
 </br>
