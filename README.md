@@ -30,7 +30,9 @@
 
 
 
-<p align="left"><a name="about"></a></p>
+<p align="left">
+  <a name="about"></a>
+</p>
 ## О проекте
 текст
 ещё текст
