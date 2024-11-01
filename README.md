@@ -99,18 +99,14 @@
 
 <a name="jenkins"></a>
 ## Сборка в Jenkins
-Реализован запуск тестов с помощью [Jenkins](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/)
+Реализован запуск тестов с помощью [Jenkins](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/) </br>
 Для запуска сборки необходимо перейти в раздел `Build with Parameters`, выбрать необходимые [параметры](#console_params) и нажать кнопку `Build`.
 <img src="media/screenshots/Jenkins.png" width="900">
-В качестве параметров можно выбрать:  
-- Браузер
-- Разрешение экрана
-- Версию браузера
 
 </br>
 </br>
 </br>
-[параметры](#console_params)
+
 
 
 <a name="console"></a>
