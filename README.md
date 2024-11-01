@@ -110,7 +110,7 @@
 <img src="media/screenshots/Jenkins1.png" width="100%">
 
 </br>
-<img src="media/screenshots/Jenkins2.png" width="1200">
+<img src="media/screenshots/Jenkins2.png">
 
 </br>
 </br>
