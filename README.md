@@ -107,10 +107,22 @@
 3. и нажать кнопку `▷ Build`
 
 </br>
-<p align="justify">  
+
+<p>  
 <img src="media/screenshots/Jenkins_1.png" width="49%">  
 <img src="media/screenshots/Jenkins_2.png" width="49%">
 </p>
+
+</br>
+
+После выполнения сборки в разделе `Build History` можно будет детатьно изучить прошедние тесты:
+* Посмотреть лог
+* Посмотреть Allure Report <img src="media/icons/Allure.svg" width="64" height="64" alt="Allure"/>
+* Посмотреть Allure TestOps
+
+
+<a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="64" height="64" alt="Allure"/></a>  
+<a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="64" height="64"               alt="Allure TestOps"/></a>
 
 </br>
 </br>
