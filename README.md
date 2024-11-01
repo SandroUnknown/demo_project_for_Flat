@@ -113,11 +113,9 @@
 <img src="media/screenshots/Jenkins_2.png" width="49%">
 </p>
 
-</br>
-
 После выполнения сборки в разделе `Build History` можно будет детатьно изучить прошедние тесты:
 * Посмотреть лог
-* Посмотреть Allure Report <img src="media/icons/Allure.svg" width="64" height="64" alt="Allure"/>
+* Посмотреть Allure Report <img src="media/icons/Allure.svg" width="32" height="32" alt="Allure"/>
 * Посмотреть Allure TestOps
 
 
