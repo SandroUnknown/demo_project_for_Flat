@@ -115,8 +115,8 @@
 
 После выполнения сборки в разделе `Build History` можно будет детатьно изучить прошедние тесты:
 * Посмотреть лог
-* Посмотреть Allure Report <img src="media/icons/Allure.svg" width="16" height="16" alt="Allure"/>
-* Посмотреть Allure TestOps <img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>
+* Посмотреть <img src="media/icons/Allure.svg" width="16" height="16" alt="Allure"/> Allure Report
+* Посмотреть <img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/> Allure TestOps
 
 </br>
 </br>
