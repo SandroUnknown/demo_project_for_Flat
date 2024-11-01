@@ -1,3 +1,4 @@
+<a name="start"></a>
 # Проект по автоматизации тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)
 </br>
 
@@ -14,7 +15,7 @@
 
 
 <a name="table-of-contents"></a>
-## Содержание:
+## Содержание
 * [О проекте](#about)
 * [Технологии и инструменты](#tools)
 * [Что делают тесты?](#tests)
@@ -98,8 +99,8 @@
 
 <a name="jenkins"></a>
 ## Сборка в Jenkins
-Тесты запускаются только через [Jenkins](https://jenkins.autotests.cloud/job/qa_homework_14_jenkins_crowdtesting_project/)  
-<img src="images/Jenkins.png" width="900">
+Тесты запускаются только через [Jenkins](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/)  
+<img src="media/screenshots/Jenkins.png" width="900">
 В качестве параметров можно выбрать:  
 - Браузер
 - Разрешение экрана
@@ -175,9 +176,9 @@
 
 <a name="allure"></a>
 ## Allure-отчет
-После выполнения тестов можно посмотреть отчет в [Allure](https://jenkins.autotests.cloud/job/qa_homework_14_jenkins_crowdtesting_project/allure/)
+После выполнения тестов можно посмотреть отчет в [Allure](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
 ### На скриншоте один из результатов выполнения тестов:
-<img src="images/AllureReport.png" width="900">
+<img src="media/screenshots/AllureReport.png" width="900">
 </br>
 </br>
 
@@ -206,7 +207,7 @@
 ## Уведомление в Telegram при помощи бота
 После выполнения отчета результат так же предоставит бот в Telegram:
 <p align="center">
-    <img src="images/TelegramBot.png">
+    <img src="media/screenshots/TelegramBot.png">
 </p>
 </br>
 </br>
