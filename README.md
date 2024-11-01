@@ -108,7 +108,8 @@
 
 </br>
 <p align="justify">  
-<img src="media/screenshots/Jenkins1.png" width="40%">  <img src="media/screenshots/Jenkins2.png" width="40%">
+<img src="media/screenshots/Jenkins1.png" width="49%">  
+ <img src="media/screenshots/Jenkins2.png" width="49%">
 </p>
 
 </br>
