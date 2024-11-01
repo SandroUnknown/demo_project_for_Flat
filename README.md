@@ -19,11 +19,11 @@
 * [О проекте](#about)
 * [Технологии и инструменты](#tools)
 * [Что делают тесты?](#tests)
-* [Сборка в Jenkins](#jenkins)
 * [Запуск тестов из терминала](#console)
   * [Параметры запуска](#console_params)
   * [Список возможных задач (TASK)](#console_tasks)
   * [Примеры запуска тестов](#console_example)
+* [Сборка в Jenkins](#jenkins)
 * [Allure-отчет](#allure)
 * [Интеграция с Allure TestOps](#allure-testops)
 * [Интеграция с Jira](#jira)
@@ -97,33 +97,6 @@
 
 
 
-<a name="jenkins"></a>
-## Сборка в Jenkins
-Реализован запуск тестов с помощью [Jenkins](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/) (требуется авторизация).
-</br></br>
-Для запуска сборки необходимо 
-1. перейти в раздел `▷ Build with Parameters`
-2. выбрать необходимые [параметры](#console_params)
-3. и нажать кнопку `▷ Build`
-
-</br>
-
-<p>  
-<img src="media/screenshots/Jenkins_1.png" width="49%">
-<img src="media/screenshots/Jenkins_2.png" width="49%">
-</p>
-
-После выполнения сборки в разделе `🔆 Build History` можно будет детатьно изучить прошедние тесты:
-* Посмотреть лог
-* Посмотреть [<img src="media/icons/Allure.svg" width="16" height="16" alt="Allure"/>   Allure Report](#allure)
-* Посмотреть [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
-
-</br>
-</br>
-</br>
-
-
-
 <a name="console"></a>
 ## Запуск тестов из терминала
 
@@ -179,6 +152,33 @@
 >-DbrowserVersion="${BROWSER_VERSION}"
 >-DbrowserSize="${BROWSER_SIZE}"
 >```
+
+</br>
+</br>
+</br>
+
+
+
+<a name="jenkins"></a>
+## Сборка в Jenkins
+Реализован запуск тестов с помощью [Jenkins](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/) (требуется авторизация).
+</br></br>
+Для запуска сборки необходимо 
+1. перейти в раздел `▷ Build with Parameters`
+2. выбрать необходимые [параметры](#console_params)
+3. и нажать кнопку `▷ Build`
+
+</br>
+
+<p>  
+<img src="media/screenshots/Jenkins_1.png" width="49%">
+<img src="media/screenshots/Jenkins_2.png" width="49%">
+</p>
+
+После выполнения сборки в разделе `🔆 Build History` можно будет детатьно изучить прошедние тесты:
+* Посмотреть лог
+* Посмотреть [<img src="media/icons/Allure.svg" width="16" height="16" alt="Allure"/>   Allure Report](#allure)
+* Посмотреть [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
 
 </br>
 </br>
