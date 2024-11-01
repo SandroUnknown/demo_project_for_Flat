@@ -107,7 +107,10 @@
 3. и нажать кнопку `▷ Build`
 
 </br>
-<img src="media/screenshots/Jenkins.png" width="900">
+<img src="media/screenshots/Jenkins1.png" width="900">
+
+</br>
+<img src="media/screenshots/Jenkins2.png" width="900">
 
 </br>
 </br>
