@@ -17,8 +17,8 @@
 </p>
 
 <table width="100%">
-<tr>
-  <td>
+<tr  width="100%">
+  <td  width="100%">
     1234</br>
     2345</br>
     3456
