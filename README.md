@@ -60,6 +60,7 @@
 >_<p align="justify">Проект является демонстрационным и включает в себя ряд тестов, охватывающих различные аспекты функциональности, обеспечивая надежность и стабильность работы веб-приложения.</p>_
  
 </br>
+</br>
 
 
 <a name="tools"></a>
@@ -79,6 +80,7 @@
 <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
 </p>
 
+</br>
 </br>
 
 
