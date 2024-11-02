@@ -85,6 +85,31 @@
 </br>
 
 
+<a name="tools"></a>
+### Технологии и инструменты
+
+> <p align="left">  
+> <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60"   alt="Intellij IDEA"/></a>  
+> <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60"                     alt="Java"/></a>  
+> <a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="60" height="60"               alt="JUnit 5"/></a>  
+> <a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="60" height="60"                     alt="Gradle"/></a>  
+> <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="60" height="60"                 alt="Selenide"/></a>
+> <a href="https://github.com"><img src="media/icons/Github.svg" width="60" height="60"                     alt="Github"/></a>   
+> </p>
+> <p align="left">  
+> <a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="60" height="60"                alt="Jenkins"/></a>  
+> <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60"               alt="Allure"/></a>  
+> <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="60" height="60"               alt="Allure TestOps"/></a>
+> <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="60" height="60"  alt="Jira"/></a>
+> <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60"                alt="Telegram"/></a>
+> <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="60" height="60"        alt="Selenoid"/></a>  
+> </p>
+
+</br>
+</br>
+
+
+
 <a name="tests"></a>
 ### Что делают тесты?
 
