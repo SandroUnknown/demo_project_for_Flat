@@ -51,7 +51,7 @@
 # О проекте
 
 
- <p align="right">[Содержание](#table-of-contents)</p> 
+*<p align="right">[Содержание](#table-of-contents)</p> 
 
 
 
