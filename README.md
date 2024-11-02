@@ -3,7 +3,7 @@ p {
 }
 
 <a name="start"></a>
-<img src="media/screenshots/red.png" height="2" width="64"/>
+<img src="media/screenshots/red.png" height="2" width=100%/>
 # <pre>Проект по автоматизации тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)</pre>
 </br>
 
