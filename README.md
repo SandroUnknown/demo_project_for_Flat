@@ -51,10 +51,10 @@
 # О проекте
 
 
-_ <p align="right">[Содержание](#table-of-contents)</p> _
+ <p align="right">[Содержание](#table-of-contents)</p> 
 
 
-</br>
+
 
 
 <a name="for-what"></a>
