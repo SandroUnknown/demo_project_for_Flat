@@ -50,11 +50,7 @@
 <a name="about"></a>
 # О проекте
 
-
-_<p align="right">[^^^](#table-of-contents)</p>_
-
-
-
+</br>
 
 
 <a name="for-what"></a>
