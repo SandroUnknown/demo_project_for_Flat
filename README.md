@@ -72,17 +72,17 @@
 > <p align="left">  
 > <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60"   alt="Intellij IDEA"/></a>  
 > <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60"                     alt="Java"/></a>  
-><a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="60" height="60"               alt="JUnit 5"/></a>  
-><a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="60" height="60"                     alt="Gradle"/></a>  
-><a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="60" height="60"                 alt="Selenide"/></a>
-><a href="https://github.com"><img src="media/icons/Github.svg" width="60" height="60"                     alt="Github"/></a>   
-><a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="60" height="60"                alt="Jenkins"/></a>  
-><a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60"               alt="Allure"/></a>  
-><a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="60" height="60"               alt="Allure TestOps"/></a>
-><a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="60" height="60"  alt="Jira"/></a>
-><a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60"                alt="Telegram"/></a>
-><a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="60" height="60"        alt="Selenoid"/></a>  
-></p>
+>< a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="60" height="60"               alt="JUnit 5"/></a>  
+> <a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="60" height="60"                     alt="Gradle"/></a>  
+> <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="60" height="60"                 alt="Selenide"/></a>
+> <a href="https://github.com"><img src="media/icons/Github.svg" width="60" height="60"                     alt="Github"/></a>   
+> <a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="60" height="60"                alt="Jenkins"/></a>  
+> <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60"               alt="Allure"/></a>  
+> <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="60" height="60"               alt="Allure TestOps"/></a>
+> <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="60" height="60"  alt="Jira"/></a>
+> <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60"                alt="Telegram"/></a>
+> <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="60" height="60"        alt="Selenoid"/></a>  
+> </p>
 
 </br>
 </br>
@@ -93,17 +93,17 @@
 
 >Тесты проверяют разные страницы сайта на работоспособность и корректность данных.</br></br>
 >
->**Общие тесты для всех страниц:**
+> **Общие тесты для всех страниц:**
 >  - [x] Проверка наличия и корректности `телефона` и `email` в верхней части страницы;
 >  - [x] Проверка наличия и корректности `контактных данных` в нижней части страницы;
 >  - [x] Проверка всех пунктов (и подпунктов) главного `меню` на предмет корректности ссылок и наименований;</br></br>
 >  
->**Тесты для главной страницы:**
+> **Тесты для главной страницы:**
 >  - [x] Проверка содержимого страницы:
 >    - [x] Проверка `слогана` компании;
 >    - [x] Проверка `предоставляемых услуг`;</br></br>
 >    
->**Тесты для страницы "партнеры":**
+> **Тесты для страницы "партнеры":**
 >  - [x] Проверка всех `партнеров` (по городам) на корректность данных `[параметризированный тест]`;
 >  - [x] Проверка работы `поиска` партнера по имени `[параметризированный тест]`;
  
@@ -123,16 +123,16 @@
 <a name="console_params"></a>
 ### Параметры запуска
 
->Тесты можно запускать как с передачей параметров, так и без них (в этом случае тесты будут запущены с параметрами по умолчанию).
+> Тесты можно запускать как с передачей параметров, так и без них (в этом случае тесты будут запущены с параметрами по умолчанию).
 >
->| Параметр          | Описание                                                | Значение по умолчанию |
->| :---              | :---                                                    | :---                  |
->| `TASK`            | Имя задачи в Gradle (указывает какие тесты выполнить)   | test                  |
->| `REMOTE_URL`      | Адрес удалённого сервера, где будут запускаться тесты   | (локально)            |
->| `BASE_URL`        | Адрес сайта, где будут запускаться тесты                | https://flat-soft.ru  |
->| `BROWSER`         | Браузер, в котором будут выполняться тесты              | chrome                |
->| `BROWSER_VERSION` | Версия браузера, в которой будут выполняться тесты      | 125.0                 |
->| `BROWSER_SIZE`    | Размер окна браузера, в котором будут выполняться тесты | 1920x1080             |
+> | Параметр          | Описание                                                | Значение по умолчанию |
+> | :---              | :---                                                    | :---                  |
+> | `TASK`            | Имя задачи в Gradle (указывает какие тесты выполнить)   | test                  |
+> | `REMOTE_URL`      | Адрес удалённого сервера, где будут запускаться тесты   | (локально)            |
+> | `BASE_URL`        | Адрес сайта, где будут запускаться тесты                | https://flat-soft.ru  |
+> | `BROWSER`         | Браузер, в котором будут выполняться тесты              | chrome                |
+> | `BROWSER_VERSION` | Версия браузера, в которой будут выполняться тесты      | 125.0                 |
+> | `BROWSER_SIZE`    | Размер окна браузера, в котором будут выполняться тесты | 1920x1080             |
 
 </br>
 
