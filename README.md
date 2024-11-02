@@ -16,7 +16,7 @@
  3456</br>
 </p>
 
-<table>
+<table width="100%">
 <tr>
   <td>
     1234</br>
