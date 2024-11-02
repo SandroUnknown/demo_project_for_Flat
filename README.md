@@ -11,8 +11,8 @@
 <img src="media/screenshots/red.png" height="2" width="100"/>
 
 <a name="start"></a>
-<p>
- # Проект по автоматизации тестирования</br>для компании [«ФЛАТ»](https://flat-soft.ru/)
+# <p>
+ Проект по автоматизации тестирования</br>для компании [«ФЛАТ»](https://flat-soft.ru/)
  </p>
 </br></br>
 
