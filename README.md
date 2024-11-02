@@ -23,12 +23,13 @@
   * [Параметры запуска](#console_params)
   * [Список возможных задач (TASK)](#console_tasks)
   * [Примеры запуска тестов](#console_example)
-* [Сборка в Jenkins](#jenkins)
-* [Allure-отчет](#allure)
-* [Интеграция с Allure TestOps](#allure-testops)
-* [Интеграция с Jira](#jira)
-* [Уведомление в Telegram при помощи бота](#telegram)
-* [Примеры видео выполнения тестов на Selenoid](#video)
+* [Интеграции и примеры](#integrations)
+  * [Сборка в Jenkins](#jenkins)
+  * [Allure-отчет](#allure)
+  * [Интеграция с Allure TestOps](#allure-testops)
+  * [Интеграция с Jira](#jira)
+  * [Уведомление в Telegram при помощи бота](#telegram)
+  * [Примеры видео выполнения тестов на Selenoid](#video)
 
 </br>
 </br>
@@ -159,8 +160,16 @@
 
 
 
+<a name="integrations"></a>
+## Интеграции и примеры
+</br>
+</br>
+</br>
+
+
+
 <a name="jenkins"></a>
-## Сборка в Jenkins
+### Сборка в Jenkins
 Реализован запуск тестов с помощью [Jenkins](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/) (требуется авторизация).
 </br></br>
 Для запуска сборки необходимо: 
@@ -185,7 +194,7 @@
 
 
 <a name="allure"></a>
-## Allure-отчет
+### Allure-отчет
 После выполнения тестов можно посмотреть отчет в [Allure](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
 ### На скриншоте один из результатов выполнения тестов:
 <img src="media/screenshots/AllureReport.png" width="900">
@@ -194,7 +203,7 @@
 
 
 <a name="llure-testops"></a>
-## Allure TestOps
+### Allure TestOps
 Просто текст:  
 - Текст 1
 - Текст 2
@@ -204,7 +213,7 @@
 
 
 <a name="jira"></a>
-## Интеграция с Jira
+### Интеграция с Jira
 Просто текст:  
 - Текст 1
 - Текст 2
@@ -214,7 +223,7 @@
 
 
 <a name="telegram"></a>
-## Уведомление в Telegram при помощи бота
+### Уведомление в Telegram при помощи бота
 После выполнения отчета результат так же предоставит бот в Telegram:
 <p align="center">
     <img src="media/screenshots/TelegramBot.png">
@@ -224,7 +233,7 @@
 
 
 <a name="video"></a>
-## Примеры видео выполнения тестов на Selenoid
+### Примеры видео выполнения тестов на Selenoid
 Просто текст:  
 - Текст 1
 - Текст 2
