@@ -163,9 +163,6 @@
 <a name="integrations"></a>
 ## Интеграции и примеры
 </br>
-</br>
-</br>
-
 
 
 <a name="jenkins"></a>
