@@ -168,7 +168,7 @@
 2. Выбрать необходимые [параметры](#console_params)
 3. Нажать кнопку `▷ Build`
 
-</br>
+
 
 <p>  
 <img src="media/screenshots/Jenkins_1.png" width="49%">
