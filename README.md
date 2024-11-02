@@ -49,7 +49,9 @@
 
 <a name="about"></a>
 # О проекте
+<p align="right">  
 [[Содержание]](#table-of-contents)
+</p>  
 </br>
 
 
