@@ -1,36 +1,7 @@
-<h1>111 Абв</h1>
-<h2>222 Абв</h1>
-<h3>333 Абв</h1>
-<h4>444 Абв</h1>
-
-<p font-size="20px">
-123
-</p>
-
-
-
-<p>
-<img src="media/screenshots/red.png" height="100" width="2"/>
- 1234</br>
- 2345</br>
- 3456</br>
-</p>
-
-<table width="100%">
-<tr  width="100%">
-  <td  width="100%">
-    1234</br>
-    2345</br>
-    3456
-  </td>
-</tr>
-</table>
-
-
-
 <a name="start"></a>
 <img src="media/screenshots/red.png" height="2" width=100%/>
 # <pre>Проект по автоматизации тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)</pre>
+<img src="media/screenshots/red.png" height="2" width=100%/>
 </br>
 
 >_**<p align="justify">[ООО «ФЛАТ»](https://flat-soft.ru/)** — российский разработчик линейки программных продуктов для организации современных корпоративных коммуникаций и оперативного взаимодействия на территориально-распределенных объектах.</p>_
