@@ -1,6 +1,4 @@
-p {
-  font-size: 40px;
-}
+<h1>123</h1>
 
 <a name="start"></a>
 <img src="media/screenshots/red.png" height="2" width=100%/>
