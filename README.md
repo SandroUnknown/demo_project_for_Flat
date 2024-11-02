@@ -48,10 +48,10 @@
 
 
 <a name="about"></a>
-# О проекте _<p align="right">[Содержание](#table-of-contents)</p>_
+# О проекте
 
 
-_<p align="right">[Содержание](#table-of-contents)</p>_
+_<p align="right">[^](#table-of-contents)</p>_
 
 
 
