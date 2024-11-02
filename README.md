@@ -1,9 +1,3 @@
-
-
-<img src="media/screenshots/red.png" height="2" width="100"/>
-
-
-
 <a name="start"></a>
 # Проект по автоматизации тестирования</br>для компании [«ФЛАТ»](https://flat-soft.ru/)
 </br></br>
