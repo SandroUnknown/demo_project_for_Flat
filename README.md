@@ -51,7 +51,7 @@
 # О проекте
 
 
-_<p align="right">[О проекте](#table-of-contents)</p>_
+_ <p align="right">[Содержание](#table-of-contents)</p> _
 
 
 </br>
