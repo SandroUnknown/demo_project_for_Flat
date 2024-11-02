@@ -1,11 +1,3 @@
-<p>
-1111
- 2222
-</p>
-
-
-
-
 
 
 <img src="media/screenshots/red.png" height="2" width="100"/>
@@ -55,6 +47,8 @@
 
 <a name="about"></a>
 ## О проекте
+
+</br>
 
 
 <a name="for-what"></a>
@@ -115,6 +109,8 @@
 
 <a name="console"></a>
 ## Запуск тестов из терминала
+
+</br>
 
 
 <a name="console_params"></a>
@@ -181,6 +177,8 @@
 
 <a name="integrations"></a>
 ## Интеграции и примеры
+
+</br>
 
 
 <a name="jenkins"></a>
