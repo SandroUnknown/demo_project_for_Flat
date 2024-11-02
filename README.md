@@ -52,12 +52,13 @@
 >
 >_<p align="justify">Проект является демонстрационным и включает в себя ряд тестов, охватывающих различные аспекты функциональности, обеспечивая надежность и стабильность работы веб-приложения.</p>_
 
-##
 </br>
 
 
 <a name="tools"></a>
 ### Технологии и инструменты
+
+<pre>
 <p align="left">  
 <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="64" height="64"   alt="Intellij IDEA"/></a>  
 <a href="https://www.java.com"><img src="media/icons/Java.svg" width="64" height="64"                     alt="Java"/></a>  
@@ -72,8 +73,8 @@
 <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="64" height="64"                alt="Telegram"/></a>
 <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="64" height="64"        alt="Selenoid"/></a>  
 </p>
+</pre>
 
-##
 </br>
 
 
@@ -95,7 +96,6 @@
   - [x] Проверка всех `партнеров` (по городам) на корректность данных `[параметризированный тест]`;
   - [x] Проверка работы `поиска` партнера по имени `[параметризированный тест]`;
 
-##
 </br>
 </br>
 </br>
