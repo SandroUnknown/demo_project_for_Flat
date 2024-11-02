@@ -46,7 +46,7 @@
 
 
 <a name="about"></a>
-## 1) О проекте
+# О проекте
 <img src="media/screenshots/red.png" height="2" width="5"/> <img src="media/screenshots/red.png" height="2" width="5"/>
 </br>
 
@@ -110,7 +110,7 @@
 
 
 <a name="console"></a>
-## 2) Запуск тестов из терминала
+# Запуск тестов из терминала
 
 </br>
 
@@ -178,7 +178,7 @@
 
 
 <a name="integrations"></a>
-## 3. Интеграции и примеры
+# Интеграции и примеры
 
 </br>
 
