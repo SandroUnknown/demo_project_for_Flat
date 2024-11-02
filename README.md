@@ -16,7 +16,7 @@
 
 
 <a name="table-of-contents"></a>
-# Содержание
+# <p align="center">Содержание</p>
 
 </br>
 
@@ -45,7 +45,7 @@
 
 
 <a name="about"></a>
-# О проекте
+# <p align="center">О проекте</p>
 
 </br>
 
@@ -112,7 +112,7 @@
 
 
 <a name="console"></a>
-# Запуск тестов из терминала
+# <p align="center">Запуск тестов из терминала</p>
 
 </br>
 
