@@ -1,3 +1,7 @@
+p {
+  font-size: 40px;
+}
+
 <a name="start"></a>
 <img src="media/screenshots/red.png" height="2" width="64"/>
 # <pre>Проект по автоматизации тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)</pre>
