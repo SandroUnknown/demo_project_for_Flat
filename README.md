@@ -1,4 +1,5 @@
 <a name="start"></a>
+<img src="media/screenhots/red.svg" height="64"/>
 # <pre>Проект по автоматизации тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)</pre>
 </br>
 
