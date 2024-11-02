@@ -192,6 +192,7 @@
 После выполнения тестов можно посмотреть отчет в [Allure](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
 </br> На скриншоте один из результатов выполнения тестов:
 <img src="media/screenshots/AllureReport.png" width="900">
+
 </br>
 </br>
 
