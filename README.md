@@ -18,7 +18,7 @@
 
 
 <a name="table-of-contents"></a>
-## Содержание <img src="media/screenshots/red.png" height="2" width="100"/>
+## Содержание
 
 * [О проекте](#about)
   * [Для чего нужен проект](#for-what)
