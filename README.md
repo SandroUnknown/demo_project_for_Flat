@@ -48,7 +48,7 @@
 <a name="about"></a>
 # О проекте
 
-</br>
+
 
 
 <a name="for-what"></a>
@@ -112,7 +112,7 @@
 <a name="console"></a>
 # Запуск тестов из терминала
 
-</br>
+
 
 
 <a name="console_params"></a>
@@ -180,7 +180,7 @@
 <a name="integrations"></a>
 # Интеграции и примеры
 
-</br>
+
 
 
 <a name="jenkins"></a>
