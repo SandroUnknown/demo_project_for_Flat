@@ -50,9 +50,9 @@
 <a name="about"></a>
 # О проекте
 
-<p align="right">  
-[<p align="right">О проекте</p> ](#table-of-contents)
-</p>  
+
+[<p align="right">О проекте</p>](#table-of-contents)
+
 
 </br>
 
