@@ -10,7 +10,7 @@
 
 
 <p>
-<img src="media/screenshots/red.png" height="2" width=100%/>
+<img src="media/screenshots/red.png" height="100%" width="2"/>
  1234</br>
  2345</br>
  3456</br>
