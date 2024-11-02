@@ -41,7 +41,9 @@
 
 
 <a name="about"></a>
-## О проекте
+<pre>О проекте</pre>pre>
+## 
+
 
 
 <a name="for-what"></a>
