@@ -51,7 +51,7 @@
 # О проекте
 
 <p align="right">  
-(#table-of-contents)
+[<p align="right">О проекте</p> ](#table-of-contents)
 </p>  
 
 </br>
