@@ -11,9 +11,11 @@
 
 <p>
 <img src="media/screenshots/red.png" height="100%" width="2"/>
+ <p>
  1234</br>
  2345</br>
  3456</br>
+ </p>
 </p>
 
 
