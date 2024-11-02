@@ -18,7 +18,6 @@
 
 <table>
 <tr>
-  <td>Hi, I'm your first cell.</td>
   <td>
     1234</br>
     2345</br>
