@@ -47,7 +47,7 @@
 
 <a name="about"></a>
 ## 1) О проекте
-<img src="media/screenshots/red.png" height="2" width="5"/><img src="media/screenshots/red.png" height="2" width="5"/>
+<img src="media/screenshots/red.png" height="2" width="5"/> <img src="media/screenshots/red.png" height="2" width="5"/>
 </br>
 
 
