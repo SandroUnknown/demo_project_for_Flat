@@ -162,7 +162,6 @@
 
 <a name="integrations"></a>
 ## Интеграции и примеры
-</br>
 
 
 <a name="jenkins"></a>
@@ -186,8 +185,6 @@
 
 </br>
 </br>
-</br>
-
 
 
 <a name="allure"></a>
