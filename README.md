@@ -1,11 +1,9 @@
 
 <table>
   <tr>
-    <td>&nbsp;</td>
-    <td>Knocky</td>
-    <td>Flor</td>
-    <td>Ella</td>
-    <td>Juan</td>
+    <td>
+      # Демонстрационный проект по автоматизации </br>тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)
+    </td>
   </tr>
 </table>
 
