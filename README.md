@@ -7,6 +7,7 @@
     <td>Ella</td>
     <td>Juan</td>
   </tr>
+</table>
 
 
 
