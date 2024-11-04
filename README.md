@@ -266,7 +266,7 @@
 <a name="llure-testops"></a>
 ### Allure TestOps
 
-> Выполнена интеграция сборки `Jenkins` с [Allure TestOps](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
+> Выполнена интеграция сборки `Jenkins` с [Allure TestOps](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).</br>
 > <details> 
 > <summary>Примеры (скриншоты).</summary>
 > </br></br>
@@ -277,14 +277,14 @@
 > | ![Alt name of image](/media/screenshots/Jenkins_1.png) |
 > |-|
 >
-> </br></br></br>
+> </br></br>
 >
 > **Ручные тесты !!!**
 > 
 > | ![Alt name of image](/media/screenshots/Jenkins_1.png) |
 > |-|
 >
-> </br></br></br>
+> </br></br>
 >
 > **Авто тесты !!!**
 > 
