@@ -210,31 +210,6 @@
 </br>
 
 
-<a name="jenkins"></a>
-### Сборка в Jenkins
-
-> Реализован запуск тестов с помощью [Jenkins](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/) (требуется авторизация).</br>
-> <details>
-> <summary>Для запуска сборки необходимо:</summary>
-> 1. Перейти в раздел `▷ Build with Parameters`
-> 2. Выбрать необходимые [параметры](#console_params)
-> 3. Нажать кнопку `▷ Build`
->
-> <p>  
-> <img src="media/screenshots/Jenkins_1.png" width="49%">
-> <img src="media/screenshots/Jenkins_2.png" width="49%">
-> </p>
->
-> После выполнения сборки в разделе `🔆 Build History` можно будет детально изучить прошедние тесты:
-> * Посмотреть лог
-> * Посмотреть [<img src="media/icons/Allure.svg" width="16" height="16" alt="Allure"/>   Allure Report](#allure)
-> * Посмотреть [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
-> </details>
-
-</br>
-</br>
-
-
 <a name="allure-report"></a>
 ### Allure Report
 
@@ -264,10 +239,25 @@
 
 <a name="llure-testops"></a>
 ### Allure TestOps
-Просто текст:  
-- Текст 1
-- Текст 2
-- Текст 3
+
+> <details> 
+><summary>Выполнена интеграция сборки `Jenkins` с `Allure TestOps`.</summary>
+> </br></br>
+>
+> **На `Dashboard` в `Allure TestOps` отображена статистика пройденных тестов**
+> 
+> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> </br></br></br>
+>
+> **Ручные тесты !!!**
+> 
+> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> </br></br></br>
+>
+> **Авто тесты !!!**
+> 
+> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> </details>
 </br>
 </br>
 
