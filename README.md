@@ -216,19 +216,19 @@
 > После выполнения тестов формируется [Allure Report](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).</br>
 > <details> 
 > <summary>Ниже представлено несколько скриншотов сформированного отчета.</summary>
-> </br>
->
-> Основная страница отчёта `(Overview)`
->
-> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
-> </br></br>
-> 
-> Тест-кейсы `(Suites)` с шагами и вложениями
-> 
-> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
 > </br></br>
 >
-> Графики `(Graphs)`
+> **Основная страница отчёта `(Overview)`**
+>
+> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> </br></br></br>
+> 
+> **Тест-кейсы `(Suites)` с шагами и вложениями**
+> 
+> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> </br></br></br>
+>
+> **Графики `(Graphs)`**
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
 > </details>
 
