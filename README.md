@@ -267,7 +267,7 @@
 ### Allure TestOps
 
 > Выполнена интеграция сборки `Jenkins` с [Allure TestOps](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
-> </br>
+> </br></br>
 > <details> 
 > <summary>Примеры (скриншоты).</summary>
 > </br></br>
