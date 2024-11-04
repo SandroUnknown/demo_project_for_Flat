@@ -223,7 +223,8 @@
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
 > </br></br></br>
 > 
-> **Тест-кейсы** `(Suites)` с шагами и вложениями
+> **Тест-кейсы** `(Suites)`</br>
+> _с шагами и вложениями_
 > 
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
 > </br></br></br>
@@ -245,7 +246,7 @@
 > <summary>Ниже представлено несколько скриншотов сформированного отчета.</summary>
 > </br></br>
 >
-> **Основная страница отчёта** `Dashboard` 
+> **Основная страница отчёта** `Dashboard`</br>
 > _Тут отображена статистика пройденных тестов_
 > 
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
