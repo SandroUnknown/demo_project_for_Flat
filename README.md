@@ -217,8 +217,11 @@
 > <details> 
 > <summary>Ниже представлено несколько скриншотов сформированного отчета.</summary>
 > </br>
-> | Основная страница отчёта `(Overview)`</br><img src="media/screenshots/Jenkins_1.png" width="100%" height="800"> |
+> Основная страница отчёта `(Overview)`
+>
+> | <img src="media/screenshots/Jenkins_1.png" width="100%" height="800"> |
 > | :--- |
+>
 > </br></br>
 > Тест-кейсы `(Suites)` с шагами и вложениями
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
