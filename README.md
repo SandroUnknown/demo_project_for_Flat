@@ -213,8 +213,10 @@
 <a name="allure-report"></a>
 ### Allure Report
 
+> <details>
+> <summary>
 > После выполнения тестов формируется [Allure Report](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).</br>
-> Ниже представлены несколько скриншотов сформированного отчета.</br>
+> Ниже представлены несколько скриншотов сформированного отчета.</summary></br>
 > </br>
 > Основная страница отчёта `(Overview)`
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
@@ -222,11 +224,22 @@
 > Тест-кейсы `(Suites)` с шагами и вложениями
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
 > </br></br>
-> Графики (`Graphs`)
+> Графики `(Graphs)`
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> </details>
 
 </br>
 </br>
+
+<details>
+<summary>Tips for collapsed sections</summary>
+  бла
+  бла 
+  бла
+</details>
+
+
+
 
 
 <a name="llure-testops"></a>
@@ -306,7 +319,7 @@
   бла
   бла 
   бла
-<details>
+</details>
 
 
 
