@@ -276,12 +276,14 @@
 > 
 > | ![Alt name of image](/media/screenshots/Jenkins_1.png) |
 > |-|
+>
 > </br></br></br>
 >
 > **Ручные тесты !!!**
 > 
 > | ![Alt name of image](/media/screenshots/Jenkins_1.png) |
 > |-|
+>
 > </br></br></br>
 >
 > **Авто тесты !!!**
