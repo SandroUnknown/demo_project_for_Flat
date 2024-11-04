@@ -74,7 +74,7 @@
 > <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="60" height="60"                 alt="Selenide"/></a>
 > <a href="https://github.com"><img src="media/icons/Github.svg" width="60" height="60"                     alt="Github"/></a>   
 > <a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="60" height="60"                alt="Jenkins"/></a>  
-> <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60"               alt="Allure"/></a>  
+> <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60"               alt="Allure Report"/></a>  
 > <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="60" height="60"               alt="Allure TestOps"/></a>
 > <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="60" height="60"  alt="Jira"/></a>
 > <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60"                alt="Telegram"/></a>
@@ -203,7 +203,7 @@
 >
 > После выполнения сборки в разделе `🔆 Build History` можно будет детально изучить прошедние тесты:
 > * Посмотреть лог
-> * Посмотреть `Allure Report <img src="media/icons/Allure.svg" width="16" height="16" alt="Allure"/> `   [читать подробнее](#allure)
+> * Посмотреть [<img src="media/icons/Allure.svg" width="16" height="16" alt="Allure Report"/> `   Allure Report](#allure)
 > * Посмотреть [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
 
 </br>
