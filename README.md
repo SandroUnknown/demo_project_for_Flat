@@ -207,7 +207,6 @@
 > * Посмотреть [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
 
 </br>
-</br>
 
 
 <a name="allure-report"></a>
@@ -234,7 +233,6 @@
 > <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
 > </details>
 
-</br>
 </br>
 
 
@@ -263,7 +261,6 @@
 > </details>
 
 </br>
-</br>
 
 
 <a name="jira"></a>
@@ -273,7 +270,6 @@
 - Текст 2
 - Текст 3
 
-</br>
 </br>
 
 
