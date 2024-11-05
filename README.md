@@ -43,17 +43,11 @@
 </br>
 
 
-<a name="about"></a>
-# <p align="left"> О проекте <p align="right"> 1111 </p> </p>
-
-
-
-
 
 
 <a name="about"></a>
 # О проекте
-_<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>_
+<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>
 
 
 <a name="for-what"></a>
