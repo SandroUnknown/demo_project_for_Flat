@@ -52,7 +52,7 @@ _<p align="right">[`Перейти к содержанию`](#table-of-contents)
 
 <sup><p align="right">[Перейти к содержанию](#table-of-contents)</p></sup>
 
-<p align="right"><sup>[Перейти к содержанию](#table-of-contents)</sup></p>
+<p align="right">[<sup>Перейти к содержанию</sup>](#table-of-contents)</p>
 
 <a name="for-what"></a>
 ### Для чего был создан проект
