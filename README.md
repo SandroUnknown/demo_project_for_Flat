@@ -113,7 +113,7 @@
 
 <a name="console"></a>
 # Запуск тестов из терминала
-_<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>_
+**<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>**
 
 
 <a name="console_params"></a>
@@ -182,7 +182,7 @@ _<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-o
 
 <a name="integrations"></a>
 # Интеграции и примеры
-_<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>_
+**<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>**
 
 
 <a name="jenkins"></a>
