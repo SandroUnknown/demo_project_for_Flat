@@ -47,12 +47,7 @@
 
 <a name="about"></a>
 # О проекте
-_<p align="right">[<sup>Перейти к содержанию</sup>](#table-of-contents)</p>_
-
 _<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>_
-
-_<p align="right">[`Перейти к содержанию`](#table-of-contents)</p>_
-
 
 
 <a name="for-what"></a>
@@ -118,8 +113,7 @@ _<p align="right">[`Перейти к содержанию`](#table-of-contents)
 
 <a name="console"></a>
 # Запуск тестов из терминала
-
-</br>
+_<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>_
 
 
 <a name="console_params"></a>
