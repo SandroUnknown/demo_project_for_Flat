@@ -22,15 +22,15 @@
 </br>
 
 
-* [О проекте](#about)
+* [**О проекте**](#about)
   * [Для чего был создан проект](#for-what)
   * [Технологии и инструменты](#tools)
   * [Что делают тесты?](#tests)
-* [Запуск тестов из терминала](#console)
+* [**Запуск тестов из терминала**](#console)
   * [Параметры запуска](#console_params)
   * [Список возможных задач (TASK)](#console_tasks)
   * [Примеры запуска тестов](#console_example)
-* [Интеграции и примеры](#integrations)
+* [**Интеграции и примеры**](#integrations)
   * [Сборка в Jenkins](#jenkins)
   * [Интеграция с Allure Report](#allure-report)
   * [Интеграция с Allure TestOps](#allure-testops)
