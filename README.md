@@ -47,9 +47,10 @@
 
 <a name="about"></a>
 # О проекте
-_<p align="right">[`Перейти к содержанию`](#table-of-contents)</p>_
-</br>
 
+_<p align="right">[`Перейти к содержанию`](#table-of-contents)</p>_
+
+<sup><p align="right">[`Перейти к содержанию`](#table-of-contents)</p></sup>
 
 <a name="for-what"></a>
 ### Для чего был создан проект
