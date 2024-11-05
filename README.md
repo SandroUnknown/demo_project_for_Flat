@@ -47,7 +47,7 @@
 
 <a name="about"></a>
 # О проекте
-
+<p align="right"> [`Перейти к содержанию`](#table-of-contents) </p>
 </br>
 
 
