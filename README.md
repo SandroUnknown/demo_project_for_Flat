@@ -214,7 +214,7 @@
 <a name="allure-report"></a>
 ### Allure Report
 
-> После выполнения тестов формируется [Allure Report](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).</br>
+> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).</br>
 > <details> 
 > <summary>Примеры (скриншоты).</summary>
 > </br></br>
@@ -241,7 +241,7 @@
 <a name="allure-testops"></a>
 ### Allure TestOps
 
-> Выполнена интеграция сборки `Jenkins` с [Allure TestOps](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
+> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
 > <details> 
 > <summary>Примеры (скриншоты).</summary>
 > </br></br>
@@ -268,7 +268,7 @@
 <a name="allure-testops"></a>
 ### Allure TestOps
 
-> Выполнена интеграция сборки `Jenkins` с [Allure TestOps](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
+> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
 > </br>
 >
 > <details> 
@@ -302,7 +302,7 @@
 <a name="jira"></a>
 ### Интеграция с Jira
 
-> Выполнена интеграция `Allure TestOps` с [Jira](https://JIRA/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
+> Выполнена интеграция `Allure TestOps` с [`Jira`](https://JIRA/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
 > </br>
 >
 > <details> 
@@ -360,7 +360,7 @@
 > |-|
 > </details>
 
-
+</br>
 
 
 ---
