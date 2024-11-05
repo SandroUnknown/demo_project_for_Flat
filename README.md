@@ -47,7 +47,6 @@
 
 <a name="about"></a>
 # О проекте
-**<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>**
 <a><p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p></a>
 
 
@@ -114,7 +113,7 @@
 
 <a name="console"></a>
 # Запуск тестов из терминала
-**<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>**
+<a><p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p></a>
 
 
 <a name="console_params"></a>
@@ -183,7 +182,7 @@
 
 <a name="integrations"></a>
 # Интеграции и примеры
-**<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>**
+<a><p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p></a>
 
 
 <a name="jenkins"></a>
