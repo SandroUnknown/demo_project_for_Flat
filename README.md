@@ -1,6 +1,6 @@
 <a name="start"></a>
 
- # <p> <a href="https://flat-soft.ru/"><img src="media/icons/logo.png" width="100" alt="FLAT-SOFT"/></a>  Демонстрационный проект по автоматизации </br>тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)</p>
+ # <p> <a href="https://flat-soft.ru/"><img src="media/icons/logo.png" width="200" alt="FLAT-SOFT"/></a>  Демонстрационный проект по автоматизации </br>тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)</p>
 
 
 <a href="https://flat-soft.ru/"><img src="media/icons/face.png" width="100%" alt="FLAT-SOFT"/></a>  
