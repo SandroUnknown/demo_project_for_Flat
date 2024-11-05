@@ -370,12 +370,11 @@
 > </details>
 
 </br>
+</br>
 
 
 ---
 
 </br>
-
 <a><p align="right">[`Petyukov Alexander © 2024`](https://github.com/SandroUnknown)</p></a>
-
 </br>
