@@ -238,7 +238,7 @@
 </br>
 
 
-<a name="llure-testops"></a>
+<a name="allure-testops"></a>
 ### Allure TestOps
 
 > Выполнена интеграция сборки `Jenkins` с [Allure TestOps](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
@@ -265,7 +265,7 @@
 </br>
 
 
-<a name="llure-testops"></a>
+<a name="allure-testops"></a>
 ### Allure TestOps
 
 > Выполнена интеграция сборки `Jenkins` с [Allure TestOps](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
@@ -301,10 +301,34 @@
 
 <a name="jira"></a>
 ### Интеграция с Jira
-Просто текст:  
-- Текст 1
-- Текст 2
-- Текст 3
+
+> Выполнена интеграция `Allure TestOps` с [Jira](https://JIRA/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
+> </br>
+>
+> <details> 
+> <summary>Примеры (скриншоты).</summary>
+> </br></br>
+>
+> **Основная страница отчёта** `Dashboard`</br>
+> _со статистикой пройденных тестов_
+> 
+> | ![Alt name of image](/media/screenshots/scr3.png) |
+> |-|
+>
+> </br>
+>
+> **Ручные тесты !!!**
+> 
+> | ![Alt name of image](/media/screenshots/scr3.png) |
+> |-|
+>
+> </br>
+>
+> **Авто тесты !!!**
+> 
+> | ![Alt name of image](/media/screenshots/scr3.png) |
+> |-|
+> </details>
 
 </br>
 
