@@ -365,8 +365,20 @@
 
 ---
 ---
----
+</br>
 
+
+> <details> 
+> <summary>[!NOTE]</summary>
+> Useful information that users should know, even when skimming content.</br>
+> Useful information that users should know, even when skimming content.
+> </details>
+
+
+</br>
+</br>
+---
+---
 
 
 > [!NOTE]
