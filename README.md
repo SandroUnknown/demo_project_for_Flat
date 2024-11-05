@@ -317,13 +317,6 @@
 >
 > </br>
 >
-> **Ручные тесты !!!**
-> 
-> | ![Alt name of image](/media/screenshots/scr3.png) |
-> |-|
->
-> </br>
->
 > **Авто тесты !!!**
 > 
 > | ![Alt name of image](/media/screenshots/scr3.png) |
@@ -335,6 +328,23 @@
 
 <a name="telegram"></a>
 ### Уведомление в Telegram при помощи бота
+
+> Выполнена интеграция сборки `Jenkins` с `Telegram`.
+> </br>
+>
+> <details> 
+> <summary>Примеры (скриншоты).</summary>
+> </br></br>
+>
+> После выполнения теста (при запуске на Jenkins) 'Telegram-бот' пришлет оповещение в специально-созданный Telegram-канал</br>
+> _со краткой статистикой пройденных тестов_
+> 
+> | ![Alt name of image](/media/screenshots/TelegramBot.png) |
+> |-|
+> </details>
+
+</br>
+
 После выполнения отчета результат так же предоставит бот в Telegram:
 <p align="center">
     <img src="media/screenshots/TelegramBot.png">
