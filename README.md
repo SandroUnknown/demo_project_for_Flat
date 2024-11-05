@@ -26,16 +26,10 @@
   * [Для чего был создан проект](#for-what)
   * [Технологии и инструменты](#tools)
   * [Что делают тесты?](#tests)
-    
-</br>
-
 * [**Запуск тестов из терминала**](#console)
   * [Параметры запуска](#console_params)
   * [Список возможных задач (TASK)](#console_tasks)
   * [Примеры запуска тестов](#console_example)
-    
-</br>
-
 * [**Интеграции и примеры**](#integrations)
   * [Сборка в Jenkins](#jenkins)
   * [Интеграция с Allure Report](#allure-report)
