@@ -44,7 +44,7 @@
 
 
 <a name="about"></a>
-# <p align="justify"> <p> О проекте </p> <p> 1111 </p> </p>
+# <p align="left"> О проекте <p align="right"> 1111 </p> </p>
 
 
 
