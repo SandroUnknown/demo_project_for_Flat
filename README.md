@@ -339,28 +339,26 @@
 > После выполнения теста (при запуске на Jenkins) 'Telegram-бот' пришлет оповещение в специально-созданный Telegram-канал</br>
 > _со краткой статистикой пройденных тестов_
 > 
-> | ![Alt name of image](/media/screenshots/TelegramBot.png) |
+> | ![Alt name of image](/media/screenshots/scr3.png) |
 > |-|
 > </details>
 
 </br>
 
-После выполнения отчета результат так же предоставит бот в Telegram:
-<p align="center">
-    <img src="media/screenshots/TelegramBot.png">
-</p>
-</br>
-</br>
-
 
 <a name="video"></a>
 ### Примеры видео выполнения тестов на Selenoid
-Просто текст:  
-- Текст 1
-- Текст 2
-- Текст 3
-</br>
-</br>
+
+> <details> 
+> <summary>Несколько примеров выполнения тестов.</summary>
+> </br></br>
+>
+> После выполнения теста (при запуске на Jenkins) 'Telegram-бот' пришлет оповещение в специально-созданный Telegram-канал</br>
+> _со краткой статистикой пройденных тестов_
+> 
+> | ![Alt name of image](/media/screenshots/scr3.png) |
+> |-|
+> </details>
 
 
 
