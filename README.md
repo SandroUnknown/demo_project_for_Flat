@@ -248,17 +248,17 @@
 > **Основная страница отчёта** `Dashboard`</br>
 > _со статистикой пройденных тестов_
 > 
-> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> <img src="media/screenshots/scr1.png" width="100%" height="800">
 > </br></br></br>
 >
 > **Ручные тесты !!!**
 > 
-> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> <img src="media/screenshots/scr1.png" width="100%" height="800">
 > </br></br></br>
 >
 > **Авто тесты !!!**
 > 
-> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> <img src="media/screenshots/scr1.png" width="100%" height="800">
 > </details>
 
 </br>
@@ -277,21 +277,21 @@
 > **Основная страница отчёта** `Dashboard`</br>
 > _со статистикой пройденных тестов_
 > 
-> | ![Alt name of image](/media/screenshots/Jenkins_1.png) |
+> | ![Alt name of image](/media/screenshots/scr1.png) |
 > |-|
 >
 > </br>
 >
 > **Ручные тесты !!!**
 > 
-> | ![Alt name of image](/media/screenshots/Jenkins_1.png) |
+> | ![Alt name of image](/media/screenshots/scr1.png) |
 > |-|
 >
 > </br>
 >
 > **Авто тесты !!!**
 > 
-> | ![Alt name of image](/media/screenshots/Jenkins_1.png) |
+> | ![Alt name of image](/media/screenshots/scr1.png) |
 > |-|
 > </details>
 
