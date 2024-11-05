@@ -368,13 +368,20 @@
 </br>
 
 
-> <details> 
-> <summary>
+
 > [!NOTE]
-> </summary>
-> Useful information that users should know, even when skimming content.</br>
-> Useful information that users should know, even when skimming content.
+> <details> 
+> <summary>Несколько примеров выполнения тестов.</summary>
+> </br></br>
+>
+> **После выполнения теста (при запуске на Jenkins) `Telegram-бот` пришлет оповещение в специально-созданный Telegram-канал**</br>
+> _со краткой статистикой пройденных тестов_
+> 
+> | ![Alt name of image](/media/screenshots/scr3.png) |
+> |-|
 > </details>
+
+
 
 
 </br>
