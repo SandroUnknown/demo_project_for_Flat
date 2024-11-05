@@ -165,7 +165,6 @@
 > ```
 > gradle clean test
 > ```
->
 > </br>
 
 > [!IMPORTANT]
