@@ -49,6 +49,8 @@
 # О проекте
 _<p align="right">[<sup>Перейти к содержанию</sup>](#table-of-contents)</p>_
 
+_<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>_
+
 _<p align="right">[`Перейти к содержанию`](#table-of-contents)</p>_
 
 
