@@ -379,7 +379,7 @@
 > 
 > | ![Alt name of image](/media/screenshots/scr3.png) |
 > |-|
-> </details>
+</details>
 
 
 
