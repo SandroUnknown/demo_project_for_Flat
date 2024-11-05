@@ -369,7 +369,7 @@
 
 
 > <details> 
-> <summary>[!NOTE]</summary>
+> [<summary>!NOTE</summary>]
 > Useful information that users should know, even when skimming content.</br>
 > Useful information that users should know, even when skimming content.
 > </details>
