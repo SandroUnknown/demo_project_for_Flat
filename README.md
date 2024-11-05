@@ -1,5 +1,5 @@
 <a name="start"></a>
-# <a href="https://flat-soft.ru/"><img src="media/icons/logo.png" width="100" alt="FLAT-SOFT"/></a>  Демонстрационный проект по автоматизации </br>тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)
+# <a href="https://flat-soft.ru/"><img src="media/icons/logo.png" width="100" alt="FLAT-SOFT"/></a>  <div>Демонстрационный проект по автоматизации </br>тестирования для компании [«ФЛАТ»](https://flat-soft.ru/)</div>
 <a href="https://flat-soft.ru/"><img src="media/icons/face.png" width="100%" alt="FLAT-SOFT"/></a>  
 
 > _**<p align="justify">[ООО «ФЛАТ»](https://flat-soft.ru/)** — российский разработчик линейки программных продуктов для организации современных корпоративных коммуникаций и оперативного взаимодействия на территориально-распределенных объектах.</p>_
