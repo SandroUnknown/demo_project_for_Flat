@@ -47,7 +47,7 @@
 
 <a name="about"></a>
 # О проекте
-_<p align="right">[`Перейти к содержанию`](#table-of-contents)</p>_
+**<p align="right">[<sup>`Перейти к содержанию`</sup>](#table-of-contents)</p>**
 
 
 <a name="for-what"></a>
