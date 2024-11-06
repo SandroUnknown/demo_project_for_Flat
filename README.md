@@ -84,6 +84,8 @@
 > </p>
 > </br>
 > 
+> <p align="right"> 
+>
 > <details>
 > 
 > <summary>Подробнее</summary>
@@ -106,6 +108,7 @@
 > 
 > </details>
 > 
+> </p>
 
 </br>
 </br>
