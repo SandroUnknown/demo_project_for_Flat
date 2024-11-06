@@ -84,24 +84,24 @@
 > </p>
 > </br>
 >
-> <details>
+> <details open>
 > <summary>Подробнее</summary>
 > </br>
 > 
 > | Логотип                                                                                                                            | Название               | Предназначение                                                                                                    |
 > | :---:                                                                                                                              | :---:                  | :---                                                                                                              |
-> | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="50" height="50" alt="Intellij IDEA"/></a>  | `Intellij`</br>`IDEA`  | Среда разработки программного обеспечения                                                                         |
-> | <a href="https://www.java.com"><img src="media/icons/Java.svg" width="50" height="50" alt="Java"/></a>                             | `Java`                 | Язык программирования, на котором написаны тесты                                                                  |
-> | <a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="50" height="50" alt="JUnit 5"/></a>                    | `JUnit 5`              | Фреймворк для модульного тестирования                                                                             |
-> | <a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="50" height="50" alt="Gradle"/></a>                           | `Gradle`               | Система автоматической сборки                                                                                     |
-> | <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="50" height="50" alt="Selenide"/></a>                     | `Selenide`             | Фреймворк для автоматизированного тестирования веб-приложений                                                     |
-> | <a href="https://github.com"><img src="media/icons/Github.svg" width="50" height="50" alt="Github"/></a>                           | `Github`               | Веб-сервис для хостинга и совместной разработки IT-проектов                                                       |
-> | <a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="50" height="50" alt="Jenkins"/></a>                     | `Jenkins`              | Программная система для обеспечения процесса непрерывной интеграции программного обеспечения                      |
-> | <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="50" height="50" alt="Allure Report"/></a>              | `Allure`</br>`Report`  | Инструмент для визуализации результатов тестового запуска                                                         |
-> | <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="50" height="50" alt="Allure TestOps"/></a>             | `Allure`</br>`TestOps` | Инструмент для управления тестированием, который помогает автоматизировать и оптимизировать процессы тестирования |
-> | <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="50" height="50" alt="Jira"/></a>          | `Jira`                 | Система отслеживания ошибок и управления проектами                                                                |
-> | <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="50" height="50" alt="Telegram"/></a>                    | `Telegram`             | Кроссплатформенная система мгновенного обмена сообщениями (мессенджер)                                            |
-> | <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="50" height="50" alt="Selenoid"/></a>            | `Selenoid`             | Сервер, который позволяет запускать браузеры в docker-контейнерах                                                 |
+> | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="64" height="64" alt="Intellij IDEA"/></a>  | `Intellij`</br>`IDEA`  | Среда разработки программного обеспечения                                                                         |
+> | <a href="https://www.java.com"><img src="media/icons/Java.svg" width="64" height="64" alt="Java"/></a>                             | `Java`                 | Язык программирования, на котором написаны тесты                                                                  |
+> | <a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="64" height="64" alt="JUnit 5"/></a>                    | `JUnit 5`              | Фреймворк для модульного тестирования                                                                             |
+> | <a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="64" height="64" alt="Gradle"/></a>                           | `Gradle`               | Система автоматической сборки                                                                                     |
+> | <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="64" height="64" alt="Selenide"/></a>                     | `Selenide`             | Фреймворк для автоматизированного тестирования веб-приложений                                                     |
+> | <a href="https://github.com"><img src="media/icons/Github.svg" width="64" height="64" alt="Github"/></a>                           | `Github`               | Веб-сервис для хостинга и совместной разработки IT-проектов                                                       |
+> | <a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="64" height="64" alt="Jenkins"/></a>                     | `Jenkins`              | Программная система для обеспечения процесса непрерывной интеграции программного обеспечения                      |
+> | <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="64" height="64" alt="Allure Report"/></a>              | `Allure`</br>`Report`  | Инструмент для визуализации результатов тестового запуска                                                         |
+> | <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="64" height="64" alt="Allure TestOps"/></a>             | `Allure`</br>`TestOps` | Инструмент для управления тестированием, который помогает автоматизировать и оптимизировать процессы тестирования |
+> | <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="64" height="64" alt="Jira"/></a>          | `Jira`                 | Система отслеживания ошибок и управления проектами                                                                |
+> | <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="64" height="64" alt="Telegram"/></a>                    | `Telegram`             | Кроссплатформенная система мгновенного обмена сообщениями (мессенджер)                                            |
+> | <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="64" height="64" alt="Selenoid"/></a>            | `Selenoid`             | Сервер, который позволяет запускать браузеры в docker-контейнерах                                                 |
 > 
 > </details>
 
