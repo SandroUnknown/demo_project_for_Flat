@@ -203,7 +203,7 @@
 >
 > <p>  
 > | ![jenkins_status](/media/screenshots/jenkins_status.png) | ![jenkins_build](/media/screenshots/jenkins_build.png)  |
-> |-|
+> |-|-|
 > </p>
 >
 > После выполнения сборки в разделе `🔆 Build History` можно будет детально изучить прошедние тесты:
@@ -214,7 +214,13 @@
 </br>
 
 
-
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 > | ![Alt name of image](/media/screenshots/scr3.png) |
 > |-|
