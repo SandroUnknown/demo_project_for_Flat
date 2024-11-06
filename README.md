@@ -88,16 +88,6 @@
 > 
 > <summary>Подробнее</summary>
 > </br>
->
-> <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60"   alt="Intellij IDEA"/></a></br>  
-> `Intellij IDEA`</br>
-> бла бла бла
-> </br>
->
-> <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60"                     alt="Java"/></a></br> 
-> `Java`</br>
-> бла бла бла
-> </br>
 > 
 > | Логотип                                                                                                                            | Название                                                | Предназначение                |
 > | :---:                                                                                                                              | :---:                                                   | :---                                 |
@@ -108,18 +98,11 @@
 > | <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="60" height="60" alt="Selenide"/></a>                     | `Selenide` | 125.0                                |
 > | <a href="https://github.com"><img src="media/icons/Github.svg" width="60" height="60" alt="Github"/></a>                           | `Github` | 1920x1080                            |
 > | <a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="60" height="60" alt="Jenkins"/></a>                     | `Jenkins` | 1920x1080                            |
-> | <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60" alt="Allure Report"/></a>              | `Allure Report` | 1920x1080                            |
-> | <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="60" height="60" alt="Allure TestOps"/></a>             | `Allure TestOps` | 1920x1080                            |
+> | <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60" alt="Allure Report"/></a>              | `Allure</br>Report` | 1920x1080                            |
+> | <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="60" height="60" alt="Allure TestOps"/></a>             | `Allure</br>TestOps` | 1920x1080                            |
 > | <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="60" height="60" alt="Jira"/></a>          | `Jira` | 1920x1080                            |
 > | <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60" alt="Telegram"/></a>                    | `Telegram` | 1920x1080                            |
 > | <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="60" height="60" alt="Selenoid"/></a>            | `Selenoid` | 1920x1080                            |
->
-> 
-> | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a> | `Intellij IDEA` | бла бла бла |
-> |-|-|-|
-> | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a> | `Intellij IDEA` | бла бла бла |
-> |-|-|-|
->
 > 
 > </details>
 > 
