@@ -227,6 +227,7 @@
 > |-|
 > 
 > </br>
+>
 > **Тест-кейсы** `(Suites)`</br>
 > _с шагами и вложениями_
 > 
@@ -234,6 +235,7 @@
 > |-|
 >
 > </br>
+>
 > **Графики** `(Graphs)`
 >
 > | ![allure_report_graphs](/media/screenshots/allure_report_graphs.png) |
