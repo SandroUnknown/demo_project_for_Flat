@@ -216,27 +216,27 @@
 ### Allure Report
 
 > [!TIP]
-> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).</br>
+> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/C30-SandroUnknown-demo_project_for_Flat/2/allure/) (требуется авторизация).</br>
 > <details> 
 > <summary>Примеры (скриншоты).</summary>
 > </br></br>
 >
 > **Основная страница отчёта** `(Overview)`
 >
-> | ![allure_report_overview](/media/screenshots/allure_report_overview.png) |
+> | ![allure report overview](/media/screenshots/allure_report_overview.png) |
 > |-|
 > </br>
 >
 > **Тест-кейсы** `(Suites)`</br>
 > _с шагами и вложениями_
 > 
-> | ![allure_report_suites](/media/screenshots/allure_report_suites.png) |
+> | ![allure report suites](/media/screenshots/allure_report_suites.png) |
 > |-|
 > </br>
 >
 > **Графики** `(Graphs)`
 >
-> | ![allure_report_graphs](/media/screenshots/allure_report_graphs.png) |
+> | ![allure report graphs](/media/screenshots/allure_report_graphs.png) |
 > |-|
 > </details>
 
@@ -250,29 +250,29 @@
 ### Allure TestOps
 
 > [!TIP]
-> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
+> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://allure.autotests.cloud/project/4485/dashboards) (требуется авторизация).
 > </br>
 >
 > <details> 
 > <summary>Примеры (скриншоты).</summary>
 > </br></br>
 >
-> **Основная страница отчёта** `Dashboard`</br>
-> _со статистикой пройденных тестов_
+> **Один из запусков** `(Launches)`</br>
+> _с шагами пройденного теста_
 > 
-> | ![Alt name of image](/media/screenshots/allure_testops_dashboard.png) |
+> | ![allure testops launches](/media/screenshots/allure_testops_launches.png) |
 > |-|
 > </br>
 >
-> **Авто тесты !!!**
+> **Список авто тестов**
 > 
-> | ![Alt name of image](/media/screenshots/allure_testops_auto_tests.png) |
+> | ![allure testops auto tests](/media/screenshots/allure_testops_auto_tests.png) |
 > |-|
 > </br>
 >
-> **Ручные тесты !!!**
+> **Список ручныч тестов**
 > 
-> | ![Alt name of image](/media/screenshots/allure_testops_manual_tests.png) |
+> | ![allure testops manual test](/media/screenshots/allure_testops_manual_test.png) |
 > |-|
 > </details>
 
@@ -283,7 +283,7 @@
 ### Интеграция с Jira
 
 > [!TIP]
-> Выполнена интеграция `Allure TestOps` с [`Jira`](https://JIRA/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
+> Выполнена интеграция `Allure TestOps` с [`Jira`](https://jira.autotests.cloud/browse/HOMEWORK-1364) (требуется авторизация).
 > </br>
 >
 > <details> 
