@@ -84,7 +84,7 @@
 > </p>
 > </br>
 >
-> <a><p align="right">
+> <pre>
 > 
 > <details>
 > <summary>Подробнее</summary>
@@ -106,7 +106,7 @@
 > | <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="60" height="60" alt="Selenoid"/></a>            | `Selenoid`             | Сервер, который позволяет запускать браузеры в docker-контейнерах                                                 |
 > 
 > </details>
-> </p></a>
+> </pre>
 
 </br>
 </br>
