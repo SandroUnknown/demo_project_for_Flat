@@ -82,7 +82,7 @@
 > <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60"                alt="Telegram"/></a>
 > <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="60" height="60"        alt="Selenoid"/></a>  
 > </p>
->
+> </br>
 > 
 > <details>
 > 
