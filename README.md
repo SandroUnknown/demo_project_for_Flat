@@ -101,8 +101,6 @@
 > 
 > 
 > | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a> | `Intellij IDEA` | бла бла бла |
-> |-|-|-|
-> 
 > | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a> | `Intellij IDEA` | бла бла бла |
 > |-|-|-|
 >
