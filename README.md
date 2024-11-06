@@ -226,12 +226,14 @@
 > | ![allure_report_overview](/media/screenshots/allure_report_overview.png) |
 > |-|
 > 
+> </br>
 > **Тест-кейсы** `(Suites)`</br>
 > _с шагами и вложениями_
 > 
 > | ![allure_report_suites](/media/screenshots/allure_report_suites.png) |
 > |-|
 >
+> </br>
 > **Графики** `(Graphs)`
 >
 > | ![allure_report_graphs](/media/screenshots/allure_report_graphs.png) |
@@ -409,5 +411,6 @@
 
 ---
 
+</br>
 
 <a><p align="right">[`Petyukov Alexander © 2024`](https://github.com/SandroUnknown)</p></a>
