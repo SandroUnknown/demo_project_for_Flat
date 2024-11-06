@@ -85,7 +85,7 @@
 > </br>
 >
 > <details>
-> <summary><a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a> </summary>
+> <summary>![jenkins_status](/media/screenshots/jenkins_status.png)</summary>
 > </br>
 > 
 > | Логотип                                                                                                                            | Название               | Предназначение                                                                                                    |
