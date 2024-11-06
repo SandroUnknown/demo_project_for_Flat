@@ -87,15 +87,15 @@
 > <details>
 > 
 > <summary>Подробнее</summary>
+> </br>
+>
+> <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60"   alt="Intellij IDEA"/></a>  
+> `Intellij IDEA` - бла бла бла
+>
+> <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60"                     alt="Java"/></a> 
+> `Java` -  бла бла бла
+>
 > 
-> | Параметр          | Описание                                                | Значение по умолчанию                |
-> | :---              | :---                                                    | :---                                 |
-> | `TASK`            | Имя задачи в Gradle (указывает какие тесты выполнить)   | test                                 |
-> | `REMOTE_URL`      | Адрес удалённого сервера, где будут запускаться тесты   | (пустое значение ~ локальный запуск) |
-> | `BASE_URL`        | Адрес сайта, где будут запускаться тесты                | https://flat-soft.ru                 |
-> | `BROWSER`         | Браузер, в котором будут выполняться тесты              | chrome                               |
-> | `BROWSER_VERSION` | Версия браузера, в которой будут выполняться тесты      | 125.0                                |
-> | `BROWSER_SIZE`    | Размер окна браузера, в котором будут выполняться тесты | 1920x1080                            |
 > 
 > </details>
 > 
