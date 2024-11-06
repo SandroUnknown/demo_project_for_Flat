@@ -201,7 +201,7 @@
 > 2. Выбрать необходимые [параметры](#console_params)
 > 3. Нажать кнопку `▷ Build`
 >
-> | ![jenkins_status](/media/screenshots/jenkins_status.png) | ![jenkins_build](/media/screenshots/jenkins_build.png)  |
+> | ![jenkins_status](/media/screenshots/jenkins_status.png) | ![jenkins_build](/media/screenshots/jenkins_build.png) |
 > |-|-|
 >
 > После выполнения сборки в разделе `🔆 Build History` можно будет детально изучить прошедние тесты:
@@ -210,46 +210,6 @@
 > * Посмотреть &nbsp; [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
 
 </br>
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-> | ![Alt name of image](/media/screenshots/scr3.png) |
-> |-|
-
-
-
-> [!TIP]
-> Реализован запуск тестов с помощью [`Jenkins`](https://jenkins.autotests.cloud/job/C30-SandroUnknown-demo_project_for_Flat/) (требуется авторизация).</br>
-> </br>
-> Для запуска сборки необходимо: 
-> 1. Перейти в раздел `▷ Build with Parameters`
-> 2. Выбрать необходимые [параметры](#console_params)
-> 3. Нажать кнопку `▷ Build`
->
-> <p>  
-> <img src="media/screenshots/jenkins_status.png" width="49%">
-> <img src="media/screenshots/jenkins_build.png" width="49%">
-> </p>
->
-> После выполнения сборки в разделе `🔆 Build History` можно будет детально изучить прошедние тесты:
-> * Посмотреть лог
-> * Посмотреть &nbsp; [<img src="media/icons/Allure.svg" width="16" height="16" alt="Allure Report"/>   Allure Report](#allure-report)
-> * Посмотреть &nbsp; [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
-
-
-
-
-
-
-
-
 
 
 <a name="allure-report"></a>
@@ -263,49 +223,27 @@
 >
 > **Основная страница отчёта** `(Overview)`
 >
-> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> | ![allure_report_overview](/media/screenshots/allure_report_overview.png) |
+> |-|
 > </br></br></br>
 > 
 > **Тест-кейсы** `(Suites)`</br>
 > _с шагами и вложениями_
 > 
-> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> | ![allure_report_suites](/media/screenshots/allure_report_suites.png) |
+> |-|
 > </br></br></br>
 >
 > **Графики** `(Graphs)`
 >
-> <img src="media/screenshots/Jenkins_1.png" width="100%" height="800">
+> | ![allure_report_graphs](/media/screenshots/allure_report_graphs.png) |
+> |-|
 > </details>
 
 </br>
 
 
-<a name="allure-testops"></a>
-### Allure TestOps
 
-> [!TIP]
-> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
-> <details> 
-> <summary>Примеры (скриншоты).</summary>
-> </br></br>
->
-> **Основная страница отчёта** `Dashboard`</br>
-> _со статистикой пройденных тестов_
-> 
-> <img src="media/screenshots/scr3.png" width="100%" height="800">
-> </br></br></br>
->
-> **Ручные тесты !!!**
-> 
-> <img src="media/screenshots/scr3.png" width="100%" height="800">
-> </br></br></br>
->
-> **Авто тесты !!!**
-> 
-> <img src="media/screenshots/scr3.png" width="100%" height="800">
-> </details>
-
-</br>
 
 
 <a name="allure-testops"></a>
@@ -410,6 +348,66 @@
 </br>
 </br>
 
+
+
+
+
+<a name="allure-report222222222222222222"></a>
+### Allure Report
+
+> [!TIP]
+> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).</br>
+> <details> 
+> <summary>Примеры (скриншоты).</summary>
+> </br></br>
+>
+> **Основная страница отчёта** `(Overview)`
+>
+> <img src="media/screenshots/allure_report_overview.png" width="100%" height="800">
+> </br></br></br>
+> 
+> **Тест-кейсы** `(Suites)`</br>
+> _с шагами и вложениями_
+> 
+> <img src="media/screenshots/allure_report_overview.png" width="100%" height="800">
+> </br></br></br>
+>
+> **Графики** `(Graphs)`
+>
+> <img src="media/screenshots/allure_report_overview.png" width="100%" height="800">
+> </details>
+
+</br>
+
+
+---
+
+<a name="allure-testops2222222222222"></a>
+### Allure TestOps
+
+> [!TIP]
+> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
+> <details> 
+> <summary>Примеры (скриншоты).</summary>
+> </br></br>
+>
+> **Основная страница отчёта** `Dashboard`</br>
+> _со статистикой пройденных тестов_
+> 
+> <img src="media/screenshots/scr3.png" width="100%" height="800">
+> </br></br></br>
+>
+> **Ручные тесты !!!**
+> 
+> <img src="media/screenshots/scr3.png" width="100%" height="800">
+> </br></br></br>
+>
+> **Авто тесты !!!**
+> 
+> <img src="media/screenshots/scr3.png" width="100%" height="800">
+> </details>
+
+</br>
 
 ---
 
