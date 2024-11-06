@@ -216,10 +216,8 @@
 ### Allure Report
 
 > [!TIP]
-> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/C30-SandroUnknown-demo_project_for_Flat/2/allure/) (требуется авторизация).</br>
-> <details> 
-> <summary>Примеры (скриншоты).</summary>
-> </br></br>
+> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/C30-SandroUnknown-demo_project_for_Flat/2/allure/) (требуется авторизация).
+> </br>
 >
 > **Основная страница отчёта** `(Overview)`
 >
@@ -238,7 +236,6 @@
 >
 > | ![allure report graphs](/media/screenshots/allure_report_graphs.png) |
 > |-|
-> </details>
 
 </br>
 
@@ -249,10 +246,6 @@
 > [!TIP]
 > Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://allure.autotests.cloud/project/4485/dashboards) (требуется авторизация).
 > </br>
->
-> <details> 
-> <summary>Примеры (скриншоты).</summary>
-> </br></br>
 >
 > **Один из запусков** `(Launches)`</br>
 > _с шагами пройденного теста_
@@ -271,7 +264,6 @@
 > 
 > | ![allure testops manual test](/media/screenshots/allure_testops_manual_test.png) |
 > |-|
-> </details>
 
 </br>
 
@@ -283,15 +275,10 @@
 > Выполнена интеграция `Allure TestOps` с [`Jira`](https://jira.autotests.cloud/browse/HOMEWORK-1364) (требуется авторизация).
 > </br>
 >
-> <details> 
-> <summary>Примеры (скриншоты).</summary>
-> </br></br>
->
 > **Основная страница `Jira`** `</br>
 > 
 > | ![jira](/media/screenshots/jira.png) |
 > |-|
-> </details>
 
 </br>
 
@@ -336,7 +323,11 @@
 </br>
 
 
+---
 
+---
+
+---
 
 
 <a name="allure-report222222222222222222"></a>
@@ -368,6 +359,41 @@
 
 
 ---
+
+<a name="allure-testops"></a>
+### Allure TestOps
+
+> [!TIP]
+> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://allure.autotests.cloud/project/4485/dashboards) (требуется авторизация).
+> </br>
+>
+> <details> 
+> <summary>Примеры (скриншоты).</summary>
+> </br></br>
+>
+> **Один из запусков** `(Launches)`</br>
+> _с шагами пройденного теста_
+> 
+> | ![allure testops launches](/media/screenshots/allure_testops_launches.png) |
+> |-|
+> </br>
+>
+> **Список авто тестов**
+> 
+> | ![allure testops auto tests](/media/screenshots/allure_testops_auto_tests.png) |
+> |-|
+> </br>
+>
+> **Список ручных тестов**
+> 
+> | ![allure testops manual test](/media/screenshots/allure_testops_manual_test.png) |
+> |-|
+> </details>
+
+</br>
+
+
+
 
 <a name="allure-testops2222222222222"></a>
 ### Allure TestOps
