@@ -98,7 +98,7 @@
 > | <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="60" height="60" alt="Selenide"/></a>                     | `Selenide` | 125.0                                |
 > | <a href="https://github.com"><img src="media/icons/Github.svg" width="60" height="60" alt="Github"/></a>                           | `Github` | 1920x1080                            |
 > | <a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="60" height="60" alt="Jenkins"/></a>                     | `Jenkins` | 1920x1080                            |
-> | <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60" alt="Allure Report"/></a>              | <a>Allure</br>Report</a> | 1920x1080                            |
+> | <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60" alt="Allure Report"/></a>              | `<a>Allure</br>Report</a>` | 1920x1080                            |
 > | <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="60" height="60" alt="Allure TestOps"/></a>             | `Allure`</br>`TestOps` | 1920x1080                            |
 > | <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="60" height="60" alt="Jira"/></a>          | `Jira` | 1920x1080                            |
 > | <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60" alt="Telegram"/></a>                    | `Telegram` | 1920x1080                            |
