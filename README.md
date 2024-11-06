@@ -85,7 +85,7 @@
 > </br>
 >
 > <details>
-> <pre><summary>Подробнее</summary></pre>
+> <summary><pre>Подробнее</pre></summary>
 > </br>
 > 
 > | Логотип                                                                                                                            | Название               | Предназначение                                                                                                    |
