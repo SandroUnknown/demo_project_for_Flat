@@ -307,119 +307,30 @@
 ### Примеры видео выполнения тестов на Selenoid
 
 > [!TIP]
-> <details> 
-> <summary>Несколько примеров выполнения тестов.</summary>
-> </br></br>
->
-> **После выполнения теста (при запуске на Jenkins) `Telegram-бот` пришлет оповещение в специально-созданный Telegram-канал**</br>
-> _со краткой статистикой пройденных тестов_
-> 
-> | ![Alt name of image](/media/screenshots/scr3.png) |
-> |-|
-> </details>
-
-</br>
-</br>
-
-
----
-
----
-
----
-
-
-<a name="allure-report222222222222222222"></a>
-### Allure Report
-
-> [!TIP]
-> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).</br>
-> <details> 
-> <summary>Примеры (скриншоты).</summary>
-> </br></br>
->
-> **Основная страница отчёта** `(Overview)`
->
-> <img src="media/screenshots/allure_report_overview.png" width="100%" height="800">
-> </br></br></br>
-> 
-> **Тест-кейсы** `(Suites)`</br>
-> _с шагами и вложениями_
-> 
-> <img src="media/screenshots/allure_report_overview.png" width="100%" height="800">
-> </br></br></br>
->
-> **Графики** `(Graphs)`
->
-> <img src="media/screenshots/allure_report_overview.png" width="100%" height="800">
-> </details>
-
-</br>
-
-
----
-
-<a name="allure-testops"></a>
-### Allure TestOps
-
-> [!TIP]
-> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://allure.autotests.cloud/project/4485/dashboards) (требуется авторизация).
+> Несколько примеров выполнения тестов.
+> </br>
 > </br>
 >
-> <details> 
-> <summary>Примеры (скриншоты).</summary>
-> </br></br>
->
-> **Один из запусков** `(Launches)`</br>
-> _с шагами пройденного теста_
+> **Проверка меню на главной странице**</br>
 > 
-> | ![allure testops launches](/media/screenshots/allure_testops_launches.png) |
+> | ![menu test](/media/gif/menu_test.gif) |
 > |-|
 > </br>
 >
-> **Список авто тестов**
+> **Проверка партнеров из города Москва**
 > 
-> | ![allure testops auto tests](/media/screenshots/allure_testops_auto_tests.png) |
+> | ![check partner test](/media/gif/check_partner_test.gif) |
 > |-|
 > </br>
 >
-> **Список ручных тестов**
+> **Поиск партнера ЭМИТЭЛ**
 > 
-> | ![allure testops manual test](/media/screenshots/allure_testops_manual_test.png) |
+> | ![search test](/media/gif/search_test.gif) |
 > |-|
-> </details>
 
 </br>
-
-
-
-
-<a name="allure-testops2222222222222"></a>
-### Allure TestOps
-
-> [!TIP]
-> Выполнена интеграция сборки `Jenkins` с [`Allure TestOps`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!) (требуется авторизация).
-> <details> 
-> <summary>Примеры (скриншоты).</summary>
-> </br></br>
->
-> **Основная страница отчёта** `Dashboard`</br>
-> _со статистикой пройденных тестов_
-> 
-> <img src="media/screenshots/scr3.png" width="100%" height="800">
-> </br></br></br>
->
-> **Ручные тесты !!!**
-> 
-> <img src="media/screenshots/scr3.png" width="100%" height="800">
-> </br></br></br>
->
-> **Авто тесты !!!**
-> 
-> <img src="media/screenshots/scr3.png" width="100%" height="800">
-> </details>
-
 </br>
+
 
 ---
 
