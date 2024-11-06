@@ -243,9 +243,6 @@
 </br>
 
 
-
-
-
 <a name="allure-testops"></a>
 ### Allure TestOps
 
@@ -270,7 +267,7 @@
 > |-|
 > </br>
 >
-> **Список ручныч тестов**
+> **Список ручных тестов**
 > 
 > | ![allure testops manual test](/media/screenshots/allure_testops_manual_test.png) |
 > |-|
@@ -290,16 +287,9 @@
 > <summary>Примеры (скриншоты).</summary>
 > </br></br>
 >
-> **Основная страница отчёта** `Dashboard`</br>
-> _со статистикой пройденных тестов_
+> **Основная страница `Jira`** `</br>
 > 
-> | ![Alt name of image](/media/screenshots/scr3.png) |
-> |-|
-> </br>
->
-> **Авто тесты !!!**
-> 
-> | ![Alt name of image](/media/screenshots/scr3.png) |
+> | ![jira](/media/screenshots/jira.png) |
 > |-|
 > </details>
 
