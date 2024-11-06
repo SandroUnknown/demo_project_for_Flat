@@ -227,7 +227,7 @@
 > </br>
 >
 > **Тест-кейсы** `(Suites)`</br>
-> _с шагами и вложениями_
+> _(с шагами и вложениями)_
 > 
 > | ![allure report suites](/media/screenshots/allure_report_suites.png) |
 > |-|
@@ -250,7 +250,7 @@
 > </br>
 >
 > **Один из запусков** `(Launches)`</br>
-> _с шагами пройденного теста_
+> _(с шагами пройденного теста)_
 > 
 > | ![allure testops launches](/media/screenshots/allure_testops_launches.png) |
 > |-|
@@ -294,12 +294,11 @@
 > </br>
 > </br>
 >
->
-> **После выполнения теста (при запуске на Jenkins) `Telegram-бот` пришлет оповещение в специально-созданный Telegram-канал**</br>
-> _со краткой статистикой пройденных тестов_
+> **После выполнения теста (при запуске на Jenkins) `Telegram-бот` пришлет оповещение в специальный Telegram-канал**</br>
+> _(с краткой статистикой пройденных тестов)_
 > 
-> | ![Alt name of image](/media/screenshots/scr3.png) |
-> |-|
+> | ![telegram](/media/screenshots/telegram_1.png) | ![telegram](/media/screenshots/telegram_2.png) |
+> |-|-|
 
 </br>
 
