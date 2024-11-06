@@ -85,12 +85,12 @@
 > </br>
 >
 > <details>
-> <summary>![jenkins_status](/media/screenshots/jenkins_status.png)</summary>
+> <summary>Подробнее</summary>
 > </br>
 > 
 > | Логотип                                                                                                                            | Название               | Предназначение                                                                                                    |
 > | :---:                                                                                                                              | :---:                  | :---                                                                                                              |
-> | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a>  | `Intellij`</br>`IDEA`  | Среда разработки программного обеспечения                                                                         |
+> | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="32" height="32" alt="Intellij IDEA"/></a>  | `Intellij`</br>`IDEA`  | Среда разработки программного обеспечения                                                                         |
 > | <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60" alt="Java"/></a>                             | `Java`                 | Язык программирования, на котором написаны тесты                                                                  |
 > | <a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="60" height="60" alt="JUnit 5"/></a>                    | `JUnit 5`              | Фреймворк для модульного тестирования                                                                             |
 > | <a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="60" height="60" alt="Gradle"/></a>                           | `Gradle`               | Система автоматической сборки                                                                                     |
