@@ -99,6 +99,15 @@
 > бла бла бла
 > </br>
 > 
+> | Логотип                                                                                                                            | Название                                                | Предназначение                |
+> | :---:                                                                                                                              | :---:                                                   | :---                                 |
+> | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a>  | `Intellij IDEA` | test                                 |
+> | <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60" alt="Java"/></a>                             | `Java`          | (пустое значение ~ локальный запуск) |
+> | <a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="60" height="60" alt="JUnit 5"/></a>                    | `JUnit 5`       | https://flat-soft.ru                 |
+> | `BROWSER`         | Браузер, в котором будут выполняться тесты              | chrome                               |
+> | `BROWSER_VERSION` | Версия браузера, в которой будут выполняться тесты      | 125.0                                |
+> | `BROWSER_SIZE`    | Размер окна браузера, в котором будут выполняться тесты | 1920x1080                            |
+>
 > 
 > | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a> | `Intellij IDEA` | бла бла бла |
 > |-|-|-|
