@@ -225,7 +225,6 @@
 >
 > | ![allure_report_overview](/media/screenshots/allure_report_overview.png) |
 > |-|
-> 
 > </br>
 >
 > **Тест-кейсы** `(Suites)`</br>
@@ -233,7 +232,6 @@
 > 
 > | ![allure_report_suites](/media/screenshots/allure_report_suites.png) |
 > |-|
->
 > </br>
 >
 > **Графики** `(Graphs)`
