@@ -82,6 +82,24 @@
 > <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60"                alt="Telegram"/></a>
 > <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="60" height="60"        alt="Selenoid"/></a>  
 > </p>
+>
+> 
+> <details>
+> 
+> <summary>Подробнее</summary>
+> 
+> | Параметр          | Описание                                                | Значение по умолчанию                |
+> | :---              | :---                                                    | :---                                 |
+> | `TASK`            | Имя задачи в Gradle (указывает какие тесты выполнить)   | test                                 |
+> | `REMOTE_URL`      | Адрес удалённого сервера, где будут запускаться тесты   | (пустое значение ~ локальный запуск) |
+> | `BASE_URL`        | Адрес сайта, где будут запускаться тесты                | https://flat-soft.ru                 |
+> | `BROWSER`         | Браузер, в котором будут выполняться тесты              | chrome                               |
+> | `BROWSER_VERSION` | Версия браузера, в которой будут выполняться тесты      | 125.0                                |
+> | `BROWSER_SIZE`    | Размер окна браузера, в котором будут выполняться тесты | 1920x1080                            |
+>
+> 
+> </details>
+> 
 
 </br>
 </br>
