@@ -278,7 +278,7 @@
 > </br>
 > </br>
 >
-> **Основная страница `Jira`** `</br>
+> **Основная страница `Jira`**</br>
 > 
 > | ![jira](/media/screenshots/jira.png) |
 > |-|
