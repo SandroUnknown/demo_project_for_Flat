@@ -104,9 +104,15 @@
 > | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a>  | `Intellij IDEA` | test                                 |
 > | <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60" alt="Java"/></a>                             | `Java`          | (пустое значение ~ локальный запуск) |
 > | <a href="https://junit.org/junit5"><img src="media/icons/JUnit5.svg" width="60" height="60" alt="JUnit 5"/></a>                    | `JUnit 5`       | https://flat-soft.ru                 |
-> | `BROWSER`         | Браузер, в котором будут выполняться тесты              | chrome                               |
-> | `BROWSER_VERSION` | Версия браузера, в которой будут выполняться тесты      | 125.0                                |
-> | `BROWSER_SIZE`    | Размер окна браузера, в котором будут выполняться тесты | 1920x1080                            |
+> | <a href="https://gradle.org"><img src="media/icons/Gradle.svg" width="60" height="60" alt="Gradle"/></a>                           | `Gradle` | chrome                               |
+> | <a href="https://selenide.org"><img src="media/icons/Selenide.svg" width="60" height="60" alt="Selenide"/></a>                     | `Selenide` | 125.0                                |
+> | <a href="https://github.com"><img src="media/icons/Github.svg" width="60" height="60" alt="Github"/></a>                           | `Github` | 1920x1080                            |
+> | <a href="https://www.jenkins.io"><img src="media/icons/Jenkins.svg" width="60" height="60" alt="Jenkins"/></a>                     | `Jenkins` | 1920x1080                            |
+> | <a href="https://allurereport.org"><img src="media/icons/Allure.svg" width="60" height="60" alt="Allure Report"/></a>              | `Allure Report` | 1920x1080                            |
+> | <a href="https://qameta.io"><img src="media/icons/AllureTestOps.svg" width="60" height="60" alt="Allure TestOps"/></a>             | `Allure TestOps` | 1920x1080                            |
+> | <a href="https://www.atlassian.com/software/jira"><img src="media/icons/Jira.svg" width="60" height="60" alt="Jira"/></a>          | `Jira` | 1920x1080                            |
+> | <a href="https://telegram.org/"><img src="media/icons/Telegram.svg" width="60" height="60" alt="Telegram"/></a>                    | `Telegram` | 1920x1080                            |
+> | <a href="https://aerokube.com/selenoid"><img src="media/icons/Selenoid.svg" width="60" height="60" alt="Selenoid"/></a>            | `Selenoid` | 1920x1080                            |
 >
 > 
 > | <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60" alt="Intellij IDEA"/></a> | `Intellij IDEA` | бла бла бла |
