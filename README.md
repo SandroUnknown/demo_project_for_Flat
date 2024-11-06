@@ -194,7 +194,7 @@
 ### Сборка в Jenkins
 
 > [!TIP]
-> Реализован запуск тестов с помощью [`Jenkins`](https://jenkins.autotests.cloud/job/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/) (требуется авторизация).</br>
+> Реализован запуск тестов с помощью [`Jenkins`](https://jenkins.autotests.cloud/job/C30-SandroUnknown-demo_project_for_Flat/) (требуется авторизация).</br>
 > </br>
 > Для запуска сборки необходимо: 
 > 1. Перейти в раздел `▷ Build with Parameters`
@@ -202,8 +202,8 @@
 > 3. Нажать кнопку `▷ Build`
 >
 > <p>  
-> <img src="media/screenshots/Jenkins_1.png" width="49%">
-> <img src="media/screenshots/Jenkins_2.png" width="49%">
+> | ![jenkins_status](/media/screenshots/jenkins_status.png) | ![jenkins_build](/media/screenshots/jenkins_build.png)  |
+> |-|
 > </p>
 >
 > После выполнения сборки в разделе `🔆 Build History` можно будет детально изучить прошедние тесты:
@@ -212,6 +212,40 @@
 > * Посмотреть &nbsp; [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
 
 </br>
+
+
+
+
+> | ![Alt name of image](/media/screenshots/scr3.png) |
+> |-|
+
+
+
+> [!TIP]
+> Реализован запуск тестов с помощью [`Jenkins`](https://jenkins.autotests.cloud/job/C30-SandroUnknown-demo_project_for_Flat/) (требуется авторизация).</br>
+> </br>
+> Для запуска сборки необходимо: 
+> 1. Перейти в раздел `▷ Build with Parameters`
+> 2. Выбрать необходимые [параметры](#console_params)
+> 3. Нажать кнопку `▷ Build`
+>
+> <p>  
+> <img src="media/screenshots/jenkins_status.png" width="49%">
+> <img src="media/screenshots/jenkins_build.png" width="49%">
+> </p>
+>
+> После выполнения сборки в разделе `🔆 Build History` можно будет детально изучить прошедние тесты:
+> * Посмотреть лог
+> * Посмотреть &nbsp; [<img src="media/icons/Allure.svg" width="16" height="16" alt="Allure Report"/>   Allure Report](#allure-report)
+> * Посмотреть &nbsp; [<img src="media/icons/AllureTestOps.svg" width="16" height="16" alt="Allure TestOps"/>   Allure TestOps](#allure-testops)
+
+
+
+
+
+
+
+
 
 
 <a name="allure-report"></a>
@@ -375,8 +409,6 @@
 
 ---
 
-</br>
 
 <a><p align="right">[`Petyukov Alexander © 2024`](https://github.com/SandroUnknown)</p></a>
 
-</br>
