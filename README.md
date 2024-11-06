@@ -260,21 +260,19 @@
 > **Основная страница отчёта** `Dashboard`</br>
 > _со статистикой пройденных тестов_
 > 
-> | ![Alt name of image](/media/screenshots/scr3.png) |
+> | ![Alt name of image](/media/screenshots/allure_testops_dashboard.png) |
 > |-|
->
-> </br>
->
-> **Ручные тесты !!!**
-> 
-> | ![Alt name of image](/media/screenshots/scr3.png) |
-> |-|
->
 > </br>
 >
 > **Авто тесты !!!**
 > 
-> | ![Alt name of image](/media/screenshots/scr3.png) |
+> | ![Alt name of image](/media/screenshots/allure_testops_auto_tests.png) |
+> |-|
+> </br>
+>
+> **Ручные тесты !!!**
+> 
+> | ![Alt name of image](/media/screenshots/allure_testops_manual_tests.png) |
 > |-|
 > </details>
 
@@ -297,7 +295,6 @@
 > 
 > | ![Alt name of image](/media/screenshots/scr3.png) |
 > |-|
->
 > </br>
 >
 > **Авто тесты !!!**
