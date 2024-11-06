@@ -42,7 +42,6 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
-
     @DisplayName("Добавить вложения (screenshots, video, etc.")
     @AfterEach
     void addAttachments() {
