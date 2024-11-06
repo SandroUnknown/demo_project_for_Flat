@@ -89,12 +89,13 @@
 > <summary>Подробнее</summary>
 > </br>
 >
-> <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60"   alt="Intellij IDEA"/></a>  
+> <a href="https://www.jetbrains.com/idea"><img src="media/icons/Intelij_IDEA.svg" width="60" height="60"   alt="Intellij IDEA"/></a></br>  
 > `Intellij IDEA` - бла бла бла
+> </br>
 >
-> <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60"                     alt="Java"/></a> 
+> <a href="https://www.java.com"><img src="media/icons/Java.svg" width="60" height="60"                     alt="Java"/></a></br> 
 > `Java` -  бла бла бла
->
+> </br>
 > 
 > 
 > </details>
