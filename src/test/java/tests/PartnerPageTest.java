@@ -32,15 +32,15 @@ public class PartnerPageTest extends TestBase {
     private final String url = "/partner/partnery";
 
     @Tag("Smoke")
-    @Tag("TopBar")
-    @DisplayName("Проверить 'top-bar'.")
+    @Tag("Header")
+    @DisplayName("Проверить 'header'.")
     @Test
     void topBarTest() {
         step("Открыть страницу.", () -> {
             partnerPage.openPage(url);
         });
-        step("Проверить, что 'top-bar' содержит контактные данные (телефон и email).", () -> {
-            partnerPage.checkTopBar();
+        step("Проверить, что 'header' содержит контактные данные (телефон и email).", () -> {
+            partnerPage.checkHeader();
         });
     }
 

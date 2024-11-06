@@ -21,15 +21,15 @@ public class MainPageTest extends TestBase {
     private final String url = "/";
 
     @Tag("Smoke")
-    @Tag("TopBar")
-    @DisplayName("Проверить 'top-bar'.")
+    @Tag("Header")
+    @DisplayName("Проверить 'header'.")
     @Test
-    void topBarTest() {
+    void headerTest() {
         step("Открыть страницу.", () -> {
             mainPage.openPage(url);
         });
-        step("Проверить, что 'top-bar' содержит контактные данные (телефон и email).", () -> {
-            mainPage.checkTopBar();
+        step("Проверить, что 'header' содержит контактные данные (телефон и email).", () -> {
+            mainPage.checkHeader();
         });
     }
 

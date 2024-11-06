@@ -24,13 +24,13 @@ public class TestBase {
                 "enableVideo", true
         ));
 
-        Configuration.baseUrl = "https://flat-soft.ru";
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserCapabilities = capabilities;
 
         String login = System.getProperty("login");
         String rwhost = System.getProperty("rwhost");
         if (login != null && rwhost != null) Configuration.remote = format("https://%s@%s/wd/hub", login, rwhost);
+        Configuration.baseUrl = "https://flat-soft.ru";
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "125.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");

@@ -80,9 +80,9 @@ task smoke(type: Test) {
     }
 }
 
-task top_bar(type: Test) {
+task header(type: Test) {
     useJUnitPlatform {
-        includeTags("TopBar")
+        includeTags("Header")
     }
 }
 

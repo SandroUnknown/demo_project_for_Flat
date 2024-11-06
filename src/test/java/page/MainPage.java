@@ -3,7 +3,7 @@ package page;
 import com.codeborne.selenide.ElementsCollection;
 import org.junit.jupiter.api.DisplayName;
 import page.components.Footer;
-import page.components.TopBar;
+import page.components.Header;
 import page.components.TopMenu;
 
 import java.io.IOException;
@@ -32,9 +32,9 @@ public class MainPage {
         return this;
     }
 
-    @DisplayName("Проверить top-bar.")
-    public MainPage checkTopBar() {
-        new TopBar()
+    @DisplayName("Проверить header.")
+    public MainPage checkHeader() {
+        new Header()
                 .checkPhoneNumber()
                 .checkEmail();
         return this;

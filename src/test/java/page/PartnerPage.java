@@ -2,14 +2,10 @@ package page;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Link;
-import io.qameta.allure.Owner;
 import models.Partners;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
 import page.components.Footer;
-import page.components.TopBar;
+import page.components.Header;
 import page.components.TopMenu;
 
 import java.io.IOException;
@@ -37,9 +33,9 @@ public class PartnerPage {
         return this;
     }
 
-    @DisplayName("Проверить top-bar.")
-    public PartnerPage checkTopBar() {
-        new TopBar()
+    @DisplayName("Проверить header.")
+    public PartnerPage checkHeader() {
+        new Header()
                 .checkPhoneNumber()
                 .checkEmail();
         return this;
