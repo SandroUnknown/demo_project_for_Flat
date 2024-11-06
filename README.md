@@ -84,12 +84,8 @@
 > </p>
 > </br>
 >
-> <pre>
-> 
 > <details>
-> <summary>Подробнее</summary>
->
-> </pre>
+> <pre><summary>Подробнее</summary></pre>
 > </br>
 > 
 > | Логотип                                                                                                                            | Название               | Предназначение                                                                                                    |
