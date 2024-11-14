@@ -223,7 +223,7 @@
 ### Allure Report
 
 > [!TIP]
-> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/C30-SandroUnknown-demo_project_for_Flat/2/allure/) (требуется авторизация).
+> После выполнения тестов формируется [`Allure Report`](https://jenkins.autotests.cloud/job/C30-SandroUnknown-demo_project_for_Flat/allure/#) (требуется авторизация).
 > </br>
 > </br>
 >
